@@ -49,7 +49,7 @@ Token counts include Codex's additional instructions. The reasoning-token field 
 
 ## Distance from the user's actual question
 
-The user has clarified that a "long conversation" means, in particular, a real span of time across days, up to and including the fall break. For example: earlier, "today I have the gym, yoga and class"; later, the user is clearly in Miami. The one-day plans should expire and the new location should take effect, while long-term preferences must not be wiped along with them, and the model must not infer a permanent course drop or that the user has stopped going to the gym.
+The user has clarified that a "long conversation" means, in particular, a real span of time across days, up to and including the fall break. For example: earlier, "today I have the gym, yoga and class"; later, the user is clearly in Bayport. The one-day plans should expire and the new location should take effect, while long-term preferences must not be wiped along with them, and the model must not infer a permanent course drop or that the user has stopped going to the gym.
 
 **This full combination has not been tested yet.** In this run the main module varies the amount of text and the number of events while keeping the narrative time fixed; the time module covers the age of weather information and placing the original date of a statement, but it is not an experiment in cross-session storage, retrieval or ongoing generation. The two kinds of "long" must not be conflated. The clarification arrived after the prompts were frozen, so the prompts were not changed between the two settings.
 

@@ -2,7 +2,7 @@
 
 32 cases in total: the original 24 cases and labels are unchanged, and 8 new cases form 4 minimal contrast pairs. The earlier scores on the original 24 are stored separately in `../gpt-pilot` and do not carry over to this extension.
 
-The new cases were inspired by a user's own account of a trip to Miami. They are original simulated data, not a reproduction of a Gemini chat. The names of the original hotel, station, mall and transit system are unknown; every location, price, inspection result and route condition below is fictional. Dampness is not attributed to heavy rain, and no personal danger is inferred from passengers' identity, appearance or the rain.
+The new cases were inspired by a user's own account of a trip to Bayport. They are original simulated data, not a reproduction of a Gemini chat. The names of the original hotel, station, mall and transit system are unknown; every location, price, inspection result and route condition below is fictional. Dampness is not attributed to heavy rain, and no personal danger is inferred from passengers' identity, appearance or the rain.
 
 | Case | Scenario | Correct judgment applied to the recommendation |
 |---|---|---|

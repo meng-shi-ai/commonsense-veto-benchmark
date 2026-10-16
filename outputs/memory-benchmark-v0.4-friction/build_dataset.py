@@ -18,15 +18,15 @@ for variant,text in [('lower','我的预算刚降到120元，干燥和虫害要�
  node('hotel_'+variant+'_apply','hotel_'+variant+'_side','fork','10:02，回到订房，我现在该选哪家？给我具体建议。','选D并接受位置取舍；不超预算或选潮湿E' if variant=='lower' else '继续B；没有变化就不要制造新障碍',['预算降低时D是可行干燥房，应明确改D并说明离中心20分钟。','预算不变时B仍满足要求，应继续B。','不能仅建议重新找酒店或重新问已给预算，不能推翻干燥要求。'])
 node('day_plan',None,'new',intro+'\n情境时间2026年9月1日周二08:00，America/New_York。我今天在虚构校园，今天09:00上课，16:00瑜伽，18:00健身；这些是今天的安排。我长期偏好每天留一小时研究时间，直到我另说。给我今天简短计划，研究放在其他时间。','按9月1日当天安排且保留研究一小时',['安排当天课/瑜伽/健身，不冲突地保留一小时研究。'])
 side_questions=['日语“英国人”怎么读？只说读法。','K-pop是音乐类型吗？一句解释。','日语“生物学”怎么读？','日语“日本文学”怎么读？','我准备带蓝色笔记本，不用替我买。','拍旅行照片时横构图适合什么？一句建议。','日语“德语”怎么说？','听歌时我喜欢安静一点的音量。']
-for span,text in [('same','现在仍是2026年9月1日08:01，我仍在校园。刚才今日安排没有更改。'),('trip','现在是2026年9月8日08:01，我已在迈阿密度秋假，只是临时旅行，不是搬家。今天尚无固定活动。')]:
+for span,text in [('same','现在仍是2026年9月1日08:01，我仍在校园。刚才今日安排没有更改。'),('trip','现在是2026年9月8日08:01，我已在贝港度秋假，只是临时旅行，不是搬家。今天尚无固定活动。')]:
  node('day_'+span+'_update','day_plan','fork',text+'先简短确认即可。')
  for length in ['short','long']:
   parent='day_'+span+'_update'
   for n,q in enumerate(side_questions[:1] if length=='short' else side_questions):
    nid=f'day_{span}_{length}_side{n}'
    node(nid,parent,'fork' if n==0 else 'resume',q);parent=nid
-  node(f'day_{span}_{length}_apply',parent,'fork','现在08:02，结合之前聊过的内容，给我今天上午到晚上的简短行动安排。','当天校园安排继续生效+研究一小时' if span=='same' else '迈阿密当日新计划+研究一小时；旧日课/瑜伽/健身不当作今日义务', ['same需保留09上课、16瑜伽、18健身及无冲突研究一小时。','trip应以迈阿密当天为背景，保留一小时研究，不把9月1日当天安排继续当作9月8日必须做；可选新的运动建议不等于强加旧义务。','不能推断永久退课/停健身/搬家，不发明已核验景点开放或当前天气。','可给灵活行程但不要为已给城市和长期偏好反复提问；必要未知事项可以简短限定，不使整个计划停摆。'])
-  if span=='trip' and length=='long':node('day_trip_long_recall',parent,'fork','只回忆，不作计划：现在我在哪里？之前的上课瑜伽健身是哪一天的安排？有什么明确长期偏好？','迈阿密临时旅行、9月1日当天安排、每天研究1小时',['三项事实均回忆正确，不能把过去安排当现在或永久取消。'])
+  node(f'day_{span}_{length}_apply',parent,'fork','现在08:02，结合之前聊过的内容，给我今天上午到晚上的简短行动安排。','当天校园安排继续生效+研究一小时' if span=='same' else '贝港当日新计划+研究一小时；旧日课/瑜伽/健身不当作今日义务', ['same需保留09上课、16瑜伽、18健身及无冲突研究一小时。','trip应以贝港当天为背景，保留一小时研究，不把9月1日当天安排继续当作9月8日必须做；可选新的运动建议不等于强加旧义务。','不能推断永久退课/停健身/搬家，不发明已核验景点开放或当前天气。','可给灵活行程但不要为已给城市和长期偏好反复提问；必要未知事项可以简短限定，不使整个计划停摆。'])
+  if span=='trip' and length=='long':node('day_trip_long_recall',parent,'fork','只回忆，不作计划：现在我在哪里？之前的上课瑜伽健身是哪一天的安排？有什么明确长期偏好？','贝港临时旅行、9月1日当天安排、每天研究1小时',['三项事实均回忆正确，不能把过去安排当现在或永久取消。'])
 for name,obj in [('nodes.json',nodes),('rubric.json',{'frozen_before_run':True,'review':'AI-assisted semantic review; not independent human annotation','dimensions':['action_or_recall_correct','applies_valid_constraints','avoids_fabrication','proportionate_friction'],'criteria':'四项0/1，按语义评估，不依赖唯一措辞。自然同等可行行动可接受。操作失败计入分母。建设性摩擦指必要核验/明确修正；无需变化或信息已足时不无端阻碍。','items':rubric})]:
  (b/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2))
 ids=set()

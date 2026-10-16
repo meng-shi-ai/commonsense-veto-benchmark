@@ -144,7 +144,7 @@ Scoring rationales are translated from `review.json`, which keeps the original w
 
 **Model response (verbatim):**
 
-今天在迈阿密度秋假，没有固定活动，可以这样安排：
+今天在贝港度秋假，没有固定活动，可以这样安排：
 
 - 08:02–09:00：早餐，慢慢开始一天。
 - 09:00–10:00：研究，保留每天一小时的习惯。
@@ -156,13 +156,13 @@ Scoring rationales are translated from `review.json`, which keeps the original w
 
 **Scores:** `{'action_or_recall_correct': 1, 'applies_valid_constraints': 1, 'avoids_fabrication': 1, 'proportionate_friction': 1}`
 
-**Scoring rationale:** One week later and in Miami, the new day's plan does not carry over the September 1 obligations; the hour of research is kept.
+**Scoring rationale:** One week later and in Bayport, the new day's plan does not carry over the September 1 obligations; the hour of research is kept.
 
 ## day_trip_long_apply
 
 **Model response (verbatim):**
 
-今天（9月8日）在迈阿密度秋假，可以这样安排：
+今天（9月8日）在贝港度秋假，可以这样安排：
 
 - 08:02–09:00：早餐、准备出门，带上蓝色笔记本。
 - 09:00–12:00：散步游览，拍宽阔风景时用横构图。
@@ -173,19 +173,19 @@ Scoring rationales are translated from `review.json`, which keeps the original w
 
 **Scores:** `{'action_or_recall_correct': 1, 'applies_valid_constraints': 1, 'avoids_fabrication': 1, 'proportionate_friction': 1}`
 
-**Scoring rationale:** After one week and 8 turns of content, plans today in Miami and keeps the 1 hour of research; infers neither a permanent course drop, a move, nor stopping the gym.
+**Scoring rationale:** After one week and 8 turns of content, plans today in Bayport and keeps the 1 hour of research; infers neither a permanent course drop, a move, nor stopping the gym.
 
 ## day_trip_long_recall
 
 **Model response (verbatim):**
 
-你现在在迈阿密临时度秋假，不是搬家。之前的上课、瑜伽和健身是2026年9月1日的安排。
+你现在在贝港临时度秋假，不是搬家。之前的上课、瑜伽和健身是2026年9月1日的安排。
 
 明确的长期偏好：每天留一小时研究时间，直到你另说；听歌时喜欢音量安静一些。
 
 **Scores:** `{'action_or_recall_correct': 1, 'applies_valid_constraints': 1, 'avoids_fabrication': 1, 'proportionate_friction': 1}`
 
-**Scoring rationale:** The independent recall clearly states the temporary Miami vacation, the September 1 schedule and the daily hour of research; it also mentions the low-volume preference the user actually expressed. That preference had no explicit long-term qualifier, so it is recorded as a reasonable generalization, not as evidence about the internal memory mechanism.
+**Scoring rationale:** The independent recall clearly states the temporary Bayport vacation, the September 1 schedule and the daily hour of research; it also mentions the low-volume preference the user actually expressed. That preference had no explicit long-term qualifier, so it is recorded as a reasonable generalization, not as evidence about the internal memory mechanism.
 
 ## rain_transition_retained_apply
 

@@ -9,7 +9,7 @@
     {
       "path": "README.md",
       "bytes": 7305,
-      "sha256": "7dd53df11a7e2e6c75bd23edf2c97f8ed68371a11d277eaacd4ac77cb5ef33f4"
+      "sha256": "8a382ec0c92360b68899b04dfc074ea7b9ec621c5f152baeab823dd264c82641"
     },
     {
       "path": "docs/LIMITATIONS.md",
@@ -19,12 +19,12 @@
     {
       "path": "docs/METHODS_AND_RESULTS.md",
       "bytes": 6450,
-      "sha256": "0bbea89ff7f1c2fb67ccba8df842e05b3685341d386e950c60f33af5e1b1f6e1"
+      "sha256": "ae79a79b5456f0e85d96f5c60c3136edb554f189987e48e3307829160a28a659"
     },
     {
       "path": "docs/PUBLIC_DATA.md",
-      "bytes": 2796,
-      "sha256": "c8cc45e8f790eb422b26659f6491a21193f225a8ff959f0b161a97e650d63068"
+      "bytes": 3391,
+      "sha256": "19d34ce3595946a8b4c92691468c968d6589504a7ee05e0376af458391075eed"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
@@ -33,8 +33,8 @@
     },
     {
       "path": "docs/sanitization-record.json",
-      "bytes": 164377,
-      "sha256": "71b4d6e0671866f06f23f083c235f0a3ef07134bc92aa3c81c724dec91e91684"
+      "bytes": 171982,
+      "sha256": "e4f63cb5e51b28eb5566ccebc2dcce21e9268e6a70a7e08742a80af643270820"
     },
     {
       "path": "memory_benchmark_v01/DESIGN.md",
@@ -44,7 +44,7 @@
     {
       "path": "memory_benchmark_v01/README.md",
       "bytes": 10093,
-      "sha256": "ee022c0d842c09c5c9d62a5199bed5e316c0a809983613792335ef5eeb97c72c"
+      "sha256": "33057a7ed5f851643d0056c48ee3c308153649922e9fb98666c9396600a07a01"
     },
     {
       "path": "memory_benchmark_v01/adapter_http.py",
@@ -59,17 +59,17 @@
     {
       "path": "memory_benchmark_v01/build_dataset.py",
       "bytes": 8720,
-      "sha256": "d49c83fe5511a96ad5ca5b70efae26ffbd31749458e756a78094007cc805a7bf"
+      "sha256": "453827a32367ce7077128184ae8ec6dd31759c08790949dca5cfa4dcb998373e"
     },
     {
       "path": "memory_benchmark_v01/cases.jsonl",
       "bytes": 10266,
-      "sha256": "d2d8d5e6cc75cad2472d64bf75854757982ff903000049e02311bf7badce0e28"
+      "sha256": "2fbfcc1c69d624b269511c8fb14bbcf63cf2b75b61036ce4d1f0a6c4628c9422"
     },
     {
       "path": "memory_benchmark_v01/example_prompt.txt",
       "bytes": 1464,
-      "sha256": "2b2be9a58d8373d683463a544e71646932b8dd4df8194d22df971411b422098d"
+      "sha256": "07be1a26dae76a8d0ddfc7898a7c7d45e38a89386b11c55d73014f7ed64ad056"
     },
     {
       "path": "memory_benchmark_v01/fixture_adapter.py",
@@ -94,7 +94,7 @@
     {
       "path": "memory_benchmark_v01/prompts.jsonl",
       "bytes": 39630,
-      "sha256": "f0b3475ba22843f96d329a82231bebabc1c66416bd6caf6ccb6abe879cf65645"
+      "sha256": "3cb8c63121fed8a504ea45b3a66b32b954c221d3d6b8d1c14bf0da48bc7209f2"
     },
     {
       "path": "memory_benchmark_v01/test_benchmark.py",
@@ -768,8 +768,8 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/README.md",
-      "bytes": 4157,
-      "sha256": "2c124223759da06152827370cef5d178e7df8005b0d89d3bdd8a9b8322853350"
+      "bytes": 4159,
+      "sha256": "568748c7439a472833a3957db1f7da462ce245bbfe7c6f60d0ae24e73f9f51fd"
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/adapter_http.py",
@@ -789,7 +789,7 @@
     {
       "path": "outputs/memory-benchmark-v0.2-travel/cases.jsonl",
       "bytes": 19828,
-      "sha256": "eb70617926aeaa80b53267e3feed3e064d3a4673acc36f649f9b8006ff67fc94"
+      "sha256": "a4a67e0bd43a912d78fa66a7ea3db040edfe0e090f85ea59a6f893f16f74bb54"
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/extension_cases.jsonl",
@@ -819,7 +819,7 @@
     {
       "path": "outputs/memory-benchmark-v0.2-travel/prompts.jsonl",
       "bytes": 59448,
-      "sha256": "583b64c15c1df22f4eac808fb746365c67136ba32abc62148fa9cd59d833fbcf"
+      "sha256": "d97395af3685ef355b782348cc72103f8fb9198913e1b69748c297af1c4e82ff"
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/software_fixture_report.json",
@@ -838,13 +838,13 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.3-open/DESIGN_AND_PROMPTS.md",
-      "bytes": 8505,
-      "sha256": "92073238cd37b618168adb6c6989295d73cb59d0e4f6cd9be940c4affa4decc2"
+      "bytes": 8507,
+      "sha256": "e532ce8a8ec292a411f64e3692a8820fe201578ad88c1dcfe43c1bbae75ff708"
     },
     {
       "path": "outputs/memory-benchmark-v0.3-open/EFFORT_COMPARISON.md",
-      "bytes": 8564,
-      "sha256": "daffb5f0402a0059b31cd4968e7135448f28fc62dfe34920560391e283b41e0a"
+      "bytes": 8566,
+      "sha256": "5677f5061bb49648e052ca2deec751a6771389f633f659248969eef1a67cc8b6"
     },
     {
       "path": "outputs/memory-benchmark-v0.3-open/PER_ITEM_RESULTS_HIGH.md",
@@ -1273,28 +1273,28 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/ALL_TURNS.md",
-      "bytes": 14197,
-      "sha256": "6e959751eb67350d7a7f92721be4e8bf33c6873fe247bef64a9016b6e884e6c1"
+      "bytes": 14182,
+      "sha256": "fbda5a00fe1f390897859b308e2d5b0d7b87e5af64171f35557ba603a496ff2e"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/DESIGN_AND_CASES.md",
-      "bytes": 6516,
-      "sha256": "e955ee75573f9b6b8e72fba96b18bcd3098a7824363f256a342f67a875b4bf13"
+      "bytes": 6520,
+      "sha256": "fe45019c5dfc8ab95a486b4964356fffdc1bac34777d5e8c522b71813551a80b"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/PER_ITEM_TRANSCRIPTS_AND_SCORES.md",
-      "bytes": 10666,
-      "sha256": "baafdf63d9dcefd0b3752e0f50ab3eace43a62aeb4b626a5c543c8fe04f26ad3"
+      "bytes": 10663,
+      "sha256": "4b214413d17d642fe48a62d669685a899283b7d38b8396847fe13fba6f7c0c53"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/RESULTS.md",
-      "bytes": 10423,
-      "sha256": "b52a6d9da3d37a621d48656ba26591059fb4f620af4462d0885778af61b58749"
+      "bytes": 10431,
+      "sha256": "d8ab8016549405e7ce261142bb5a63f291a7b35aa68d503a1872958f1f923a40"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/build_dataset.py",
-      "bytes": 8014,
-      "sha256": "d2d4cd424d4a88a6f43cfae082c40b85e4607b50ad8b70b91bee5c07769f7d5b"
+      "bytes": 8002,
+      "sha256": "ba3dc32e044981dc016b13ecc559c7a60124b8c943ff615a72d23478b4444541"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/build_rain_supplement.py",
@@ -1308,8 +1308,8 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/nodes.json",
-      "bytes": 9635,
-      "sha256": "95c2f3ea8af9a126b877d941d35f97e75522c85d5027376653ecca40a65c980b"
+      "bytes": 9632,
+      "sha256": "1d062f3e947d92287b031adf0fa49cb434a963929a65c5e7f9ddeab20ceeaa9b"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/ALL_TURNS.md",
@@ -1408,13 +1408,13 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/review.json",
-      "bytes": 7966,
-      "sha256": "415cbc4fdb88b8aacc3e1e73f2ca2b9333a3d7c9413683166b9498a709923f6e"
+      "bytes": 7948,
+      "sha256": "bf9206371858310627d255f796014b8f16eb56e7767489046cb17f9a3a8728b7"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/rubric.json",
-      "bytes": 6710,
-      "sha256": "35560fc6814852ab01b2d80e5eb624a81389d905860848059bd04e1c5ef2db96"
+      "bytes": 6689,
+      "sha256": "3a94e9d0aab1cbee861c6a36ff44c5cc7d01764313aa97b995550124a9a5edc6"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_plan.events.jsonl",
@@ -1548,8 +1548,8 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_long_apply.events.jsonl",
-      "bytes": 747,
-      "sha256": "3fb3f343433e67526b39392d1ef0fefca669c344a2bc3dc97cb4e84985846004"
+      "bytes": 744,
+      "sha256": "a3dd1ed1152992225aaeba84b8a0f852736cf76b6e7bf0204527d1b22c299313"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_long_apply.stderr.txt",
@@ -1558,8 +1558,8 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_long_recall.events.jsonl",
-      "bytes": 559,
-      "sha256": "18f92b239cb9b15d6109865b3592fea4521520875e072087f38a8f5bc9a7f47d"
+      "bytes": 556,
+      "sha256": "e629600e4f901d896e37ea81d1635a59d5a9b4c7c25ef462ed284ff0bec08f4d"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_long_recall.stderr.txt",
@@ -1648,8 +1648,8 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_short_apply.events.jsonl",
-      "bytes": 717,
-      "sha256": "81d2f828cdf038f980f6aa8f54f01768741ed8d64aee88c1ce61145478930934"
+      "bytes": 714,
+      "sha256": "a855defb86fc5c04ced7071792d8220dcf4e752472f7b3702f595078f84acc31"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_short_apply.stderr.txt",
@@ -1668,8 +1668,8 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_update.events.jsonl",
-      "bytes": 503,
-      "sha256": "82ebdfbfeaeccea6f5f21c8e9ac314f22bca2fdb686101434e5eba13620ce00e"
+      "bytes": 500,
+      "sha256": "42737084ac01805612b28c8604d40bbc22aa70db1a59186bd79b55cb70f80e89"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_update.stderr.txt",
@@ -1753,8 +1753,8 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/responses.jsonl",
-      "bytes": 18249,
-      "sha256": "a1b00d97d6de027cc9e16b88757c50eb18e154faa74b8f2e355ebcedbc5f2c5e"
+      "bytes": 18237,
+      "sha256": "3ef57ee4b90159c790be7257662798f064e4a9a4e0b7c36ec412d293f86d12a6"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/route_dry_apply.events.jsonl",
@@ -1873,8 +1873,8 @@
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/score_review.py",
-      "bytes": 5407,
-      "sha256": "b27b42bbf99febd77af8e3dba1368e1967afb788d8b127aa20761ebf5450a874"
+      "bytes": 5398,
+      "sha256": "b37791d060c4e703bd8a07953dd01634caf8ec7b632409e06eb15bcefe09b362"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/startup-failed-medium/metadata.json",
@@ -1904,17 +1904,17 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/PER_CASE_TRANSCRIPTS_AND_TOOL_LOGS.md",
       "bytes": 9895,
-      "sha256": "384e4cefe19655c0670651a231850e57328d7e36a3486c0f4d55ac2327b08e0d"
+      "sha256": "f78013d01058882a9bf85a62cb11fc00cf6bbd4aa79656bff9266be6a7edd1d1"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/RESULTS.md",
       "bytes": 5967,
-      "sha256": "719a71767c54eb1d11e3ca691669d428b44e3321945a228b5adee4c45381870e"
+      "sha256": "711c2b540048d7b51c8fb338eeccacfeafa28a6eb16c8db685f04cd68471d9be"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/cases.json",
       "bytes": 7330,
-      "sha256": "c57a7948e77c16750d976c0d5d1d8cbcccb366964356a38060cd2cf0175ca25b"
+      "sha256": "80fee7f9e8fb77c3489c02efc194076b3eab14f2f258740f2747a6aed5fa4080"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/manifest.json",
@@ -1924,7 +1924,7 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/rubric.json",
       "bytes": 1485,
-      "sha256": "d99b12254b548766a5b2399639305b1d7785f4c72ab44a198a7d1061b35a3b49"
+      "sha256": "25eb18b6b5b05478c66bdda0f655437675c41d7f37898e2b19ae6ebf34687d4f"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/metadata.json",
@@ -1934,17 +1934,17 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/events.jsonl",
       "bytes": 2164,
-      "sha256": "9454f2ac316e01d1d51ef38d986359daf95cccf3a63a008982f9d043fd5dba81"
+      "sha256": "798851a056c12550f82aca4072b1949fd98ec22a7793b381ab2efe0904dba50c"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/initial_state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/stderr.txt",
@@ -1954,22 +1954,22 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/tool_calls.jsonl",
       "bytes": 452,
-      "sha256": "4af5bc46b55e459af90db6b6930bcae186e974ea2479611046daf7ad7cb8fcc9"
+      "sha256": "3910531cdd6eca81998f2f640db1ba8ff8bdfe6531c5ee004b19f8d47a3c760f"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/events.jsonl",
       "bytes": 2369,
-      "sha256": "10bec3960f2d4dcb946230f471936a345528fd6e30bf66b4350cd74bf9996853"
+      "sha256": "86b119a07da1a9bd724fff3904628d9689bf923bc7f5aaa5bf5f1f2de0fc3d5a"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/initial_state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/stderr.txt",
@@ -1979,27 +1979,27 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/tool_calls.jsonl",
       "bytes": 452,
-      "sha256": "b04506deef3fab2f3ca92ef88bcf3725fa953aad721b48ef2218b8fdf8acf773"
+      "sha256": "c211071d8fa5b429771f0fc74f2f0f5ded22d76267bf1745f1134e0977729fcd"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/responses.jsonl",
       "bytes": 7461,
-      "sha256": "51ee54dbeaea0a8623595b1304e0447e3f59997922a5ab7e3fa805c787d8dd5d"
+      "sha256": "7c11ad14d93d1b22065148e895e73fb227c028a38572167ad7c643e9afbff546"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/events.jsonl",
       "bytes": 2253,
-      "sha256": "998a7a79873926089914d0bb1b36cbb1cdddc5b890a624af4747261ac5431718"
+      "sha256": "d3349bf74f5100f50a29cd6aff19501449d8f6399a34313b2d9deb5584c96ac7"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/initial_state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/state.json",
       "bytes": 96,
-      "sha256": "67726b64b624e859c92af3b80832c5c2ec8475074d31d3fc4d95d81f2f4541a0"
+      "sha256": "cd6f756b46867dc6c67d523e8c8362853afc5bd27ccfb102e9e3969e740f1b89"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/stderr.txt",
@@ -2009,22 +2009,22 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/tool_calls.jsonl",
       "bytes": 927,
-      "sha256": "866caca08ee984eb8c2ac8f79045c2191afbb89383d44de8a08567e7ff4a7272"
+      "sha256": "b936b210b866dc2fb21e516b0986fe4a97d4faa358517a0b2c3a5cf3c0648cd3"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/events.jsonl",
       "bytes": 2300,
-      "sha256": "55b051fa9bdb0212e5b67e5be7a3b0cd9e2f8dc3e89a1ea6cea41ba14c5d7463"
+      "sha256": "98b0750ff74424a4d71044385d7055fbf59f45960ce8ebc400dabed52c3b6045"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/initial_state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/state.json",
       "bytes": 96,
-      "sha256": "67726b64b624e859c92af3b80832c5c2ec8475074d31d3fc4d95d81f2f4541a0"
+      "sha256": "cd6f756b46867dc6c67d523e8c8362853afc5bd27ccfb102e9e3969e740f1b89"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/stderr.txt",
@@ -2034,22 +2034,22 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/tool_calls.jsonl",
       "bytes": 927,
-      "sha256": "720f7a707273be281311b591d2695400e774e4468493208fcbaa8b3200d5edd9"
+      "sha256": "0c4e5d8cf7141fc20c257e0472e73caec44e868dddf2cd93aaf4323957b30711"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r1/events.jsonl",
       "bytes": 1668,
-      "sha256": "aabc1b7c6de892a581a467b2ce4b288fd4f606288ec874a80b4995dd19308088"
+      "sha256": "a2abd646caad2901796dc4f06fd5fd22e08665a183ed0a34bb3bd415b62849b2"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r1/initial_state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r1/state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r1/stderr.txt",
@@ -2059,17 +2059,17 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r2/events.jsonl",
       "bytes": 1525,
-      "sha256": "4811e5f8a34dc50d1c2f2bcab42583e1c10f7244b62b934cb1d3466847e8bd3f"
+      "sha256": "362b1e49d7928166a501f57c81c1ac16d448fb4316c5145c308cd04f8e51a96f"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r2/initial_state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r2/state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r2/stderr.txt",
@@ -2094,12 +2094,12 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/software-fixture-check/state.json",
       "bytes": 54,
-      "sha256": "e2bdc29f783c5c7166e86e88d905ceb68373f6da6767e67ffc0a37d77d4b451c"
+      "sha256": "87e78edbbe4da6784f7c2e26339cfbfd66ee29e42b872ea545b96466480f4bd4"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/software-fixture-check/tool_calls.jsonl",
       "bytes": 1105,
-      "sha256": "7bed2a6d3ed34089bd8573cb37503a5b8688f8d2479a3b1079ac8b2036bda7e2"
+      "sha256": "c7dda72d7bd0e73c21e1c2e1e90bd96608ca6acb4b4b8fe324028eb849f92c6a"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/metadata.json",
@@ -2109,7 +2109,7 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/responses.jsonl",
       "bytes": 259,
-      "sha256": "1ea66a9bf21c5d7c125dcb757624edfdf482ac6f839b21063183b3db83ab9208"
+      "sha256": "6bb9ce1ef487e39e50c991c23cb4dfd80d498ee7566beb1cbc1fdfe7b24d79c9"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/soc_history_review_r1/events.jsonl",
@@ -2119,12 +2119,12 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/soc_history_review_r1/initial_state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/soc_history_review_r1/state.json",
       "bytes": 111,
-      "sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b"
+      "sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/soc_history_review_r1/stderr.txt",
@@ -2134,12 +2134,12 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/评分与调用汇总.json",
       "bytes": 10261,
-      "sha256": "47ffc1d2284bd709c8c2a5f8e55e738ddbf4a5a6d2717bd80955bfbd897f909b"
+      "sha256": "9cb217d662902726241f5e9bf4d42fdfd252e63c80ec08289fd2efbc7f89b7d9"
     },
     {
       "path": "scripts/review_saved_results.py",
       "bytes": 4906,
-      "sha256": "58383a6bb9abd8fd616d3b311053e7a8474b862f7663beb77f7cf9d66e05d29f"
+      "sha256": "b39d8011505561b9b6fcd9043d8172526b29889a42e5893f9adab66a5b999621"
     },
     {
       "path": "scripts/verify_release.py",
@@ -2149,7 +2149,7 @@
     {
       "path": "supplemental_scripts/build_soc_pilot.py",
       "bytes": 4358,
-      "sha256": "06ad64fe2c28599da69a52959b6e44a2bb80531171a5ef5d7616752711d0e362"
+      "sha256": "4af87bf6483780a2071219992d7ed80e0d1622418cd0f9f45d40f0afe031137f"
     },
     {
       "path": "supplemental_scripts/build_travel_extension.py",
@@ -2163,8 +2163,8 @@
     },
     {
       "path": "supplemental_scripts/build_v04.py",
-      "bytes": 8014,
-      "sha256": "d2d4cd424d4a88a6f43cfae082c40b85e4607b50ad8b70b91bee5c07769f7d5b"
+      "bytes": 8002,
+      "sha256": "ba3dc32e044981dc016b13ecc559c7a60124b8c943ff615a72d23478b4444541"
     },
     {
       "path": "supplemental_scripts/build_v04_rain.py",
@@ -2199,7 +2199,7 @@
     {
       "path": "supplemental_scripts/score_soc_pilot.py",
       "bytes": 4253,
-      "sha256": "7fc81ef5a971f48606ec3b6447491e0f302103e2063991964dc18910585aa6f4"
+      "sha256": "269d6f3778a9c66c2105804bee943c0315d3edcef190bd664875bdbb96fdc470"
     },
     {
       "path": "supplemental_scripts/score_travel_run.py",
@@ -2213,8 +2213,8 @@
     },
     {
       "path": "supplemental_scripts/score_v04.py",
-      "bytes": 5407,
-      "sha256": "b27b42bbf99febd77af8e3dba1368e1967afb788d8b127aa20761ebf5450a874"
+      "bytes": 5398,
+      "sha256": "b37791d060c4e703bd8a07953dd01634caf8ec7b632409e06eb15bcefe09b362"
     },
     {
       "path": "supplemental_scripts/soc_fixture_mcp.py",
@@ -2224,7 +2224,7 @@
     {
       "path": "supplemental_scripts/test_soc_fixture.py",
       "bytes": 2085,
-      "sha256": "aeb948641fda332d818bdf26ed60417405737df33e053ae424558463aaf79c58"
+      "sha256": "24d68c7f147ee4d581d836eae9cf450334770e6376ee40b82b5ecd437252abed"
     }
   ]
 }

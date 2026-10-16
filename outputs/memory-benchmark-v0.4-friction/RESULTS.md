@@ -27,7 +27,7 @@ Model quotations in this table are translated; the verbatim Chinese responses ar
 | Budget drops from 150 to 120, dryness requirement unchanged | Hotel B: 140, central, dry | "I suggest Hotel D: 115... 20 minutes from the center" | Updates the plan and explains the location trade-off without sacrificing a hard constraint |
 | Budget still 150 | Same initial plan | "I now suggest Hotel B" | No need to re-ask about the budget or search for a new hotel |
 | Still September 1, on campus | Class at 09:00, yoga at 16:00 and gym at 18:00 today, plus 1 hour of research | Both the short and the longer-content branches keep the day's schedule and the research | Valid plans must not be dropped merely because more topics came up |
-| Now September 8, temporarily in Miami | The same September 1 initial plan | Both branches switch to free time in Miami for the day, keeping 1 hour for research | Obligations from a past day are not imposed; the long-term preference is kept, with no claim of a permanent course drop or a move |
+| Now September 8, temporarily in Bayport | The same September 1 initial plan | Both branches switch to free time in Bayport for the day, keeping 1 hour for research | Obligations from a past day are not imposed; the long-term preference is kept, with no claim of a permanent course drop or a move |
 | Rain first confirmed, later explicitly stopped | Branched from a shared prefix in which rain had been reported | Rain stopped: chooses A; still raining: chooses B | The current route choice is correct in both; for the extra details, see below |
 
 Every branch's complete user input, model response and scoring rationale are saved in the corresponding files. In the main group, the four schedule cells record short versus more content and same day versus one week later independently, rather than equating time span with the amount of text.
@@ -42,7 +42,7 @@ Both chose the correct route for the latest weather. The research signal is ther
 ## Recall and application tested separately
 
 - Prefix with rain reported: the recall branch states that it is raining and that the user is willing to pay 3 more; a separate application branch chooses B.
-- Multi-day Miami prefix with 8 side-topic turns: the recall branch states clearly that the user is temporarily in Miami, that the old class/yoga/gym were the September 1 schedule, and that the long-term plan is 1 hour of research per day; a separate application branch plans the travel day and keeps the research.
+- Multi-day Bayport prefix with 8 side-topic turns: the recall branch states clearly that the user is temporarily in Bayport, that the old class/yoga/gym were the September 1 schedule, and that the long-term plan is 1 hour of research per day; a separate application branch plans the travel day and keeps the research.
 
 Neither probe showed a behavioral dissociation of "correct recall but failed application". This does not prove that the internal memory mechanism works, and a single result cannot be generalized to all long conversations. The recall branch never enters the application branch's context; all shared prefixes and branch relationships are saved in `nodes.json` and the per-turn metadata.
 

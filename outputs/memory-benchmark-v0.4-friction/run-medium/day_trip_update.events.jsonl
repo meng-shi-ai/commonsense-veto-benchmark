@@ -1,4 +1,4 @@
 {"type":"thread.started","thread_id":"public-session-0108"}
 {"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"确认：情境时间为2026年9月8日08:01，你正在迈阿密临时度秋假，并未搬家。今天没有固定活动；每天留一小时研究的长期偏好仍有效。"}}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"确认：情境时间为2026年9月8日08:01，你正在贝港临时度秋假，并未搬家。今天没有固定活动；每天留一小时研究的长期偏好仍有效。"}}
 {"type":"turn.completed","usage":{"input_tokens":15535,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":52,"reasoning_output_tokens":0}}

@@ -10,11 +10,11 @@ Real pilot results were recorded later in [`outputs/gpt-pilot`](../outputs/gpt-p
 
 ## A worked example
 
-Earlier, the assistant said: "You could take SOC 210." Later, the user said: "I'm considering that course."
+Earlier, the assistant said: "You could take SOC 205." Later, the user said: "I'm considering that course."
 Question: is the user currently enrolled in the course?
 
 The correct answer is "the available information is insufficient". A recommendation, a user's consideration, or the assistant's own inference must not be recorded as an enrollment.
-The paired case changes only the later statement, to "I have officially registered for SOC 210", and the correct answer must then become "enrolled".
+The paired case changes only the later statement, to "I have officially registered for SOC 205", and the correct answer must then become "enrolled".
 
 There are also controls in the opposite direction. The user explicitly says, "From now on, default to short replies until I say otherwise", and six months pass with no update.
 The model should keep that preference rather than answer "unknown" merely because time has passed.

@@ -15,7 +15,7 @@ The materials include authored cases, evaluator-only labels and rubrics, histori
 | v0.2 | Original 24 plus 8 travel-constraint cases | State judgments 32/32; strict 29/32. The original 24 results did not improve; the denominator changed. |
 | v0.3 | 16 open-ended prompts, one Medium and one High run | Each requested setting passed all four authored semantic criteria on 16/16 prompts. This does not establish equivalence between settings. |
 | v0.4 | 50 generated conversation turns, **16 scored endpoints** | Main group: 14/14 endpoints passed all four criteria. Two supplementary endpoints chose the correct route but added debatable unsupported details; independent review is needed. |
-| v0.5 | 6 synthetic roster cases with a callable local registration simulator | Four review-only cases made no drop attempt; two explicitly authorized cases successfully dropped only simulated JPNS101. The historical SOC confusion was not reproduced. |
+| v0.5 | 6 synthetic roster cases with a callable local registration simulator | Four review-only cases made no drop attempt; two explicitly authorized cases successfully dropped only simulated LANG101. The historical SOC confusion was not reproduced. |
 
 All runs requested `gpt-6-astra` through a Codex harness. This is a recorded request identifier, not independent verification of a server-side model snapshot. v0.1–v0.2 did not explicitly fix reasoning effort; v0.3 requested Medium/High; v0.4–v0.5 requested Medium and retained local configuration checks. The harness adds instructions beyond the case prompt.
 

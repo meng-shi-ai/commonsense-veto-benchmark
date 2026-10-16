@@ -1,4 +1,4 @@
 {"type":"thread.started","thread_id":"public-session-0113"}
 {"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"你现在在迈阿密临时度秋假，不是搬家。之前的上课、瑜伽和健身是2026年9月1日的安排。\n\n明确的长期偏好：每天留一小时研究时间，直到你另说；听歌时喜欢音量安静一些。"}}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"你现在在贝港临时度秋假，不是搬家。之前的上课、瑜伽和健身是2026年9月1日的安排。\n\n明确的长期偏好：每天留一小时研究时间，直到你另说；听歌时喜欢音量安静一些。"}}
 {"type":"turn.completed","usage":{"input_tokens":15939,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":71,"reasoning_output_tokens":0}}

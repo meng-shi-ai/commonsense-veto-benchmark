@@ -1,1 +1,1 @@
-{"id": "soc_history_review_r1", "condition": "soc_history_review", "error": "process_failed", "session_id": null, "item_types": [], "usage": [], "seconds": 0.013, "final_state": {"courses": ["CS180", "CS182", "JPNS101", "POL407", "PHIL256", "ANTH340 DIST"]}}
+{"id": "soc_history_review_r1", "condition": "soc_history_review", "error": "process_failed", "session_id": null, "item_types": [], "usage": [], "seconds": 0.013, "final_state": {"courses": ["CS110", "CS120", "LANG101", "POL300", "PHIL200", "ANTH300 DIST"]}}

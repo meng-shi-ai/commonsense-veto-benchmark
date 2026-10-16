@@ -31,11 +31,12 @@
     {
       "path": "memory_benchmark_v01/README.md",
       "source_sha256": "e50ba6c005e9b9a1beaed76c125b58b3d69770be2b5fdb75e35aff9366c7f03a",
-      "public_sha256": "ee022c0d842c09c5c9d62a5199bed5e316c0a809983613792335ef5eeb97c72c",
+      "public_sha256": "33057a7ed5f851643d0056c48ee3c308153649922e9fb98666c9396600a07a01",
       "modified": true,
       "actions": [
         "Removed personalized introductory wording.",
-        "Translated Chinese prose into English for the public edition."
+        "Translated Chinese prose into English for the public edition.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -55,23 +56,29 @@
     {
       "path": "memory_benchmark_v01/build_dataset.py",
       "source_sha256": "d49c83fe5511a96ad5ca5b70efae26ffbd31749458e756a78094007cc805a7bf",
-      "public_sha256": "d49c83fe5511a96ad5ca5b70efae26ffbd31749458e756a78094007cc805a7bf",
-      "modified": false,
-      "actions": []
+      "public_sha256": "453827a32367ce7077128184ae8ec6dd31759c08790949dca5cfa4dcb998373e",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "memory_benchmark_v01/cases.jsonl",
       "source_sha256": "d2d8d5e6cc75cad2472d64bf75854757982ff903000049e02311bf7badce0e28",
-      "public_sha256": "d2d8d5e6cc75cad2472d64bf75854757982ff903000049e02311bf7badce0e28",
-      "modified": false,
-      "actions": []
+      "public_sha256": "2fbfcc1c69d624b269511c8fb14bbcf63cf2b75b61036ce4d1f0a6c4628c9422",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "memory_benchmark_v01/example_prompt.txt",
       "source_sha256": "2b2be9a58d8373d683463a544e71646932b8dd4df8194d22df971411b422098d",
-      "public_sha256": "2b2be9a58d8373d683463a544e71646932b8dd4df8194d22df971411b422098d",
-      "modified": false,
-      "actions": []
+      "public_sha256": "07be1a26dae76a8d0ddfc7898a7c7d45e38a89386b11c55d73014f7ed64ad056",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "memory_benchmark_v01/fixture_adapter.py",
@@ -104,9 +111,11 @@
     {
       "path": "memory_benchmark_v01/prompts.jsonl",
       "source_sha256": "f0b3475ba22843f96d329a82231bebabc1c66416bd6caf6ccb6abe879cf65645",
-      "public_sha256": "f0b3475ba22843f96d329a82231bebabc1c66416bd6caf6ccb6abe879cf65645",
-      "modified": false,
-      "actions": []
+      "public_sha256": "3cb8c63121fed8a504ea45b3a66b32b954c221d3d6b8d1c14bf0da48bc7209f2",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "memory_benchmark_v01/test_benchmark.py",
@@ -1180,10 +1189,11 @@
     {
       "path": "outputs/memory-benchmark-v0.2-travel/README.md",
       "source_sha256": "dfbcc83ab6032d149d956c3f2e55b22d02ffee5ca5170fa3602741b38262dd7f",
-      "public_sha256": "2c124223759da06152827370cef5d178e7df8005b0d89d3bdd8a9b8322853350",
+      "public_sha256": "568748c7439a472833a3957db1f7da462ce245bbfe7c6f60d0ae24e73f9f51fd",
       "modified": true,
       "actions": [
-        "Translated Chinese prose into English for the public edition."
+        "Translated Chinese prose into English for the public edition.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -1213,9 +1223,11 @@
     {
       "path": "outputs/memory-benchmark-v0.2-travel/cases.jsonl",
       "source_sha256": "eb70617926aeaa80b53267e3feed3e064d3a4673acc36f649f9b8006ff67fc94",
-      "public_sha256": "eb70617926aeaa80b53267e3feed3e064d3a4673acc36f649f9b8006ff67fc94",
-      "modified": false,
-      "actions": []
+      "public_sha256": "a4a67e0bd43a912d78fa66a7ea3db040edfe0e090f85ea59a6f893f16f74bb54",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/extension_cases.jsonl",
@@ -1255,9 +1267,11 @@
     {
       "path": "outputs/memory-benchmark-v0.2-travel/prompts.jsonl",
       "source_sha256": "583b64c15c1df22f4eac808fb746365c67136ba32abc62148fa9cd59d833fbcf",
-      "public_sha256": "583b64c15c1df22f4eac808fb746365c67136ba32abc62148fa9cd59d833fbcf",
-      "modified": false,
-      "actions": []
+      "public_sha256": "d97395af3685ef355b782348cc72103f8fb9198913e1b69748c297af1c4e82ff",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/software_fixture_report.json",
@@ -1938,22 +1952,24 @@
     {
       "path": "outputs/memory-benchmark-v0.3-open/EFFORT_COMPARISON.md",
       "source_sha256": "54b1ab4381493671f1a8a90ac4af80b106239a92c48c73895458bc7041b5f227",
-      "public_sha256": "daffb5f0402a0059b31cd4968e7135448f28fc62dfe34920560391e283b41e0a",
+      "public_sha256": "5677f5061bb49648e052ca2deec751a6771389f633f659248969eef1a67cc8b6",
       "modified": true,
       "actions": [
         "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
-        "Translated Chinese prose into English for the public edition."
+        "Translated Chinese prose into English for the public edition.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ],
       "source_path": "outputs/memory-benchmark-v0.3-open/两档对比结果.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.3-open/DESIGN_AND_PROMPTS.md",
       "source_sha256": "8b2a2a79579bf7a939410e6ee1e8d1524978f9f61ce10368d41219b9cf232d43",
-      "public_sha256": "92073238cd37b618168adb6c6989295d73cb59d0e4f6cd9be940c4affa4decc2",
+      "public_sha256": "e532ce8a8ec292a411f64e3692a8820fe201578ad88c1dcfe43c1bbae75ff708",
       "modified": true,
       "actions": [
         "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
-        "Translated Chinese prose into English for the public edition."
+        "Translated Chinese prose into English for the public edition.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ],
       "source_path": "outputs/memory-benchmark-v0.3-open/设计与中文题目.md"
     },
@@ -1982,10 +1998,11 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/build_dataset.py",
       "source_sha256": "3871b593a7de7ed19f341bbfbd7978191d3d4730bd59d91f0a2bb11b24746bbc",
-      "public_sha256": "d2d4cd424d4a88a6f43cfae082c40b85e4607b50ad8b70b91bee5c07769f7d5b",
+      "public_sha256": "ba3dc32e044981dc016b13ecc559c7a60124b8c943ff615a72d23478b4444541",
       "modified": true,
       "actions": [
-        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT"
+        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -2007,9 +2024,11 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/nodes.json",
       "source_sha256": "95c2f3ea8af9a126b877d941d35f97e75522c85d5027376653ecca40a65c980b",
-      "public_sha256": "95c2f3ea8af9a126b877d941d35f97e75522c85d5027376653ecca40a65c980b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "1d062f3e947d92287b031adf0fa49cb434a963929a65c5e7f9ddeab20ceeaa9b",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/manifest.json",
@@ -2165,16 +2184,20 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/review.json",
       "source_sha256": "415cbc4fdb88b8aacc3e1e73f2ca2b9333a3d7c9413683166b9498a709923f6e",
-      "public_sha256": "415cbc4fdb88b8aacc3e1e73f2ca2b9333a3d7c9413683166b9498a709923f6e",
-      "modified": false,
-      "actions": []
+      "public_sha256": "bf9206371858310627d255f796014b8f16eb56e7767489046cb17f9a3a8728b7",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/rubric.json",
       "source_sha256": "35560fc6814852ab01b2d80e5eb624a81389d905860848059bd04e1c5ef2db96",
-      "public_sha256": "35560fc6814852ab01b2d80e5eb624a81389d905860848059bd04e1c5ef2db96",
-      "modified": false,
-      "actions": []
+      "public_sha256": "3a94e9d0aab1cbee861c6a36ff44c5cc7d01764313aa97b995550124a9a5edc6",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_plan.events.jsonl",
@@ -2387,10 +2410,11 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_long_apply.events.jsonl",
       "source_sha256": "24114381306763fa58e1b0b1a004ec52cb3039117809c7fa932d6ae4e07d50ae",
-      "public_sha256": "3fb3f343433e67526b39392d1ef0fefca669c344a2bc3dc97cb4e84985846004",
+      "public_sha256": "a3dd1ed1152992225aaeba84b8a0f852736cf76b6e7bf0204527d1b22c299313",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -2403,10 +2427,11 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_long_recall.events.jsonl",
       "source_sha256": "acd663eb74a25716a5276f5a30a1723b3152de4e15270e5cb3bc9837500ccba3",
-      "public_sha256": "18f92b239cb9b15d6109865b3592fea4521520875e072087f38a8f5bc9a7f47d",
+      "public_sha256": "e629600e4f901d896e37ea81d1635a59d5a9b4c7c25ef462ed284ff0bec08f4d",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -2547,10 +2572,11 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_short_apply.events.jsonl",
       "source_sha256": "a2c394236b08fcbbe493b6ebfe6ad9a594d4da8191d9723feb0073ce7602331a",
-      "public_sha256": "81d2f828cdf038f980f6aa8f54f01768741ed8d64aee88c1ce61145478930934",
+      "public_sha256": "a855defb86fc5c04ced7071792d8220dcf4e752472f7b3702f595078f84acc31",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -2579,10 +2605,11 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/day_trip_update.events.jsonl",
       "source_sha256": "17dc65983486569c19d4e2f9e944794cd2831e786f5e1593eae66e8a36732fcf",
-      "public_sha256": "82ebdfbfeaeccea6f5f21c8e9ac314f22bca2fdb686101434e5eba13620ce00e",
+      "public_sha256": "42737084ac01805612b28c8604d40bbc22aa70db1a59186bd79b55cb70f80e89",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -2714,10 +2741,11 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/run-medium/responses.jsonl",
       "source_sha256": "1006c47ace1435e73e0535da0be0112393fba00ccba9bfeeb7d50d3a79c0e204",
-      "public_sha256": "a1b00d97d6de027cc9e16b88757c50eb18e154faa74b8f2e355ebcedbc5f2c5e",
+      "public_sha256": "3ef57ee4b90159c790be7257662798f064e4a9a4e0b7c36ec412d293f86d12a6",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -2911,10 +2939,11 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/score_review.py",
       "source_sha256": "99c048676d9526fda4774cb09d75aaf6928a522b6434826c8925b82737434fd5",
-      "public_sha256": "b27b42bbf99febd77af8e3dba1368e1967afb788d8b127aa20761ebf5450a874",
+      "public_sha256": "b37791d060c4e703bd8a07953dd01634caf8ec7b632409e06eb15bcefe09b362",
       "modified": true,
       "actions": [
-        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT"
+        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -2950,33 +2979,36 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/ALL_TURNS.md",
       "source_sha256": "d34cb932e4df8ba4c78d8497b7b3f032678a0dec2ae0fcf79cb9bfb8eb51d78b",
-      "public_sha256": "6e959751eb67350d7a7f92721be4e8bf33c6873fe247bef64a9016b6e884e6c1",
+      "public_sha256": "fbda5a00fe1f390897859b308e2d5b0d7b87e5af64171f35557ba603a496ff2e",
       "modified": true,
       "actions": [
         "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
-        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ],
       "source_path": "outputs/memory-benchmark-v0.4-friction/全部对话回合.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/RESULTS.md",
       "source_sha256": "73f92279c5dbb734086982d144427dabca186c5c621e31ba1b1af14198787928",
-      "public_sha256": "b52a6d9da3d37a621d48656ba26591059fb4f620af4462d0885778af61b58749",
+      "public_sha256": "d8ab8016549405e7ce261142bb5a63f291a7b35aa68d503a1872958f1f923a40",
       "modified": true,
       "actions": [
         "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
-        "Translated Chinese prose into English for the public edition."
+        "Translated Chinese prose into English for the public edition.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ],
       "source_path": "outputs/memory-benchmark-v0.4-friction/结果说明.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/DESIGN_AND_CASES.md",
       "source_sha256": "5d0f3f40c5c8492d11bf047a619ef77f98cfcfea13c0ef423ed1b2f93ecf2ff3",
-      "public_sha256": "e955ee75573f9b6b8e72fba96b18bcd3098a7824363f256a342f67a875b4bf13",
+      "public_sha256": "fe45019c5dfc8ab95a486b4964356fffdc1bac34777d5e8c522b71813551a80b",
       "modified": true,
       "actions": [
         "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
-        "Translated Chinese prose into English for the public edition."
+        "Translated Chinese prose into English for the public edition.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ],
       "source_path": "outputs/memory-benchmark-v0.4-friction/设计与中文案例.md"
     },
@@ -2990,20 +3022,23 @@
     {
       "path": "outputs/memory-benchmark-v0.4-friction/PER_ITEM_TRANSCRIPTS_AND_SCORES.md",
       "source_sha256": "4fd6d97074d788ebe4dbe7237a2504bf86fa4b93d8196a1258f0e910ba6dc62f",
-      "public_sha256": "baafdf63d9dcefd0b3752e0f50ab3eace43a62aeb4b626a5c543c8fe04f26ad3",
+      "public_sha256": "4b214413d17d642fe48a62d669685a899283b7d38b8396847fe13fba6f7c0c53",
       "modified": true,
       "actions": [
         "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
-        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ],
       "source_path": "outputs/memory-benchmark-v0.4-friction/逐题原文与评分.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/cases.json",
       "source_sha256": "c57a7948e77c16750d976c0d5d1d8cbcccb366964356a38060cd2cf0175ca25b",
-      "public_sha256": "c57a7948e77c16750d976c0d5d1d8cbcccb366964356a38060cd2cf0175ca25b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "80fee7f9e8fb77c3489c02efc194076b3eab14f2f258740f2747a6aed5fa4080",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/manifest.json",
@@ -3015,9 +3050,11 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/rubric.json",
       "source_sha256": "d99b12254b548766a5b2399639305b1d7785f4c72ab44a198a7d1061b35a3b49",
-      "public_sha256": "d99b12254b548766a5b2399639305b1d7785f4c72ab44a198a7d1061b35a3b49",
-      "modified": false,
-      "actions": []
+      "public_sha256": "25eb18b6b5b05478c66bdda0f655437675c41d7f37898e2b19ae6ebf34687d4f",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/metadata.json",
@@ -3029,25 +3066,30 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/events.jsonl",
       "source_sha256": "4317722c9fae52acf2f7d3d8ec7e5bd6a4144303450f3fba02ba43e495d68a32",
-      "public_sha256": "9454f2ac316e01d1d51ef38d986359daf95cccf3a63a008982f9d043fd5dba81",
+      "public_sha256": "798851a056c12550f82aca4072b1949fd98ec22a7793b381ab2efe0904dba50c",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/initial_state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/stderr.txt",
@@ -3059,32 +3101,39 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r1/tool_calls.jsonl",
       "source_sha256": "4af5bc46b55e459af90db6b6930bcae186e974ea2479611046daf7ad7cb8fcc9",
-      "public_sha256": "4af5bc46b55e459af90db6b6930bcae186e974ea2479611046daf7ad7cb8fcc9",
-      "modified": false,
-      "actions": []
+      "public_sha256": "3910531cdd6eca81998f2f640db1ba8ff8bdfe6531c5ee004b19f8d47a3c760f",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/events.jsonl",
       "source_sha256": "0e3d03a90eb23c0c07859e993245c2007c7512ec81d1149bf46e7b048f60033b",
-      "public_sha256": "10bec3960f2d4dcb946230f471936a345528fd6e30bf66b4350cd74bf9996853",
+      "public_sha256": "86b119a07da1a9bd724fff3904628d9689bf923bc7f5aaa5bf5f1f2de0fc3d5a",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/initial_state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/stderr.txt",
@@ -3096,41 +3145,49 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/neutral_history_review_r2/tool_calls.jsonl",
       "source_sha256": "b04506deef3fab2f3ca92ef88bcf3725fa953aad721b48ef2218b8fdf8acf773",
-      "public_sha256": "b04506deef3fab2f3ca92ef88bcf3725fa953aad721b48ef2218b8fdf8acf773",
-      "modified": false,
-      "actions": []
+      "public_sha256": "c211071d8fa5b429771f0fc74f2f0f5ded22d76267bf1745f1134e0977729fcd",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/responses.jsonl",
       "source_sha256": "c509eae85eb9d98b96ecb483ea092a67239437747451c7636f6227085e9fd804",
-      "public_sha256": "51ee54dbeaea0a8623595b1304e0447e3f59997922a5ab7e3fa805c787d8dd5d",
+      "public_sha256": "7c11ad14d93d1b22065148e895e73fb227c028a38572167ad7c643e9afbff546",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/events.jsonl",
       "source_sha256": "420783348220d997a9c45bbd0e48ea8ddffdcc39bd1a431d5a3593f43845db46",
-      "public_sha256": "998a7a79873926089914d0bb1b36cbb1cdddc5b890a624af4747261ac5431718",
+      "public_sha256": "d3349bf74f5100f50a29cd6aff19501449d8f6399a34313b2d9deb5584c96ac7",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/initial_state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/state.json",
       "source_sha256": "67726b64b624e859c92af3b80832c5c2ec8475074d31d3fc4d95d81f2f4541a0",
-      "public_sha256": "67726b64b624e859c92af3b80832c5c2ec8475074d31d3fc4d95d81f2f4541a0",
-      "modified": false,
-      "actions": []
+      "public_sha256": "cd6f756b46867dc6c67d523e8c8362853afc5bd27ccfb102e9e3969e740f1b89",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/stderr.txt",
@@ -3142,32 +3199,39 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r1/tool_calls.jsonl",
       "source_sha256": "866caca08ee984eb8c2ac8f79045c2191afbb89383d44de8a08567e7ff4a7272",
-      "public_sha256": "866caca08ee984eb8c2ac8f79045c2191afbb89383d44de8a08567e7ff4a7272",
-      "modified": false,
-      "actions": []
+      "public_sha256": "b936b210b866dc2fb21e516b0986fe4a97d4faa358517a0b2c3a5cf3c0648cd3",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/events.jsonl",
       "source_sha256": "9948b0c947ba44a3453bef64bddb0d508bf13421715e2c9259ab79a5484bac70",
-      "public_sha256": "55b051fa9bdb0212e5b67e5be7a3b0cd9e2f8dc3e89a1ea6cea41ba14c5d7463",
+      "public_sha256": "98b0750ff74424a4d71044385d7055fbf59f45960ce8ebc400dabed52c3b6045",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/initial_state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/state.json",
       "source_sha256": "67726b64b624e859c92af3b80832c5c2ec8475074d31d3fc4d95d81f2f4541a0",
-      "public_sha256": "67726b64b624e859c92af3b80832c5c2ec8475074d31d3fc4d95d81f2f4541a0",
-      "modified": false,
-      "actions": []
+      "public_sha256": "cd6f756b46867dc6c67d523e8c8362853afc5bd27ccfb102e9e3969e740f1b89",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/stderr.txt",
@@ -3179,32 +3243,39 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_approved_drop_r2/tool_calls.jsonl",
       "source_sha256": "720f7a707273be281311b591d2695400e774e4468493208fcbaa8b3200d5edd9",
-      "public_sha256": "720f7a707273be281311b591d2695400e774e4468493208fcbaa8b3200d5edd9",
-      "modified": false,
-      "actions": []
+      "public_sha256": "0c4e5d8cf7141fc20c257e0472e73caec44e868dddf2cd93aaf4323957b30711",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r1/events.jsonl",
       "source_sha256": "71076551343de38ba798b4de9dfe4daea78bde3e1c70e548e6dfb83db0c31a8a",
-      "public_sha256": "aabc1b7c6de892a581a467b2ce4b288fd4f606288ec874a80b4995dd19308088",
+      "public_sha256": "a2abd646caad2901796dc4f06fd5fd22e08665a183ed0a34bb3bd415b62849b2",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r1/initial_state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r1/state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r1/stderr.txt",
@@ -3216,25 +3287,30 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r2/events.jsonl",
       "source_sha256": "86115094bf396df7b8cfe8a7dadbb56dddd87d1aaf377d83a44d7f0725fe6111",
-      "public_sha256": "4811e5f8a34dc50d1c2f2bcab42583e1c10f7244b62b934cb1d3466847e8bd3f",
+      "public_sha256": "362b1e49d7928166a501f57c81c1ac16d448fb4316c5145c308cd04f8e51a96f",
       "modified": true,
       "actions": [
-        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld."
+        "Pseudonymized session/trace UUIDs consistently across files; mapping withheld.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r2/initial_state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r2/state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/run-medium/soc_history_review_r2/stderr.txt",
@@ -3274,16 +3350,20 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/software-fixture-check/state.json",
       "source_sha256": "e2bdc29f783c5c7166e86e88d905ceb68373f6da6767e67ffc0a37d77d4b451c",
-      "public_sha256": "e2bdc29f783c5c7166e86e88d905ceb68373f6da6767e67ffc0a37d77d4b451c",
-      "modified": false,
-      "actions": []
+      "public_sha256": "87e78edbbe4da6784f7c2e26339cfbfd66ee29e42b872ea545b96466480f4bd4",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/software-fixture-check/tool_calls.jsonl",
       "source_sha256": "7bed2a6d3ed34089bd8573cb37503a5b8688f8d2479a3b1079ac8b2036bda7e2",
-      "public_sha256": "7bed2a6d3ed34089bd8573cb37503a5b8688f8d2479a3b1079ac8b2036bda7e2",
-      "modified": false,
-      "actions": []
+      "public_sha256": "c7dda72d7bd0e73c21e1c2e1e90bd96608ca6acb4b4b8fe324028eb849f92c6a",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/metadata.json",
@@ -3295,9 +3375,11 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/responses.jsonl",
       "source_sha256": "1ea66a9bf21c5d7c125dcb757624edfdf482ac6f839b21063183b3db83ab9208",
-      "public_sha256": "1ea66a9bf21c5d7c125dcb757624edfdf482ac6f839b21063183b3db83ab9208",
-      "modified": false,
-      "actions": []
+      "public_sha256": "6bb9ce1ef487e39e50c991c23cb4dfd80d498ee7566beb1cbc1fdfe7b24d79c9",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/soc_history_review_r1/events.jsonl",
@@ -3309,16 +3391,20 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/soc_history_review_r1/initial_state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/soc_history_review_r1/state.json",
       "source_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "public_sha256": "2813cd858f1706b9c15fe2b3d5faa03b268ca156e4fab275518707181c8f3f8b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "5d06f886d66f329904b9a0c5ac03db0794debe3e8a4fa76576f1e1756ebf1389",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/startup-failed-medium/soc_history_review_r1/stderr.txt",
@@ -3332,39 +3418,44 @@
     {
       "path": "outputs/memory-benchmark-v0.5-soc/RESULTS.md",
       "source_sha256": "c4b2b104f3e509dd32d24457300f4b7e1a6496da5d8d1d54186f9018ed813721",
-      "public_sha256": "719a71767c54eb1d11e3ca691669d428b44e3321945a228b5adee4c45381870e",
+      "public_sha256": "711c2b540048d7b51c8fb338eeccacfeafa28a6eb16c8db685f04cd68471d9be",
       "modified": true,
       "actions": [
         "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
-        "Translated Chinese prose into English for the public edition."
+        "Translated Chinese prose into English for the public edition.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ],
       "source_path": "outputs/memory-benchmark-v0.5-soc/结果说明.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/评分与调用汇总.json",
       "source_sha256": "47ffc1d2284bd709c8c2a5f8e55e738ddbf4a5a6d2717bd80955bfbd897f909b",
-      "public_sha256": "47ffc1d2284bd709c8c2a5f8e55e738ddbf4a5a6d2717bd80955bfbd897f909b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "9cb217d662902726241f5e9bf4d42fdfd252e63c80ec08289fd2efbc7f89b7d9",
+      "modified": true,
+      "actions": [
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/PER_CASE_TRANSCRIPTS_AND_TOOL_LOGS.md",
       "source_sha256": "0c2b028da5063aa8c8c00691131f75275c12aeb37130bb49087b96d554504d17",
-      "public_sha256": "384e4cefe19655c0670651a231850e57328d7e36a3486c0f4d55ac2327b08e0d",
+      "public_sha256": "f78013d01058882a9bf85a62cb11fc00cf6bbd4aa79656bff9266be6a7edd1d1",
       "modified": true,
       "actions": [
         "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
-        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim.",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ],
       "source_path": "outputs/memory-benchmark-v0.5-soc/逐例原文与工具日志.md"
     },
     {
       "path": "supplemental_scripts/build_soc_pilot.py",
       "source_sha256": "b76cd3c21db2b088d9e2a8414fb2ae86308aca3361adef38e1081addffdab38d",
-      "public_sha256": "06ad64fe2c28599da69a52959b6e44a2bb80531171a5ef5d7616752711d0e362",
+      "public_sha256": "4af87bf6483780a2071219992d7ed80e0d1622418cd0f9f45d40f0afe031137f",
       "modified": true,
       "actions": [
-        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT"
+        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -3389,10 +3480,11 @@
     {
       "path": "supplemental_scripts/build_v04.py",
       "source_sha256": "3871b593a7de7ed19f341bbfbd7978191d3d4730bd59d91f0a2bb11b24746bbc",
-      "public_sha256": "d2d4cd424d4a88a6f43cfae082c40b85e4607b50ad8b70b91bee5c07769f7d5b",
+      "public_sha256": "ba3dc32e044981dc016b13ecc559c7a60124b8c943ff615a72d23478b4444541",
       "modified": true,
       "actions": [
-        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT"
+        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -3463,10 +3555,11 @@
     {
       "path": "supplemental_scripts/score_soc_pilot.py",
       "source_sha256": "0f77615ef975d5f4185c77e02d2992402e4aa90875f1abe52dc058c69de1fac7",
-      "public_sha256": "7fc81ef5a971f48606ec3b6447491e0f302103e2063991964dc18910585aa6f4",
+      "public_sha256": "269d6f3778a9c66c2105804bee943c0315d3edcef190bd664875bdbb96fdc470",
       "modified": true,
       "actions": [
-        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT"
+        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -3490,10 +3583,11 @@
     {
       "path": "supplemental_scripts/score_v04.py",
       "source_sha256": "99c048676d9526fda4774cb09d75aaf6928a522b6434826c8925b82737434fd5",
-      "public_sha256": "b27b42bbf99febd77af8e3dba1368e1967afb788d8b127aa20761ebf5450a874",
+      "public_sha256": "b37791d060c4e703bd8a07953dd01634caf8ec7b632409e06eb15bcefe09b362",
       "modified": true,
       "actions": [
-        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT"
+        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     },
     {
@@ -3508,10 +3602,11 @@
     {
       "path": "supplemental_scripts/test_soc_fixture.py",
       "source_sha256": "e9f62bbd6f2c919582edfafff66088bdee7bec8d545e001720d8cc0fc6169549",
-      "public_sha256": "aeb948641fda332d818bdf26ed60417405737df33e053ae424558463aaf79c58",
+      "public_sha256": "24d68c7f147ee4d581d836eae9cf450334770e6376ee40b82b5ecd437252abed",
       "modified": true,
       "actions": [
-        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT"
+        "Replaced private or machine-specific path with symbolic placeholder: PUBLIC_REPO_ROOT",
+        "Replaced real course codes and travel destination with fictional ones (one-to-one, consistent across files)."
       ]
     }
   ]

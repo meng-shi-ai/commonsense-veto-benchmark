@@ -14,7 +14,7 @@ Each module was run in full at Medium and then in full at High on the same promp
 
 ## The user's latest clarification of "long conversation"
 
-The long conversations the user actually cares about involve a real span of time: one day, "today I have the gym, yoga and class"; later, it is the fall break and the user is clearly in Miami. The system should let the day's plans expire and the new travel location take effect, without inferring a permanent course drop, that the user has stopped going to the gym, or that all long-term preferences are void.
+The long conversations the user actually cares about involve a real span of time: one day, "today I have the gym, yoga and class"; later, it is the fall break and the user is clearly in Bayport. The system should let the day's plans expire and the new travel location take effect, without inferring a permanent course drop, that the user has stopped going to the gym, or that all long-term preferences are void.
 
 This run's main module tests only an increase in context content, not that multi-day combination; the time module touches on the age of information but does not fully cover the combination above. The clarification arrived after the prompts were frozen, so the prompts were not modified between the two runs, and the long-text condition is not described as a "real cross-session long-term memory test". Later versions should control the real time span and the context size independently, and score temporary plans, current location and long-term preferences separately.
 
