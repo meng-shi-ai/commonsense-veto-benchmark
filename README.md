@@ -49,6 +49,17 @@ The first checks public-file hashes, syntax, JSON and local Markdown links. The 
 
 See [reproducibility instructions](docs/REPRODUCIBILITY.md) before using the historical runners. They contain symbolic path placeholders after sanitization and are not a one-command portable live-evaluation package. Recorded outputs are kept separate from future runs.
 
+## Next steps
+
+The main limitation of v0.1–v0.5 is that a single model configuration (gpt-6-astra at Medium) helped author the cases, answered them, and assisted in scoring them. Near-ceiling scores in every version are therefore weak evidence about the failure that motivated this project. They may reflect cases that are easy for the model that wrote them, prompts that state the decision rules explicitly, and lenient grading within one model family. The next version is designed to address this:
+
+1. **Separate authorship, evaluation and grading.** Cases will be written by humans or by a different model family. Responses will be collected from several model families, including the product family in which the original failure was observed and at least one smaller model. Grading will use a different model family plus blinded human review of a sample, with inter-rater agreement reported.
+2. **Show that the benchmark discriminates before reporting results.** A version is informative only if at least one reasonable baseline fails some items. Ceiling scores across every model would mean the cases are too easy, not that the failure mode is absent.
+3. **Remove explicit decision rules from prompts.** Models should infer whether information is stale, superseded or merely suggested, instead of being told the rule (such as the five-minute freshness window in v0.3).
+4. **Move closer to real persistent memory.** Use real elapsed time across separate sessions, product memory features, and retrieval or summarization, instead of a complete record replayed in a fresh context.
+5. **Keep a held-out test split private.** Public cases can enter future training data. A private split guards against contamination and tests generalization to unseen scenarios.
+6. **Add an intervention comparison.** Compare behavior with and without a verification or veto mechanism, to test whether constructive friction actually reduces errors. The current versions cannot show this.
+
 ## Review status and rights
 
 Labels and semantic reviews were AI-assisted and have not received independent human or blinded validation. Cases are public and synthetic; no hidden generalization test is claimed. No license has been selected for this release. Public availability should not be interpreted as an additional license grant.
