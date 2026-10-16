@@ -1,0 +1,24 @@
+{"id": "C012", "prediction": {"decision": "clarify", "value": null, "evidence_ids": ["E2"]}}
+{"id": "C023", "prediction": {"decision": "answer", "value": "authorized", "evidence_ids": ["E1", "E2"]}}
+{"id": "C007", "prediction": {"decision": "answer", "value": "cognitive_autonomy", "evidence_ids": ["E2"]}}
+{"id": "C014", "prediction": {"decision": "answer", "value": "more_confrontational", "evidence_ids": ["E2"]}}
+{"id": "C002", "prediction": {"decision": "answer", "value": "Riverton", "evidence_ids": ["E2"]}}
+{"id": "C018", "prediction": {"decision": "clarify", "value": null, "evidence_ids": ["E1", "E2"]}}
+{"id": "C006", "prediction": {"decision": "clarify", "value": null, "evidence_ids": ["E2"]}}
+{"id": "C021", "prediction": {"decision": "answer", "value": "authorized", "evidence_ids": ["E2"]}}
+{"id": "C013", "prediction": {"decision": "answer", "value": "gentle", "evidence_ids": ["E2"]}}
+{"id": "C010", "prediction": {"decision": "clarify", "value": null, "evidence_ids": ["E2"]}}
+{"id": "C015", "prediction": {"decision": "answer", "value": "ai", "evidence_ids": ["E2"]}}
+{"id": "C022", "prediction": {"decision": "answer", "value": "not_authorized", "evidence_ids": ["E2"]}}
+{"id": "C020", "prediction": {"decision": "clarify", "value": null, "evidence_ids": ["E1", "E2"]}}
+{"id": "C005", "prediction": {"decision": "answer", "value": "brief", "evidence_ids": ["E2"]}}
+{"id": "C001", "prediction": {"decision": "answer", "value": "Lakeview", "evidence_ids": ["E2"]}}
+{"id": "C008", "prediction": {"decision": "clarify", "value": null, "evidence_ids": ["E2"]}}
+{"id": "C004", "prediction": {"decision": "answer", "value": "Cedar", "evidence_ids": ["E2"]}}
+{"id": "C016", "prediction": {"decision": "answer", "value": "cybersecurity", "evidence_ids": ["E3"]}}
+{"id": "C011", "prediction": {"decision": "answer", "value": "purchased", "evidence_ids": ["E2"]}}
+{"id": "C017", "prediction": {"decision": "answer", "value": "Kyoto", "evidence_ids": ["E2"]}}
+{"id": "C024", "prediction": {"decision": "answer", "value": "not_authorized", "evidence_ids": ["E2"]}}
+{"id": "C003", "prediction": {"decision": "answer", "value": "Maple", "evidence_ids": ["E2"]}}
+{"id": "C009", "prediction": {"decision": "answer", "value": "enrolled", "evidence_ids": ["E2"]}}
+{"id": "C019", "prediction": {"decision": "answer", "value": "Japanese", "evidence_ids": ["E2"]}}

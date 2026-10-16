@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0101"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"现在建议选B酒店：140元，低于150元预算，房间干燥、虫害检查合格，而且位于中央，最符合你的要求。D酒店可作备选；E酒店因潮湿排除。"}}
+{"type":"turn.completed","usage":{"input_tokens":15625,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":55,"reasoning_output_tokens":0}}

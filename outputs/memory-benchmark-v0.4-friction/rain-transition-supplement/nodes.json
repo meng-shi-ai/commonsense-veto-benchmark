@@ -1,0 +1,38 @@
+[
+  {
+    "id": "rain_transition_retained_update",
+    "parent": "route_wet_side",
+    "mode": "fork",
+    "prompt": "9月6日10:03更新：我现在看到仍在下雨，两条路线都能正常通行。先简单确认收到。"
+  },
+  {
+    "id": "rain_transition_retained_side",
+    "parent": "rain_transition_retained_update",
+    "mode": "resume",
+    "prompt": "换个话题，K-pop这个词中的K代表什么？一句话就好。"
+  },
+  {
+    "id": "rain_transition_retained_apply",
+    "parent": "rain_transition_retained_side",
+    "mode": "fork",
+    "prompt": "现在10:04，我要从车站去商场，给我当前具体路线。"
+  },
+  {
+    "id": "rain_transition_stopped_update",
+    "parent": "route_wet_side",
+    "mode": "fork",
+    "prompt": "9月6日10:03更新：我现在看到雨已经停了，当前干燥，两条路线都能正常通行。先简单确认收到。"
+  },
+  {
+    "id": "rain_transition_stopped_side",
+    "parent": "rain_transition_stopped_update",
+    "mode": "resume",
+    "prompt": "换个话题，K-pop这个词中的K代表什么？一句话就好。"
+  },
+  {
+    "id": "rain_transition_stopped_apply",
+    "parent": "rain_transition_stopped_side",
+    "mode": "fork",
+    "prompt": "现在10:04，我要从车站去商场，给我当前具体路线。"
+  }
+]

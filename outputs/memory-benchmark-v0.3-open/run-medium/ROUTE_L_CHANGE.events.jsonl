@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0072"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"建议走 Amber，费用最低，只需 2 credits。你一分钟前确认雨已停、当地干燥，因此它虽有 15 分钟无遮蔽步行，仍符合你的要求；若再次下雨，就改走全程有遮蔽、费用为 5 credits 的 Birch。"}}
+{"type":"turn.completed","usage":{"input_tokens":18671,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":69,"reasoning_output_tokens":0}}

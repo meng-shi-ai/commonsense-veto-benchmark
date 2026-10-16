@@ -1,0 +1,14 @@
+{
+  "version": "0.4-friction",
+  "frozen_at": "2026-09-07T03:13:06.901752+00:00",
+  "nodes": 44,
+  "scored_outputs": 14,
+  "scored_initial_plans": 3,
+  "scored_application_branches": 9,
+  "scored_recall_branches": 2,
+  "hashes": {
+    "nodes.json": "95c2f3ea8af9a126b877d941d35f97e75522c85d5027376653ecca40a65c980b",
+    "rubric.json": "35560fc6814852ab01b2d80e5eb624a81389d905860848059bd04e1c5ef2db96"
+  },
+  "validation": "unique IDs, causal ordering, fixed score count passed"
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0085"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"建议走 Birch，费用为 5 credits，全程有遮蔽。你一分钟前确认仍在下雨；Amber 虽然只需 2 credits，但有 15 分钟无遮蔽步行，不符合你雨天的要求。"}}
+{"type":"turn.completed","usage":{"input_tokens":18667,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":57,"reasoning_output_tokens":0}}

@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-09-07T02:49:13.745184+00:00",
+  "requested_model": "gpt-6-astra",
+  "provider_route": "Codex CLI with ChatGPT login",
+  "cli_version": "0.153.4",
+  "condition": "Fresh ephemeral Codex session per case; Codex harness adds instructions. Not a bare API evaluation. No external memory intentionally supplied. Tools prohibited in request; tool events flagged.",
+  "retries": 0,
+  "cases_sha256": "eb70617926aeaa80b53267e3feed3e064d3a4673acc36f649f9b8006ff67fc94",
+  "prompts_sha256": "583b64c15c1df22f4eac808fb746365c67136ba32abc62148fa9cd59d833fbcf",
+  "completed_at": "2026-09-07T02:53:38.619471+00:00",
+  "reasoning_effort": "not explicitly set; effective value unknown",
+  "sampling": "not explicitly set",
+  "resolved_model_snapshot": "not exposed by captured events",
+  "prior_failed_attempt": "gpt-pilot-v0.2-travel: first case failed at local process startup; no model response; retained separately",
+  "completed_turns": 32,
+  "completed_item_types": {
+    "agent_message": 32
+  }
+}

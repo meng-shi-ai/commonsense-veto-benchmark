@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0094"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"现在走A：费用2元，露天步行15分钟。按你10:01看到的情况，仍未下雨，选便宜路线符合你的偏好。"}}
+{"type":"turn.completed","usage":{"input_tokens":15606,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":42,"reasoning_output_tokens":0}}

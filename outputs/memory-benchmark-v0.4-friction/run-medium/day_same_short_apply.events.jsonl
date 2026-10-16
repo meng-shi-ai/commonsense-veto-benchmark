@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0105"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"今天（9月1日）你仍在校园，按原安排：\n\n- 现在至09:00：吃早餐、准备上课。\n- 09:00：上课。\n- 中午：午餐、休息。\n- 下午：处理学习任务，留出前往瑜伽的时间。\n- 16:00：瑜伽。\n- 18:00：健身，结束后晚餐。\n- 20:00–21:00：研究一小时。\n- 之后：放松、准备休息。"}}
+{"type":"turn.completed","usage":{"input_tokens":15618,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":122,"reasoning_output_tokens":0}}

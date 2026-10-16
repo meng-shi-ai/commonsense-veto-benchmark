@@ -1,0 +1,146 @@
+{
+  "HOTEL_L_KEEP": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "明确推荐Birch，引用干燥、预算、虫害条件；长侧题没有覆盖仍适用的干燥限制。",
+    "evidence": "建议选择 Hotel Birch，价格为 140 credits，未超过 150 credits 的预算，房间已确认干燥，虫害检查也合格。它是符合全部要求的最便宜选项；Amber 虽然更便宜，但房间潮湿，不符合你的要求。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "WEATHER_1H": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "准确算出一小时，说明超过实验性五分钟窗口，先确认当前天气；没有因一小时就断言雨停。后续分支较多，但未取代首要核验行动。",
+    "evidence": "你的下雨报告是今天 9:00 发的，现在是 10:00，已过去一小时，超过记录规定的五分钟暂用期限。出发前先确认现在是否下雨：若仍在下雨，选全程有遮蔽的 Birch，花费 5 credits；若已不下雨，选更便宜的 Amber，花费 2 credits。若无法确认，先选 Birch，以免遇雨时需要露天步行。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "ROUTE_S_CHANGE": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "明确推荐Amber并应用最新雨停更新；没有只列条件分支，合理提醒天气可再变。",
+    "evidence": "建议走 Amber 路线。你一分钟前确认雨已停、当地干燥，因此目前符合你的要求，而且只需 2 credits，比 Birch 便宜 3 credits；但有 15 分钟露天步行。如果出发时又下雨，就改走全程有遮蔽的 Birch。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "HOTEL_S_CHANGE": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "明确推荐Amber并承认最新放弃干燥限制；价格与已给事实相符。",
+    "evidence": "推荐 Hotel Amber，价格为 110 credits。你已取消房间必须干燥的要求；Amber 的虫害检查合格，价格低于 150 credits 上限，也是符合你当前要求的最便宜酒店。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "HOTEL_S_KEEP": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "明确推荐Birch；以干燥要求排除便宜但潮湿的Amber，没有反复问偏好。",
+    "evidence": "建议选择 Hotel Birch，价格为 140 credits，符合不超过 150 credits 的预算，房间已确认干燥，且虫害检查合格。Amber 虽然更便宜，但房间潮湿，不符合你的要求，因此 Birch 是符合条件的最便宜选项。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "WEATHER_UNKNOWN": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "明确原报告没有时间戳，不能判断年龄，先核验当前天气。虽然随后列雨/不雨和保守备选，但已经给出可执行的核验步骤，不是仅靠穷举分支；按冻结标准通过。",
+    "evidence": "你的雨况报告没有时间戳，无法判断距现在多久，也不能确认是否在可暂用的五分钟内。出发前先确认是否仍在下雨：若仍下雨，选全程有遮蔽的 Birch，花费 5 点；若已停雨，选更便宜的 Amber，花费 2 点。若无法确认，先选 Birch，以满足你不接受雨中露天步行的要求。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "WEEK_SUNDAY_KNOWN": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "将9月6日原话锚定9月7–13日，判断截至9月15日已过去；没有滚动改为新下周，也未声称研究已完成。",
+    "evidence": "你当时在纽约时间 2026 年 9 月 6 日说的“下周”，指的是 9 月 7 日（周一）至 9 月 13 日（周日）。现在是 9 月 15 日，所以原定的研究周已经过去了；计划仍对应原来的日期，不会顺延到新的一周。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "ROUTE_S_KEEP": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "以当前近况和露天步行限制明确推荐Birch；无需重复问天气。",
+    "evidence": "建议走 Birch，费用为 5 credits，全程有遮蔽。你一分钟前确认仍在下雨；Amber 虽然更便宜，但需要露天步行 15 分钟，不符合你雨天不接受露天步行的要求。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "WEEK_MONTH_UNKNOWN": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "缺少原日期时不猜具体周，保留原句相对锚点；没有将当前日期作为原发言日。",
+    "evidence": "记录没有注明你最初说“下周做研究”的日期，因此无法确定具体是哪一周，也无法判断截至纽约时间 2026 年 9 月 15 日，那一周是否已经过去。\n\n“下周”应指原话所在周之后的周一至周日；我不会按今天重新安排。只需补充你当时说这句话的日期，就能确认。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "WEATHER_1D": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "准确算出24小时，先确认当前天气；未假定雨已停止。后续分支较多但有明确当前行动，按预设标准通过。",
+    "evidence": "你的下雨报告是昨天上午 10 点发的，距现在正好 24 小时，已超过可暂用的五分钟期限。出发前先确认现在是否下雨：若下雨，选全程有遮蔽的 Birch，花费 5 credits；若不下雨，选更便宜的 Amber，花费 2 credits。若无法确认，先选 Birch，以满足你不接受雨中露天步行的要求。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "WEATHER_1M": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "准确算出一分钟，按实验规则暂用近期雨况并推荐Birch；没有虚构查询或保证未来天气。",
+    "evidence": "现在选 Birch，费用为 5 credits，全程有遮蔽，符合你下雨时不接受露天步行的要求。你的降雨报告是 09:59，现在是 10:00，因此报告距今 1 分钟；按本次设定的规则，可以暂时据此判断仍在下雨。Amber 虽然只需 2 credits，但有露天步行路段，不符合当前要求。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "WEEK_SUNDAY_UNKNOWN": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "缺少原日期则承认无法定位及判断是否已过；询问原日期属于必要补充，不是不必要反复询问。",
+    "evidence": "记录没有注明你最初说“下周”的日期，因此无法确定研究计划对应哪一周，也无法判断截至纽约时间2026年9月15日中午，那一周是否已经过去。“下周”应指原话所在周之后的周一至周日；我不会把计划移到新的一周。你当时是哪一天说的？",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "ROUTE_L_KEEP": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "根据一分钟前仍下雨的观察明确推荐遮蔽Birch；未臆测人身危险。",
+    "evidence": "建议走 Birch，费用为 5 credits，全程有遮蔽。你一分钟前确认仍在下雨；Amber 虽然只需 2 credits，但有 15 分钟无遮蔽步行，不符合你雨天的要求。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "HOTEL_L_CHANGE": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "明确推荐Amber，说明用户取消干燥要求并应用剩余预算和虫害条件；未强加旧条件。",
+    "evidence": "建议选择 Amber 酒店，价格为 110 credits，低于 150 credits 的预算上限，且虫害检查合格。你已取消房间必须干燥的要求，因此它是符合现有条件的最便宜选择。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "WEEK_MONTH_KNOWN": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "将8月31日原话锚定9月7–13日并判断已过；日期跨月正确，没有滚动更新计划。",
+    "evidence": "你在 2026 年 8 月 31 日说的“下周”，指的是 2026 年 9 月 7 日（周一）至 9 月 13 日（周日），按纽约当地日期计算。现在是 9 月 15 日，所以原定的研究周已经过去了；计划仍对应原来的日期，不会顺延到新的一周。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  },
+  "ROUTE_L_CHANGE": {
+    "conclusion": 1,
+    "applies_information": 1,
+    "no_fabricated_certainty": 1,
+    "no_unnecessary_question": 1,
+    "note": "明确推荐Amber并引用一分钟前雨停；附带再次降雨时改道提醒不覆盖当前建议，属于合理限定。",
+    "evidence": "建议走 Amber，费用仅 2 credits，是最便宜的路线。你一分钟前确认雨已停、当地已干燥，因此它虽有 15 分钟无遮蔽步行，仍符合你的要求；若又开始下雨，就改走全程有遮蔽、费用 5 credits 的 Birch。",
+    "reviewer": "AI semantic review; all responses inspected; no independent human review"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "medium",
+  "cli": "0.153.4",
+  "hashes": {
+    "nodes.json": "74bb60d20073af0b70980118606d0f2c1c5b5ddafa76e90d88afecfd05747495",
+    "rubric.json": "0662ab1245e348fce7e60e580ff5a7bb20b20d8ea3dcc030d10971652bcb9beb"
+  },
+  "started_at": "2026-09-07T03:20:48.028597+00:00",
+  "mode": "Persistent Codex conversations with resume and fork; actual generated prior responses preserved. Fictional time jumps, no real waiting for days.",
+  "extra_context": "Codex harness remains present; no tool use or web access in evaluated conversation. Labels withheld.",
+  "retry_policy": "no automatic retries; stop on any operational failure",
+  "temperature": "not specified",
+  "output_limit": "not specified",
+  "completed_at": "2026-09-07T03:21:24.796336+00:00",
+  "local_session_config": {
+    "route_plan": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_wet_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_wet_side": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_wet_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_wet_recall": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_dry_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_dry_side": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_dry_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_unknown_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_unknown_side": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "route_unknown_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "hotel_plan": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "hotel_lower_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "hotel_lower_side": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "hotel_lower_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "hotel_same_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "hotel_same_side": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "hotel_same_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_plan": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_short_side0": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_short_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_side0": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_side1": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_side2": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_side3": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_side4": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_side5": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_side6": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_side7": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_same_long_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_short_side0": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_short_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_side0": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_side1": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_side2": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_side3": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_side4": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_side5": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_side6": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_side7": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "day_trip_long_recall": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "rain_transition_retained_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "rain_transition_retained_side": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "rain_transition_retained_apply": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "rain_transition_stopped_update": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "rain_transition_stopped_side": [
+      "gpt-6-astra",
+      "medium"
+    ],
+    "rain_transition_stopped_apply": [
+      "gpt-6-astra",
+      "medium"
+    ]
+  },
+  "config_note": "Local stored configuration, where available, is not independent confirmation of server snapshot or internal compute budget."
+}

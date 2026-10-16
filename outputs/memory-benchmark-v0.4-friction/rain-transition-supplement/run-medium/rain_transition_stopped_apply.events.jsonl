@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0117"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"现在选A路线：从车站露天步行15分钟去商场，费用2元，预计10:19到达。最新情况是雨已停、当前干燥，两条路线都正常通行，选A符合你省钱的偏好。"}}
+{"type":"turn.completed","usage":{"input_tokens":15719,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":62,"reasoning_output_tokens":0}}

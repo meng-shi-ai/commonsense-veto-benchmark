@@ -1,0 +1,1111 @@
+{
+  "reviewer": "AI-assisted semantic review; not independent human validation",
+  "runs": {
+    "medium": {
+      "all": {
+        "n": 16,
+        "returned": 16,
+        "all_pass": 16,
+        "dimensions": {
+          "conclusion": 16,
+          "applies_information": 16,
+          "no_fabricated_certainty": 16,
+          "no_unnecessary_question": 16
+        },
+        "details": [
+          {
+            "id": "HOTEL_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1M",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1H",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1D",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_SUNDAY_KNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_SUNDAY_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_MONTH_KNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_MONTH_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "length_update": {
+        "n": 8,
+        "returned": 8,
+        "all_pass": 8,
+        "dimensions": {
+          "conclusion": 8,
+          "applies_information": 8,
+          "no_fabricated_certainty": 8,
+          "no_unnecessary_question": 8
+        },
+        "details": [
+          {
+            "id": "HOTEL_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "weather_time": {
+        "n": 4,
+        "returned": 4,
+        "all_pass": 4,
+        "dimensions": {
+          "conclusion": 4,
+          "applies_information": 4,
+          "no_fabricated_certainty": 4,
+          "no_unnecessary_question": 4
+        },
+        "details": [
+          {
+            "id": "WEATHER_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1M",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1H",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1D",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "relative_week": {
+        "n": 4,
+        "returned": 4,
+        "all_pass": 4,
+        "dimensions": {
+          "conclusion": 4,
+          "applies_information": 4,
+          "no_fabricated_certainty": 4,
+          "no_unnecessary_question": 4
+        },
+        "details": [
+          {
+            "id": "WEEK_SUNDAY_KNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_SUNDAY_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_MONTH_KNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_MONTH_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "short_retained": {
+        "n": 2,
+        "returned": 2,
+        "all_pass": 2,
+        "dimensions": {
+          "conclusion": 2,
+          "applies_information": 2,
+          "no_fabricated_certainty": 2,
+          "no_unnecessary_question": 2
+        },
+        "details": [
+          {
+            "id": "HOTEL_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "short_changed": {
+        "n": 2,
+        "returned": 2,
+        "all_pass": 2,
+        "dimensions": {
+          "conclusion": 2,
+          "applies_information": 2,
+          "no_fabricated_certainty": 2,
+          "no_unnecessary_question": 2
+        },
+        "details": [
+          {
+            "id": "HOTEL_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "long_retained": {
+        "n": 2,
+        "returned": 2,
+        "all_pass": 2,
+        "dimensions": {
+          "conclusion": 2,
+          "applies_information": 2,
+          "no_fabricated_certainty": 2,
+          "no_unnecessary_question": 2
+        },
+        "details": [
+          {
+            "id": "HOTEL_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "long_changed": {
+        "n": 2,
+        "returned": 2,
+        "all_pass": 2,
+        "dimensions": {
+          "conclusion": 2,
+          "applies_information": 2,
+          "no_fabricated_certainty": 2,
+          "no_unnecessary_question": 2
+        },
+        "details": [
+          {
+            "id": "HOTEL_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "usage": {
+        "total_seconds": 128.331,
+        "median_seconds": 7.855,
+        "input_tokens": 255034,
+        "output_tokens": 1280,
+        "reasoning_output_tokens": 0
+      }
+    },
+    "high": {
+      "all": {
+        "n": 16,
+        "returned": 16,
+        "all_pass": 16,
+        "dimensions": {
+          "conclusion": 16,
+          "applies_information": 16,
+          "no_fabricated_certainty": 16,
+          "no_unnecessary_question": 16
+        },
+        "details": [
+          {
+            "id": "HOTEL_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1M",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1H",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1D",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_SUNDAY_KNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_SUNDAY_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_MONTH_KNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_MONTH_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "length_update": {
+        "n": 8,
+        "returned": 8,
+        "all_pass": 8,
+        "dimensions": {
+          "conclusion": 8,
+          "applies_information": 8,
+          "no_fabricated_certainty": 8,
+          "no_unnecessary_question": 8
+        },
+        "details": [
+          {
+            "id": "HOTEL_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "HOTEL_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "weather_time": {
+        "n": 4,
+        "returned": 4,
+        "all_pass": 4,
+        "dimensions": {
+          "conclusion": 4,
+          "applies_information": 4,
+          "no_fabricated_certainty": 4,
+          "no_unnecessary_question": 4
+        },
+        "details": [
+          {
+            "id": "WEATHER_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1M",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1H",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEATHER_1D",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "relative_week": {
+        "n": 4,
+        "returned": 4,
+        "all_pass": 4,
+        "dimensions": {
+          "conclusion": 4,
+          "applies_information": 4,
+          "no_fabricated_certainty": 4,
+          "no_unnecessary_question": 4
+        },
+        "details": [
+          {
+            "id": "WEEK_SUNDAY_KNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_SUNDAY_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_MONTH_KNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "WEEK_MONTH_UNKNOWN",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "short_retained": {
+        "n": 2,
+        "returned": 2,
+        "all_pass": 2,
+        "dimensions": {
+          "conclusion": 2,
+          "applies_information": 2,
+          "no_fabricated_certainty": 2,
+          "no_unnecessary_question": 2
+        },
+        "details": [
+          {
+            "id": "HOTEL_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "short_changed": {
+        "n": 2,
+        "returned": 2,
+        "all_pass": 2,
+        "dimensions": {
+          "conclusion": 2,
+          "applies_information": 2,
+          "no_fabricated_certainty": 2,
+          "no_unnecessary_question": 2
+        },
+        "details": [
+          {
+            "id": "HOTEL_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_S_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "long_retained": {
+        "n": 2,
+        "returned": 2,
+        "all_pass": 2,
+        "dimensions": {
+          "conclusion": 2,
+          "applies_information": 2,
+          "no_fabricated_certainty": 2,
+          "no_unnecessary_question": 2
+        },
+        "details": [
+          {
+            "id": "HOTEL_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_KEEP",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "long_changed": {
+        "n": 2,
+        "returned": 2,
+        "all_pass": 2,
+        "dimensions": {
+          "conclusion": 2,
+          "applies_information": 2,
+          "no_fabricated_certainty": 2,
+          "no_unnecessary_question": 2
+        },
+        "details": [
+          {
+            "id": "HOTEL_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          },
+          {
+            "id": "ROUTE_L_CHANGE",
+            "pass": true,
+            "dimensions": {
+              "conclusion": 1,
+              "applies_information": 1,
+              "no_fabricated_certainty": 1,
+              "no_unnecessary_question": 1
+            },
+            "error": null
+          }
+        ]
+      },
+      "usage": {
+        "total_seconds": 133.022,
+        "median_seconds": 8.191,
+        "input_tokens": 255034,
+        "output_tokens": 1470,
+        "reasoning_output_tokens": 202
+      }
+    }
+  }
+}

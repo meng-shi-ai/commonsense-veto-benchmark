@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0060"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"推荐选择 Amber 酒店，价格为 110 credits。你已取消房间必须干燥的要求；Amber 在 150 credits 的预算内，当前虫害检查合格，且比 140 credits 的 Birch 更便宜，因此是符合你最新要求的最便宜选择。"}}
+{"type":"turn.completed","usage":{"input_tokens":15109,"cached_input_tokens":6400,"cache_write_input_tokens":0,"output_tokens":66,"reasoning_output_tokens":0}}

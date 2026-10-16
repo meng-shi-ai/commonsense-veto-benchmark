@@ -1,0 +1,83 @@
+[
+  {
+    "id": "C012",
+    "prediction": {
+      "decision": "clarify",
+      "value": null,
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "gold": {
+      "id": "C012",
+      "pair_id": "P06",
+      "family": "suggestion_vs_commitment",
+      "split": "pilot",
+      "variant": 1,
+      "value": null,
+      "decision": "clarify",
+      "evidence_sets": [
+        [
+          "E1",
+          "E2"
+        ]
+      ],
+      "annotation_note": "Interest does not settle whether a purchase has occurred."
+    },
+    "state_correct": true
+  },
+  {
+    "id": "C010",
+    "prediction": {
+      "decision": "clarify",
+      "value": null,
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "gold": {
+      "id": "C010",
+      "pair_id": "P05",
+      "family": "suggestion_vs_commitment",
+      "split": "dev",
+      "variant": 1,
+      "value": null,
+      "decision": "clarify",
+      "evidence_sets": [
+        [
+          "E1",
+          "E2"
+        ]
+      ],
+      "annotation_note": "A recommendation and consideration do not establish registration or non-registration."
+    },
+    "state_correct": true
+  },
+  {
+    "id": "C008",
+    "prediction": {
+      "decision": "clarify",
+      "value": null,
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "gold": {
+      "id": "C008",
+      "pair_id": "P04",
+      "family": "durable_vs_temporary",
+      "split": "pilot",
+      "variant": 1,
+      "value": null,
+      "decision": "clarify",
+      "evidence_sets": [
+        [
+          "E1",
+          "E2"
+        ]
+      ],
+      "annotation_note": "A workshop-only focus cannot establish a later continuing focus."
+    },
+    "state_correct": true
+  }
+]

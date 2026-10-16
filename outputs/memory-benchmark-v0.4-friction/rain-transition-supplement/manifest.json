@@ -1,0 +1,9 @@
+{
+  "version": "0.4-rain-transition-supplement",
+  "frozen_at": "2026-09-07T03:20:31.099082+00:00",
+  "shared_parent": "route_wet_side from original completed v0.4 prefix",
+  "hashes": {
+    "nodes.json": "74bb60d20073af0b70980118606d0f2c1c5b5ddafa76e90d88afecfd05747495",
+    "rubric.json": "0662ab1245e348fce7e60e580ff5a7bb20b20d8ea3dcc030d10971652bcb9beb"
+  }
+}

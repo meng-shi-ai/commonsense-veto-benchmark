@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0061"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"推荐 Hotel Birch，价格为 140 credits，未超过 150 credits 的预算，房间已确认干燥，且当前虫害检查合格。它是符合你全部要求的最便宜酒店；Amber 虽然更便宜，但房间潮湿，不符合要求。"}}
+{"type":"turn.completed","usage":{"input_tokens":15102,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":66,"reasoning_output_tokens":0}}

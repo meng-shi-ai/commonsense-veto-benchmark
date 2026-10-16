@@ -1,0 +1,10 @@
+{
+  "started_at": "2026-09-07T02:25:13.582545+00:00",
+  "requested_model": "gpt-6-astra",
+  "provider_route": "Codex CLI with ChatGPT login",
+  "cli_version": "0.153.4",
+  "condition": "Fresh ephemeral Codex session per case; Codex harness adds instructions. Not a bare API evaluation. No external memory intentionally supplied. Tools prohibited in request; tool events flagged.",
+  "retries": 0,
+  "cases_sha256": "d2d8d5e6cc75cad2472d64bf75854757982ff903000049e02311bf7badce0e28",
+  "prompts_sha256": "f0b3475ba22843f96d329a82231bebabc1c66416bd6caf6ccb6abe879cf65645"
+}

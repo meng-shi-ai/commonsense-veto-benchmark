@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0076"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"推荐 Hotel Amber，价格为 110 credits。你已取消房间必须干燥的要求；Amber 的虫害检查合格，价格低于 150 credits 上限，也是符合你当前要求的最便宜酒店。"}}
+{"type":"turn.completed","usage":{"input_tokens":15109,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":53,"reasoning_output_tokens":0}}

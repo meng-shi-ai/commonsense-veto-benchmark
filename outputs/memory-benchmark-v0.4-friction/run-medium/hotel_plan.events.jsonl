@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0097"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"初始计划选B酒店：140元，预算内，房间干燥且虫害检查合格，又位于中央，符合优先偏好。D酒店作为备选；E酒店因已确认潮湿而排除。"}}
+{"type":"turn.completed","usage":{"input_tokens":15401,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":56,"reasoning_output_tokens":0}}

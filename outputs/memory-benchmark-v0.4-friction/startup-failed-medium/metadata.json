@@ -1,0 +1,15 @@
+{
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "medium",
+  "cli": "0.153.4",
+  "hashes": {
+    "nodes.json": "95c2f3ea8af9a126b877d941d35f97e75522c85d5027376653ecca40a65c980b",
+    "rubric.json": "35560fc6814852ab01b2d80e5eb624a81389d905860848059bd04e1c5ef2db96"
+  },
+  "started_at": "2026-09-07T03:13:52.716246+00:00",
+  "mode": "Persistent Codex conversations with resume and fork; actual generated prior responses preserved. Fictional time jumps, no real waiting for days.",
+  "extra_context": "Codex harness remains present; no tool use or web access in evaluated conversation. Labels withheld.",
+  "retry_policy": "no automatic retries; stop on any operational failure",
+  "temperature": "not specified",
+  "output_limit": "not specified"
+}

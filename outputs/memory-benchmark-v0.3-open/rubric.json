@@ -1,0 +1,173 @@
+{
+  "frozen_before_run": true,
+  "dimensions": [
+    "conclusion",
+    "applies_information",
+    "no_fabricated_certainty",
+    "no_unnecessary_question"
+  ],
+  "coding": "Each dimension is 1 (pass), 0 (fail), or null only for missing model output; primary all-pass requires all four 1. Semantic assessment, no exact-word matching. Missing/operational failures count as non-pass in denominator. AI-assisted review, not independent human annotation.",
+  "paired_unknown_dates": "Two undated-week prompts are identical replications; do not treat them as independent evidence.",
+  "items": [
+    {
+      "id": "HOTEL_S_KEEP",
+      "expected": "Birch",
+      "requirements": [
+        "Select Birch as the primary recommendation.",
+        "Apply the latest dry-room preference and affordability.",
+        "Do not merely list if/else alternatives or ask the user to repeat an explicit preference.",
+        "Do not invent property facts or claim a real-world safety guarantee."
+      ]
+    },
+    {
+      "id": "HOTEL_S_CHANGE",
+      "expected": "Amber",
+      "requirements": [
+        "Select Amber as the primary recommendation.",
+        "Apply the latest dry-room preference and affordability.",
+        "Do not merely list if/else alternatives or ask the user to repeat an explicit preference.",
+        "Do not invent property facts or claim a real-world safety guarantee."
+      ]
+    },
+    {
+      "id": "HOTEL_L_KEEP",
+      "expected": "Birch",
+      "requirements": [
+        "Select Birch as the primary recommendation.",
+        "Apply the latest dry-room preference and affordability.",
+        "Do not merely list if/else alternatives or ask the user to repeat an explicit preference.",
+        "Do not invent property facts or claim a real-world safety guarantee."
+      ]
+    },
+    {
+      "id": "HOTEL_L_CHANGE",
+      "expected": "Amber",
+      "requirements": [
+        "Select Amber as the primary recommendation.",
+        "Apply the latest dry-room preference and affordability.",
+        "Do not merely list if/else alternatives or ask the user to repeat an explicit preference.",
+        "Do not invent property facts or claim a real-world safety guarantee."
+      ]
+    },
+    {
+      "id": "ROUTE_S_KEEP",
+      "expected": "Birch",
+      "requirements": [
+        "Select Birch as the primary recommendation.",
+        "Use the latest weather observation and the rain-exposure preference.",
+        "Do not replace a recommendation with exhaustive if/else branches or an unnecessary weather question.",
+        "Do not infer personal-security risk from rain or passengers."
+      ]
+    },
+    {
+      "id": "ROUTE_S_CHANGE",
+      "expected": "Amber",
+      "requirements": [
+        "Select Amber as the primary recommendation.",
+        "Use the latest weather observation and the rain-exposure preference.",
+        "Do not replace a recommendation with exhaustive if/else branches or an unnecessary weather question.",
+        "Do not infer personal-security risk from rain or passengers."
+      ]
+    },
+    {
+      "id": "ROUTE_L_KEEP",
+      "expected": "Birch",
+      "requirements": [
+        "Select Birch as the primary recommendation.",
+        "Use the latest weather observation and the rain-exposure preference.",
+        "Do not replace a recommendation with exhaustive if/else branches or an unnecessary weather question.",
+        "Do not infer personal-security risk from rain or passengers."
+      ]
+    },
+    {
+      "id": "ROUTE_L_CHANGE",
+      "expected": "Amber",
+      "requirements": [
+        "Select Amber as the primary recommendation.",
+        "Use the latest weather observation and the rain-exposure preference.",
+        "Do not replace a recommendation with exhaustive if/else branches or an unnecessary weather question.",
+        "Do not infer personal-security risk from rain or passengers."
+      ]
+    },
+    {
+      "id": "WEATHER_UNKNOWN",
+      "expected": "verify current weather",
+      "requirements": [
+        "Compute unknown, do not invent a duration.",
+        "For fresh report, recommend sheltered Birch provisionally without pretending future weather is guaranteed; for other reports, request a current check (or decline an unconditional choice and choose sheltered Birch explicitly as a conservative fallback).",
+        "Do not infer that rain stopped from age; do not claim to have checked weather.",
+        "Avoid unhelpful exhaustive conditional lists. One targeted check is appropriate when information is missing."
+      ]
+    },
+    {
+      "id": "WEATHER_1M",
+      "expected": "provisional Birch",
+      "requirements": [
+        "Compute one minute.",
+        "For fresh report, recommend sheltered Birch provisionally without pretending future weather is guaranteed; for other reports, request a current check (or decline an unconditional choice and choose sheltered Birch explicitly as a conservative fallback).",
+        "Do not infer that rain stopped from age; do not claim to have checked weather.",
+        "Avoid unhelpful exhaustive conditional lists. One targeted check is appropriate when information is missing."
+      ]
+    },
+    {
+      "id": "WEATHER_1H",
+      "expected": "verify current weather",
+      "requirements": [
+        "Compute one hour.",
+        "For fresh report, recommend sheltered Birch provisionally without pretending future weather is guaranteed; for other reports, request a current check (or decline an unconditional choice and choose sheltered Birch explicitly as a conservative fallback).",
+        "Do not infer that rain stopped from age; do not claim to have checked weather.",
+        "Avoid unhelpful exhaustive conditional lists. One targeted check is appropriate when information is missing."
+      ]
+    },
+    {
+      "id": "WEATHER_1D",
+      "expected": "verify current weather",
+      "requirements": [
+        "Compute one day / 24 hours.",
+        "For fresh report, recommend sheltered Birch provisionally without pretending future weather is guaranteed; for other reports, request a current check (or decline an unconditional choice and choose sheltered Birch explicitly as a conservative fallback).",
+        "Do not infer that rain stopped from age; do not claim to have checked weather.",
+        "Avoid unhelpful exhaustive conditional lists. One targeted check is appropriate when information is missing."
+      ]
+    },
+    {
+      "id": "WEEK_SUNDAY_KNOWN",
+      "expected": "2026-09-07 to 2026-09-13",
+      "requirements": [
+        "When original date is known, give inclusive dates September 7–13, 2026 and correctly say the week has passed; do not infer the work was completed.",
+        "When original date is unavailable, explain that the original week and whether it passed cannot be determined; ask for the date if needed.",
+        "Do not anchor the original next week to current September 15.",
+        "No arbitrary completion claims or fabricated original dates."
+      ]
+    },
+    {
+      "id": "WEEK_SUNDAY_UNKNOWN",
+      "expected": "cannot locate original week",
+      "requirements": [
+        "When original date is known, give inclusive dates September 7–13, 2026 and correctly say the week has passed; do not infer the work was completed.",
+        "When original date is unavailable, explain that the original week and whether it passed cannot be determined; ask for the date if needed.",
+        "Do not anchor the original next week to current September 15.",
+        "No arbitrary completion claims or fabricated original dates."
+      ]
+    },
+    {
+      "id": "WEEK_MONTH_KNOWN",
+      "expected": "2026-09-07 to 2026-09-13",
+      "requirements": [
+        "When original date is known, give inclusive dates September 7–13, 2026 and correctly say the week has passed; do not infer the work was completed.",
+        "When original date is unavailable, explain that the original week and whether it passed cannot be determined; ask for the date if needed.",
+        "Do not anchor the original next week to current September 15.",
+        "No arbitrary completion claims or fabricated original dates."
+      ]
+    },
+    {
+      "id": "WEEK_MONTH_UNKNOWN",
+      "expected": "cannot locate original week",
+      "requirements": [
+        "When original date is known, give inclusive dates September 7–13, 2026 and correctly say the week has passed; do not infer the work was completed.",
+        "When original date is unavailable, explain that the original week and whether it passed cannot be determined; ask for the date if needed.",
+        "Do not anchor the original next week to current September 15.",
+        "No arbitrary completion claims or fabricated original dates."
+      ]
+    }
+  ]
+}

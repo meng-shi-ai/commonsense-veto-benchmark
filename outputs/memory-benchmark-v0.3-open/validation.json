@@ -1,0 +1,12 @@
+{
+  "case_count": 16,
+  "main_factorial_cases": 8,
+  "time_cases": 8,
+  "main_long_extra_turns": 78,
+  "main_latest_update_age_seconds": 60,
+  "pairs_change_one_event": true,
+  "labels_excluded_from_prompts": true,
+  "date_unknown_duplicate_replicates": 2,
+  "checks": "passed",
+  "kind": "dataset structure checks, not model results"
+}

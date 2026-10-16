@@ -1,0 +1,266 @@
+[
+  {
+    "id": "route_plan",
+    "parent": null,
+    "mode": "new",
+    "prompt": "这是虚构旅行对话测试。只根据消息中给出的模拟事实，用简短中文自然语言回答。不要使用工具、联网、读文件或执行真实外部动作。后续消息给出的日期是情境日期，并非电脑时间。\n模拟时间9月6日10:00，America/New_York。我在虚构车站去虚构商场：A费用2元，露天走15分钟；B费用5元，全程遮蔽。两条路线目前都正常运行，没有谁的人身安全更好的资料。当前不下雨，我愿多付3元避免淋雨，否则选便宜路线。先给我现在的计划。"
+  },
+  {
+    "id": "route_wet_update",
+    "parent": "route_plan",
+    "mode": "fork",
+    "prompt": "10:01更新：我现在看到正在下雨，两条路线仍正常运行。先记住这个情况，一句回应就好。"
+  },
+  {
+    "id": "route_wet_side",
+    "parent": "route_wet_update",
+    "mode": "resume",
+    "prompt": "聊个别的：日语里“韩语”怎么说？我听K-pop的时候突然想到这个。简单说就好。"
+  },
+  {
+    "id": "route_wet_apply",
+    "parent": "route_wet_side",
+    "mode": "fork",
+    "prompt": "现在10:02，我准备出发了，给我直接可执行的路线建议。"
+  },
+  {
+    "id": "route_wet_recall",
+    "parent": "route_wet_side",
+    "mode": "fork",
+    "prompt": "此刻我最后报告的天气是什么？我之前是否愿意多付钱避雨？这里只回忆，不给路线建议。"
+  },
+  {
+    "id": "route_dry_update",
+    "parent": "route_plan",
+    "mode": "fork",
+    "prompt": "10:01更新：我现在看到仍没有下雨，两条路线仍正常运行。先记住这个情况，一句回应就好。"
+  },
+  {
+    "id": "route_dry_side",
+    "parent": "route_dry_update",
+    "mode": "resume",
+    "prompt": "聊个别的：日语里“韩语”怎么说？我听K-pop的时候突然想到这个。简单说就好。"
+  },
+  {
+    "id": "route_dry_apply",
+    "parent": "route_dry_side",
+    "mode": "fork",
+    "prompt": "现在10:02，我准备出发了，给我直接可执行的路线建议。"
+  },
+  {
+    "id": "route_unknown_update",
+    "parent": "route_plan",
+    "mode": "fork",
+    "prompt": "现在已经9月7日10:01。昨天10:01我看到下雨，但现在的天气不知道。两条路线仍正常运行。先记住这个情况，一句回应就好。"
+  },
+  {
+    "id": "route_unknown_side",
+    "parent": "route_unknown_update",
+    "mode": "resume",
+    "prompt": "聊个别的：日语里“韩语”怎么说？我听K-pop的时候突然想到这个。简单说就好。"
+  },
+  {
+    "id": "route_unknown_apply",
+    "parent": "route_unknown_side",
+    "mode": "fork",
+    "prompt": "现在10:02，我准备出发了，给我直接可执行的路线建议。"
+  },
+  {
+    "id": "hotel_plan",
+    "parent": null,
+    "mode": "new",
+    "prompt": "这是虚构旅行对话测试。只根据消息中给出的模拟事实，用简短中文自然语言回答。不要使用工具、联网、读文件或执行真实外部动作。后续消息给出的日期是情境日期，并非电脑时间。\n9月6日10:00，我必须住干燥、虫害检查合格的房间，预算150。B酒店140元，中央位置；D酒店115元，离中心20分钟；E酒店110元，中央位置但已确认潮湿。B和D都干燥，三家当前虫害检查均合格。在满足硬条件的酒店中优先中央位置。请给初始计划。"
+  },
+  {
+    "id": "hotel_lower_update",
+    "parent": "hotel_plan",
+    "mode": "fork",
+    "prompt": "10:01，我的预算刚降到120元，干燥和虫害要求不变。其他酒店资料没变化。先简单确认收到。"
+  },
+  {
+    "id": "hotel_lower_side",
+    "parent": "hotel_lower_update",
+    "mode": "resume",
+    "prompt": "先说个日语单词：法语怎么说？"
+  },
+  {
+    "id": "hotel_lower_apply",
+    "parent": "hotel_lower_side",
+    "mode": "fork",
+    "prompt": "10:02，回到订房，我现在该选哪家？给我具体建议。"
+  },
+  {
+    "id": "hotel_same_update",
+    "parent": "hotel_plan",
+    "mode": "fork",
+    "prompt": "10:01，我的预算仍为150元，干燥和虫害要求不变。其他酒店资料没变化。先简单确认收到。"
+  },
+  {
+    "id": "hotel_same_side",
+    "parent": "hotel_same_update",
+    "mode": "resume",
+    "prompt": "先说个日语单词：法语怎么说？"
+  },
+  {
+    "id": "hotel_same_apply",
+    "parent": "hotel_same_side",
+    "mode": "fork",
+    "prompt": "10:02，回到订房，我现在该选哪家？给我具体建议。"
+  },
+  {
+    "id": "day_plan",
+    "parent": null,
+    "mode": "new",
+    "prompt": "这是虚构旅行对话测试。只根据消息中给出的模拟事实，用简短中文自然语言回答。不要使用工具、联网、读文件或执行真实外部动作。后续消息给出的日期是情境日期，并非电脑时间。\n情境时间2026年9月1日周二08:00，America/New_York。我今天在虚构校园，今天09:00上课，16:00瑜伽，18:00健身；这些是今天的安排。我长期偏好每天留一小时研究时间，直到我另说。给我今天简短计划，研究放在其他时间。"
+  },
+  {
+    "id": "day_same_update",
+    "parent": "day_plan",
+    "mode": "fork",
+    "prompt": "现在仍是2026年9月1日08:01，我仍在校园。刚才今日安排没有更改。先简短确认即可。"
+  },
+  {
+    "id": "day_same_short_side0",
+    "parent": "day_same_update",
+    "mode": "fork",
+    "prompt": "日语“英国人”怎么读？只说读法。"
+  },
+  {
+    "id": "day_same_short_apply",
+    "parent": "day_same_short_side0",
+    "mode": "fork",
+    "prompt": "现在08:02，结合之前聊过的内容，给我今天上午到晚上的简短行动安排。"
+  },
+  {
+    "id": "day_same_long_side0",
+    "parent": "day_same_update",
+    "mode": "fork",
+    "prompt": "日语“英国人”怎么读？只说读法。"
+  },
+  {
+    "id": "day_same_long_side1",
+    "parent": "day_same_long_side0",
+    "mode": "resume",
+    "prompt": "K-pop是音乐类型吗？一句解释。"
+  },
+  {
+    "id": "day_same_long_side2",
+    "parent": "day_same_long_side1",
+    "mode": "resume",
+    "prompt": "日语“生物学”怎么读？"
+  },
+  {
+    "id": "day_same_long_side3",
+    "parent": "day_same_long_side2",
+    "mode": "resume",
+    "prompt": "日语“日本文学”怎么读？"
+  },
+  {
+    "id": "day_same_long_side4",
+    "parent": "day_same_long_side3",
+    "mode": "resume",
+    "prompt": "我准备带蓝色笔记本，不用替我买。"
+  },
+  {
+    "id": "day_same_long_side5",
+    "parent": "day_same_long_side4",
+    "mode": "resume",
+    "prompt": "拍旅行照片时横构图适合什么？一句建议。"
+  },
+  {
+    "id": "day_same_long_side6",
+    "parent": "day_same_long_side5",
+    "mode": "resume",
+    "prompt": "日语“德语”怎么说？"
+  },
+  {
+    "id": "day_same_long_side7",
+    "parent": "day_same_long_side6",
+    "mode": "resume",
+    "prompt": "听歌时我喜欢安静一点的音量。"
+  },
+  {
+    "id": "day_same_long_apply",
+    "parent": "day_same_long_side7",
+    "mode": "fork",
+    "prompt": "现在08:02，结合之前聊过的内容，给我今天上午到晚上的简短行动安排。"
+  },
+  {
+    "id": "day_trip_update",
+    "parent": "day_plan",
+    "mode": "fork",
+    "prompt": "现在是2026年9月8日08:01，我已在迈阿密度秋假，只是临时旅行，不是搬家。今天尚无固定活动。先简短确认即可。"
+  },
+  {
+    "id": "day_trip_short_side0",
+    "parent": "day_trip_update",
+    "mode": "fork",
+    "prompt": "日语“英国人”怎么读？只说读法。"
+  },
+  {
+    "id": "day_trip_short_apply",
+    "parent": "day_trip_short_side0",
+    "mode": "fork",
+    "prompt": "现在08:02，结合之前聊过的内容，给我今天上午到晚上的简短行动安排。"
+  },
+  {
+    "id": "day_trip_long_side0",
+    "parent": "day_trip_update",
+    "mode": "fork",
+    "prompt": "日语“英国人”怎么读？只说读法。"
+  },
+  {
+    "id": "day_trip_long_side1",
+    "parent": "day_trip_long_side0",
+    "mode": "resume",
+    "prompt": "K-pop是音乐类型吗？一句解释。"
+  },
+  {
+    "id": "day_trip_long_side2",
+    "parent": "day_trip_long_side1",
+    "mode": "resume",
+    "prompt": "日语“生物学”怎么读？"
+  },
+  {
+    "id": "day_trip_long_side3",
+    "parent": "day_trip_long_side2",
+    "mode": "resume",
+    "prompt": "日语“日本文学”怎么读？"
+  },
+  {
+    "id": "day_trip_long_side4",
+    "parent": "day_trip_long_side3",
+    "mode": "resume",
+    "prompt": "我准备带蓝色笔记本，不用替我买。"
+  },
+  {
+    "id": "day_trip_long_side5",
+    "parent": "day_trip_long_side4",
+    "mode": "resume",
+    "prompt": "拍旅行照片时横构图适合什么？一句建议。"
+  },
+  {
+    "id": "day_trip_long_side6",
+    "parent": "day_trip_long_side5",
+    "mode": "resume",
+    "prompt": "日语“德语”怎么说？"
+  },
+  {
+    "id": "day_trip_long_side7",
+    "parent": "day_trip_long_side6",
+    "mode": "resume",
+    "prompt": "听歌时我喜欢安静一点的音量。"
+  },
+  {
+    "id": "day_trip_long_apply",
+    "parent": "day_trip_long_side7",
+    "mode": "fork",
+    "prompt": "现在08:02，结合之前聊过的内容，给我今天上午到晚上的简短行动安排。"
+  },
+  {
+    "id": "day_trip_long_recall",
+    "parent": "day_trip_long_side7",
+    "mode": "fork",
+    "prompt": "只回忆，不作计划：现在我在哪里？之前的上课瑜伽健身是哪一天的安排？有什么明确长期偏好？"
+  }
+]

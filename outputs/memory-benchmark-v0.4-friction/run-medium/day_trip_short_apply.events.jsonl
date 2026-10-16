@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0110"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"今天在迈阿密度秋假，没有固定活动，可以这样安排：\n\n- 08:02–09:00：早餐，慢慢开始一天。\n- 09:00–10:00：研究，保留每天一小时的习惯。\n- 10:00–12:00：散步、随意逛逛。\n- 12:00–14:00：午餐、休息。\n- 14:00–17:00：自由游玩。\n- 17:00–19:00：晚餐、放松。\n- 19:00以后：自由安排，早点休息。"}}
+{"type":"turn.completed","usage":{"input_tokens":15654,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":137,"reasoning_output_tokens":0}}

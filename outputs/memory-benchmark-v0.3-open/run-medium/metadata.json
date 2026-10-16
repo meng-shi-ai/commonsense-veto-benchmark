@@ -1,0 +1,20 @@
+{
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning_effort": "medium",
+  "effort_config_key": "model_reasoning_effort",
+  "effective_server_effort": "not independently exposed in captured JSON events",
+  "resolved_snapshot": "not exposed",
+  "cli_version": "0.153.4",
+  "hashes": {
+    "cases.jsonl": "fd08f8601784b408db46ca35088b2150ce6a8af47943ac60e637fcc455e627f5",
+    "prompts.jsonl": "11ae6956fee74d8202b4d20d24861dcf05a5bc2879da45ac6855ba6e8f48e0ee",
+    "rubric.json": "21b3a359d2cb6166a059960f6020c9a7e01c1a45b7955fd41ad6f1ccbcf5cb16"
+  },
+  "started_at": "2026-09-07T03:03:17.721500+00:00",
+  "automatic_retries": 0,
+  "context": "Each case is a fresh ephemeral Codex session containing a replayed conversation record; not live turn-by-turn interaction. Extra Codex harness instructions present. No tool use allowed. No labels supplied.",
+  "temperature": "not set",
+  "max_output_tokens": "not set",
+  "order": "same seeded order in both effort runs; all medium then all high",
+  "completed_at": "2026-09-07T03:05:26.059670+00:00"
+}

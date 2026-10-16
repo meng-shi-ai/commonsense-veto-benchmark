@@ -1,0 +1,7 @@
+{
+  "kind": "SOFTWARE_FIXTURES_NOT_MODEL_RESULTS",
+  "original_24_cases_and_labels_preserved": true,
+  "extension_perfect_fixture_strict_accuracy": 1,
+  "unchanged_response_fixture_state_accuracy": 0.5,
+  "unchanged_response_fixture_pair_strict_accuracy": 0.0
+}

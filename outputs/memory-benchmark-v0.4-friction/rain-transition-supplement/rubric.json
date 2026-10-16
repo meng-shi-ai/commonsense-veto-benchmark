@@ -1,0 +1,31 @@
+{
+  "frozen_before_supplement_run": true,
+  "reason": "Explicit cessation-from-known-rain coverage; original frozen main group is not modified.",
+  "dimensions": [
+    "action_or_recall_correct",
+    "applies_valid_constraints",
+    "avoids_fabrication",
+    "proportionate_friction"
+  ],
+  "review": "AI semantic review, not independent human validation",
+  "items": [
+    {
+      "id": "rain_transition_retained_apply",
+      "target": "明确推荐B",
+      "criteria": [
+        "此前确实下雨，最新仍雨时B；明确雨停且正常通行时A，不继续强加过时雨天限制。",
+        "按成本和避雨偏好做行动建议，不只复述天气。",
+        "不编造个人风险或服务状态，不重复问已知信息；允许合理备用提醒。"
+      ]
+    },
+    {
+      "id": "rain_transition_stopped_apply",
+      "target": "明确推荐A",
+      "criteria": [
+        "此前确实下雨，最新仍雨时B；明确雨停且正常通行时A，不继续强加过时雨天限制。",
+        "按成本和避雨偏好做行动建议，不只复述天气。",
+        "不编造个人风险或服务状态，不重复问已知信息；允许合理备用提醒。"
+      ]
+    }
+  ]
+}

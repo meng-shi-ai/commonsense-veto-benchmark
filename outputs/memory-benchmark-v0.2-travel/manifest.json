@@ -1,0 +1,30 @@
+{
+  "version": "0.2-travel",
+  "original_cases": 24,
+  "added_cases": 8,
+  "added_pairs": 4,
+  "actual_models_evaluated_on_extension": [
+    {
+      "requested_model": "gpt-6-astra",
+      "route": "Codex CLI / ChatGPT login",
+      "result_directory": "../gpt-pilot-v0.2-travel-run02",
+      "reasoning_effort": "default; effective value unknown"
+    }
+  ],
+  "source": "User-reported experience inspired synthetic scenarios; not recovered Gemini conversations.",
+  "files": {
+    "extension_cases.jsonl": "e08047953849962f4bfbe436e3f5024b7621ec274afe2482319a671490728af3",
+    "benchmark.py": "317f9b387b68b5f8c150474c040b22582bfbe268be684c6991f17fbddb7092c8",
+    "prompts.jsonl": "583b64c15c1df22f4eac808fb746365c67136ba32abc62148fa9cd59d833fbcf",
+    "software_fixture_report.json": "011882fc92f5568fe6285fa0d8a752e2e46bd16aa0412c565e0c5e19876ee803",
+    "extension_fixture_checks.json": "1c08378705f59b1ea56fd0c055d55909fe10cec848f9932fb0539d149e42c4f7",
+    "build_travel_extension.py": "9aca2dcdf2f64fec3cf44094f37c0f4f1411cf7812633e95e38f09076538b6f2",
+    "cases.jsonl": "eb70617926aeaa80b53267e3feed3e064d3a4673acc36f649f9b8006ff67fc94",
+    "gold.jsonl": "55ed0132a4355d00b3cbd49abb03fb882cc87296a12a44419981257f10e15e2b",
+    "validation.txt": "100444762c536b1e8656ed48f2031ec0e792ee915fc15d07a6090686d01e147b",
+    "README.md": "dfbcc83ab6032d149d956c3f2e55b22d02ffee5ca5170fa3602741b38262dd7f",
+    "test_benchmark.py": "290cea3a003a09b940eeb8ba5fa9353c6d2d4abc90e4576ce5f06a4d49892378",
+    "fixture_adapter.py": "b84e2444f3f6b2396d5a747ec7096d25ac00717596fe037efe3b7c8c137884dd",
+    "adapter_http.py": "e4e3a450dd88934ba2ae4f888d2e141830bab863265de599f0cf3ab2c48fa920"
+  }
+}

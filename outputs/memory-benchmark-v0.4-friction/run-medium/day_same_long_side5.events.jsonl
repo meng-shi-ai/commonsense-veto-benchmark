@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0106"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"横构图适合拍宽阔风景、建筑全景或多人合照，能更好地呈现环境与空间感。"}}
+{"type":"turn.completed","usage":{"input_tokens":15762,"cached_input_tokens":15488,"cache_write_input_tokens":0,"output_tokens":35,"reasoning_output_tokens":0}}

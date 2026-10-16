@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0112"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"今天（9月8日）在迈阿密度秋假，可以这样安排：\n\n- 08:02–09:00：早餐、准备出门，带上蓝色笔记本。\n- 09:00–12:00：散步游览，拍宽阔风景时用横构图。\n- 12:00–14:00：午餐、休息，听歌时把音量调轻。\n- 14:00–15:00：留一小时研究。\n- 15:00–18:00：自由逛逛，累了就休息。\n- 18:00以后：晚餐、整理照片，放松休息。"}}
+{"type":"turn.completed","usage":{"input_tokens":15931,"cached_input_tokens":15488,"cache_write_input_tokens":0,"output_tokens":153,"reasoning_output_tokens":0}}

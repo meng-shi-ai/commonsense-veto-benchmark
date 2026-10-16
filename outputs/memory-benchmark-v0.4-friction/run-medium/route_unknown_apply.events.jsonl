@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0096"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"出发前看一眼外面：现在下雨就选B，5元全程遮蔽；没下雨就选A，2元、露天走15分钟。昨天的雨不能说明现在的天气。"}}
+{"type":"turn.completed","usage":{"input_tokens":15629,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":53,"reasoning_output_tokens":0}}

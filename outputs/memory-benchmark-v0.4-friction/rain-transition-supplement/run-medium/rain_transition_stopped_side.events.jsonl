@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0116"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"K-pop中的K代表Korean，意思是“韩国的”。"}}
+{"type":"turn.completed","usage":{"input_tokens":15676,"cached_input_tokens":15488,"cache_write_input_tokens":0,"output_tokens":18,"reasoning_output_tokens":0}}

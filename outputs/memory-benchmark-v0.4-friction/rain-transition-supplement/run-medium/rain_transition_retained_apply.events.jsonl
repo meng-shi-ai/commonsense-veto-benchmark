@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0115"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"现在选B路线，从车站全程走遮蔽通道去商场，费用5元；根据10:03的最新情况仍在下雨，多付3元符合你避免淋雨的偏好。"}}
+{"type":"turn.completed","usage":{"input_tokens":15711,"cached_input_tokens":15360,"cache_write_input_tokens":0,"output_tokens":52,"reasoning_output_tokens":0}}

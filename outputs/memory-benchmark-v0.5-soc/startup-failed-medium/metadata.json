@@ -1,0 +1,14 @@
+{
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "medium",
+  "fixture_sha256": "9a9bc3d8e8d5922391988f0c06acb6b0173f4c3814a84a3e1d870e79a83c3b0f",
+  "input_hashes": {
+    "cases.json": "c57a7948e77c16750d976c0d5d1d8cbcccb366964356a38060cd2cf0175ca25b",
+    "rubric.json": "d99b12254b548766a5b2399639305b1d7785f4c72ab44a198a7d1061b35a3b49"
+  },
+  "started_at": "2026-09-07T03:43:14.876647+00:00",
+  "real_portal_access": false,
+  "fixture_authorization_gate": false,
+  "retries": 0,
+  "notes": "History reconstructed as supplied text; each case new persistent Codex session with actual stdio MCP server. Tools act only local per-case fixture. Extra Codex tools exist but model requested to use only course_fixture."
+}

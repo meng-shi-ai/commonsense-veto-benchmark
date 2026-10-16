@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0098"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"收到，预算已降到120元，干燥和虫害检查合格的要求不变，其他酒店资料不变。"}}
+{"type":"turn.completed","usage":{"input_tokens":15496,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":33,"reasoning_output_tokens":0}}

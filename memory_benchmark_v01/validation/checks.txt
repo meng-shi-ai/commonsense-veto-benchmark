@@ -1,0 +1,86 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m unittest -v
+test_all_clarify_does_not_win (test_benchmark.ScoringTests.test_all_clarify_does_not_win) ... ok
+test_bad_evidence_not_rewarded (test_benchmark.ScoringTests.test_bad_evidence_not_rewarded) ... ok
+test_duplicate_and_unknown_ids_rejected (test_benchmark.ScoringTests.test_duplicate_and_unknown_ids_rejected) ... ok
+test_gold_and_missing (test_benchmark.ScoringTests.test_gold_and_missing) ... ok
+test_null_and_types_fail_closed (test_benchmark.ScoringTests.test_null_and_types_fail_closed) ... ok
+test_pair_success_requires_both (test_benchmark.ScoringTests.test_pair_success_requires_both) ... ok
+test_pairs_change_one_evidence_field (test_benchmark.ScoringTests.test_pairs_change_one_evidence_field) ... ok
+test_prompt_excludes_labels (test_benchmark.ScoringTests.test_prompt_excludes_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 benchmark.py validate
+{
+  "cases": 24,
+  "pairs": 12,
+  "families": {
+    "explicit_update": 4,
+    "durable_vs_temporary": 4,
+    "suggestion_vs_commitment": 4,
+    "correction_and_provenance": 4,
+    "subject_attribution": 4,
+    "authorization_scope": 4
+  },
+  "decisions": {
+    "answer": 18,
+    "clarify": 6
+  }
+}
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 benchmark.py export --out prompts.jsonl
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 benchmark.py demo --out validation/demo_report.json
+Fixture checks only; no model was evaluated.
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 benchmark.py run --adapter /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 fixture_adapter.py --out validation/fixture_predictions.jsonl
+C012 recorded
+C023 recorded
+C007 recorded
+C014 recorded
+C002 recorded
+C018 recorded
+C006 recorded
+C021 recorded
+C013 recorded
+C010 recorded
+C015 recorded
+C022 recorded
+C020 recorded
+C005 recorded
+C001 recorded
+C008 recorded
+C004 recorded
+C016 recorded
+C011 recorded
+C017 recorded
+C024 recorded
+C003 recorded
+C009 recorded
+C019 recorded
+
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 benchmark.py score --predictions validation/fixture_predictions.jsonl --out validation/fixture_score.json
+{
+  "n": 24,
+  "prediction_coverage": 1.0,
+  "schema_valid_rate": 1.0,
+  "decision_accuracy": 0.25,
+  "value_accuracy": 0.25,
+  "state_accuracy": 0.25,
+  "evidence_accuracy": 0.0,
+  "strict_accuracy": 0.0,
+  "macro_family_strict_accuracy": 0.0,
+  "pair_strict_accuracy": 0.0,
+  "answerable_n": 18,
+  "unknown_n": 6,
+  "unnecessary_clarification_rate": 1.0,
+  "unsupported_answer_rate": 0.0,
+  "rate_note": "Coverage/accuracy include all selected cases; missing or invalid outputs fail. Error behavior rates count schema-valid errors only; read alongside schema_valid_rate.",
+  "split": "all",
+  "dataset_sha256": "d2d8d5e6cc75cad2472d64bf75854757982ff903000049e02311bf7badce0e28"
+}
+
+End-to-end fixture assertions passed. No real model was evaluated.

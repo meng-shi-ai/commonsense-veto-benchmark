@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0086"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"建议选择 Amber 酒店，价格为 110 credits，低于 150 credits 的预算上限，且虫害检查合格。你已取消房间必须干燥的要求，因此它是符合现有条件的最便宜选择。"}}
+{"type":"turn.completed","usage":{"input_tokens":18658,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":57,"reasoning_output_tokens":0}}

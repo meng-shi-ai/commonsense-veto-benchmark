@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0075"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"建议走 Amber 路线。你一分钟前确认雨已停、当地干燥，因此目前符合你的要求，而且只需 2 credits，比 Birch 便宜 3 credits；但有 15 分钟露天步行。如果出发时又下雨，就改走全程有遮蔽的 Birch。"}}
+{"type":"turn.completed","usage":{"input_tokens":15122,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":72,"reasoning_output_tokens":0}}

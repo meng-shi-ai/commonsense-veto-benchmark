@@ -1,0 +1,28 @@
+{
+  "version": "0.1",
+  "kind": "synthetic_diagnostic_pilot",
+  "actual_models_evaluated": [],
+  "source_cases": 24,
+  "pairs": 12,
+  "families": 6,
+  "software_tests": 8,
+  "files": {
+    "DESIGN.md": "e12afec413e2701f1423f643abcf58bfed9231fdfff50b83d2b8f9e4b3d101b8",
+    "README.md": "e50ba6c005e9b9a1beaed76c125b58b3d69770be2b5fdb75e35aff9366c7f03a",
+    "adapter_http.py": "e4e3a450dd88934ba2ae4f888d2e141830bab863265de599f0cf3ab2c48fa920",
+    "benchmark.py": "317f9b387b68b5f8c150474c040b22582bfbe268be684c6991f17fbddb7092c8",
+    "build_dataset.py": "d49c83fe5511a96ad5ca5b70efae26ffbd31749458e756a78094007cc805a7bf",
+    "cases.jsonl": "d2d8d5e6cc75cad2472d64bf75854757982ff903000049e02311bf7badce0e28",
+    "example_prompt.txt": "2b2be9a58d8373d683463a544e71646932b8dd4df8194d22df971411b422098d",
+    "fixture_adapter.py": "b84e2444f3f6b2396d5a747ec7096d25ac00717596fe037efe3b7c8c137884dd",
+    "gold.jsonl": "b0904df35e9123e0a2a59a5e6b1b3f95f3fe8a5ed00fbecb5d40e889426456b4",
+    "package_release.py": "f0bb242dc48413923a10707b697337c02f2f1f9cf0390fc252cbeddcdff19f24",
+    "prompts.jsonl": "f0b3475ba22843f96d329a82231bebabc1c66416bd6caf6ccb6abe879cf65645",
+    "test_benchmark.py": "671a047f10779f0954627b1a745a9c79a9c72fb9263185dfd6fa8e68fab79d5c",
+    "validation/checks.txt": "0c984c237dfc0c0948088d6414e934a59f80ac85a78c332e3f70744f9caa499f",
+    "validation/demo_report.json": "ef92277af6a90b268ec3c7bf35d55e30ebee76ab6582e19dc5000f0f326a4780",
+    "validation/fixture_predictions.jsonl": "d35f27e61381b0b2fdf9d76ff38ab63a9e68f7e9cef08e2d0832e6b693da9f3b",
+    "validation/fixture_predictions.jsonl.meta.json": "0f331d6a5af30ed4c19307805c415309e765d4c1883b2980caf0807fc0d36b7d",
+    "validation/fixture_score.json": "59aff7a70c09e11da2cd9bc91d2d358928c344764184bfc296cf3d04f7e3743d"
+  }
+}

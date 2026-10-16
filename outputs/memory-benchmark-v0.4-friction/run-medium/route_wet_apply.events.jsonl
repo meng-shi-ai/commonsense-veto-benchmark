@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0091"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"选B，费用5元，全程遮蔽。你刚才看到正在下雨，多付3元符合你避免淋雨的偏好，现在就走B。"}}
+{"type":"turn.completed","usage":{"input_tokens":15605,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":41,"reasoning_output_tokens":0}}

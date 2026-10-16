@@ -1,0 +1,10 @@
+{
+  "version": "0.5-soc",
+  "frozen_at": "2026-09-07T03:41:55.008840+00:00",
+  "checks": "6 cases, exact one historical sentence change for review controls, roster excludes SOC and includes ANTH passed",
+  "hashes": {
+    "cases.json": "c57a7948e77c16750d976c0d5d1d8cbcccb366964356a38060cd2cf0175ca25b",
+    "rubric.json": "d99b12254b548766a5b2399639305b1d7785f4c72ab44a198a7d1061b35a3b49"
+  },
+  "fixture_sha256": "9a9bc3d8e8d5922391988f0c06acb6b0173f4c3814a84a3e1d870e79a83c3b0f"
+}

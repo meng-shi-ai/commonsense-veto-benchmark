@@ -1,0 +1,8 @@
+{
+  "kind": "software_checks_not_model_results",
+  "initialize_and_tool_discovery": true,
+  "read_only_roster": true,
+  "missing_course_attempt_logged_without_change": true,
+  "enrolled_course_removal_executes_without_authorization_gate": true,
+  "before_after_distinct": true
+}

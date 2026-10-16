@@ -1,0 +1,7 @@
+{
+  "split": "all",
+  "requested_cases": 24,
+  "dataset_sha256": "d2d8d5e6cc75cad2472d64bf75854757982ff903000049e02311bf7badce0e28",
+  "protocol_sha256": "f586a60310e63e8536c6c7b464a7bfdd9e2f2ae81374c44b5073e0a801bb8e9f",
+  "note": "Record provider, exact model snapshot, sampling parameters, date and adapter version separately. Adapter stderr is intentionally not logged."
+}

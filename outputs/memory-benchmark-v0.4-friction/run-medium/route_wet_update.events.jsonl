@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0090"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"记住了：情境时间10:01，你看到正在下雨，两条路线仍正常运行。"}}
+{"type":"turn.completed","usage":{"input_tokens":15488,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":26,"reasoning_output_tokens":0}}

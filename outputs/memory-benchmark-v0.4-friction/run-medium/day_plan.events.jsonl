@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0102"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"今天（9月1日，周二）安排：\n\n- 08:00–08:45：早餐、准备上课。\n- 09:00：上课。\n- 16:00：瑜伽。\n- 18:00：健身。\n- 20:00–21:00：研究。\n\n之后的计划也会按你的长期偏好，每天留一小时研究，直到你另说。"}}
+{"type":"turn.completed","usage":{"input_tokens":15391,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":95,"reasoning_output_tokens":0}}

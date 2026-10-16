@@ -1,0 +1,48 @@
+{
+  "reviewer": "AI-assisted semantic review; not independent human validation",
+  "groups": {
+    "main": {
+      "generated_turns": 44,
+      "scored_outputs": 14,
+      "dimensions": {
+        "action_or_recall_correct": 14,
+        "applies_valid_constraints": 14,
+        "avoids_fabrication": 14,
+        "proportionate_friction": 14
+      },
+      "all_four_pass": 14,
+      "needs_independent_review": [],
+      "completed_turn_events": 44,
+      "item_types": {
+        "agent_message": 44
+      },
+      "local_config_values": [
+        "['gpt-6-astra', 'medium']"
+      ],
+      "seconds": 283.711
+    },
+    "rain_transition_supplement": {
+      "generated_turns": 6,
+      "scored_outputs": 2,
+      "dimensions": {
+        "action_or_recall_correct": 2,
+        "applies_valid_constraints": 2,
+        "avoids_fabrication": 0,
+        "proportionate_friction": 2
+      },
+      "all_four_pass": 0,
+      "needs_independent_review": [
+        "rain_transition_retained_apply",
+        "rain_transition_stopped_apply"
+      ],
+      "completed_turn_events": 6,
+      "item_types": {
+        "agent_message": 6
+      },
+      "local_config_values": [
+        "['gpt-6-astra', 'medium']"
+      ],
+      "seconds": 36.765
+    }
+  }
+}

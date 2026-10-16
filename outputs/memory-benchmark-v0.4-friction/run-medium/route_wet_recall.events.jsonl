@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"public-session-0092"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"你最后报告的是正在下雨。你之前表示愿意多付3元避免淋雨。"}}
+{"type":"turn.completed","usage":{"input_tokens":15614,"cached_input_tokens":12160,"cache_write_input_tokens":0,"output_tokens":26,"reasoning_output_tokens":0}}

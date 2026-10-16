@@ -1,0 +1,41 @@
+Validation of versioned extension; no real model requests.
+['benchmark.py', 'validate']
+{
+  "cases": 32,
+  "pairs": 16,
+  "families": {
+    "explicit_update": 4,
+    "durable_vs_temporary": 4,
+    "suggestion_vs_commitment": 4,
+    "correction_and_provenance": 4,
+    "subject_attribution": 4,
+    "authorization_scope": 4,
+    "travel_constraint_application": 4,
+    "travel_weather_application": 4
+  },
+  "decisions": {
+    "answer": 26,
+    "clarify": 6
+  }
+}
+
+['-m', 'unittest', '-v']
+test_all_clarify_does_not_win (test_benchmark.ScoringTests) ... ok
+test_bad_evidence_not_rewarded (test_benchmark.ScoringTests) ... ok
+test_duplicate_and_unknown_ids_rejected (test_benchmark.ScoringTests) ... ok
+test_gold_and_missing (test_benchmark.ScoringTests) ... ok
+test_null_and_types_fail_closed (test_benchmark.ScoringTests) ... ok
+test_pair_success_requires_both (test_benchmark.ScoringTests) ... ok
+test_pairs_change_one_evidence_field (test_benchmark.ScoringTests) ... ok
+test_prompt_excludes_labels (test_benchmark.ScoringTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK
+
+['benchmark.py', 'export', '--out', 'prompts.jsonl']
+
+['benchmark.py', 'demo', '--out', 'software_fixture_report.json']
+Fixture checks only; no model was evaluated.
+
