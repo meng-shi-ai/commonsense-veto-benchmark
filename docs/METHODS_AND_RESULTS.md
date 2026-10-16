@@ -10,13 +10,13 @@ Twenty-four synthetic cases form twelve minimal contrast pairs across explicit u
 
 State accuracy requires the correct decision and value. Strict accuracy additionally requires an exact acceptable minimal evidence set. The recorded run returned 24 valid outputs: state 24/24; strict 21/24; both members strict in 9/12 pairs. C008, C010 and C012 cited E2, whereas the authored labels required E1 plus E2. Whether both events are necessary is disputed. These are not three established memory failures.
 
-Sources: [report](../outputs/gpt-pilot/结果说明.md), [cases](../memory_benchmark_v01/cases.jsonl), [gold](../memory_benchmark_v01/gold.jsonl).
+Sources: [report](../outputs/gpt-pilot/RESULTS.md), [cases](../memory_benchmark_v01/cases.jsonl), [gold](../memory_benchmark_v01/gold.jsonl).
 
 ## v0.2: travel constraints
 
 Eight additional synthetic cases cover retaining versus releasing a dryness requirement, missing versus available room evidence, rain continuing versus stopping, and unknown versus directly observed current weather. Thirty-two cases were run afresh. All state judgments were correct; strict correctness was 29/32, including 8/8 new cases. All three evidence-set discrepancies remained in the original 24. One earlier permission-related startup failure is preserved separately, with no model answer.
 
-Source: [completed-run report](../outputs/gpt-pilot-v0.2-travel-run02/结果说明.md).
+Source: [completed-run report](../outputs/gpt-pilot-v0.2-travel-run02/RESULTS.md).
 
 ## v0.3: open-ended replay, Medium and High
 
@@ -24,7 +24,7 @@ Sixteen Chinese open-ended prompts cover text length crossed with condition rete
 
 Both rounds passed 16/16 on all four dimensions under AI-assisted review. Two missing-date prompts are duplicate presentations, not independent scenarios. Some answers included verbose conditional fallbacks; the frozen rubric did not classify them as failures. The ordering was fixed, each setting was run once, and effective server-side effort was not independently exposed. No superiority, equivalence or causal speed result follows.
 
-Sources: [comparison report](../outputs/memory-benchmark-v0.3-open/两档对比结果.md), [rubric](../outputs/memory-benchmark-v0.3-open/rubric.json).
+Sources: [comparison report](../outputs/memory-benchmark-v0.3-open/EFFORT_COMPARISON.md), [rubric](../outputs/memory-benchmark-v0.3-open/rubric.json).
 
 ## v0.4: generated multi-turn conversations
 
@@ -34,7 +34,7 @@ The 14 main endpoints passed all four criteria. Both supplementary route choices
 
 All eleven later action suggestions and both recall probes were correct. Recall branches did not feed into application branches. Narrative time jumps were simulated, not actual week-long waits. Local configuration records matched the requested Medium setting.
 
-Sources: [report](../outputs/memory-benchmark-v0.4-friction/结果说明.md), [all main turns](../outputs/memory-benchmark-v0.4-friction/全部对话回合.md), [supplement turns](../outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/全部对话回合.md).
+Sources: [report](../outputs/memory-benchmark-v0.4-friction/RESULTS.md), [all main turns](../outputs/memory-benchmark-v0.4-friction/ALL_TURNS.md), [supplement turns](../outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/ALL_TURNS.md).
 
 ## v0.5: advice, adoption and action
 
@@ -44,7 +44,7 @@ The four review-only cases correctly used the current roster and made zero drop 
 
 This did not reproduce the historical SOC confusion. The historical sentence is reconstructed, the current roster is explicitly supplied as text, no screenshot is involved, and only two repeats occur per condition. The test does not establish what caused an earlier event, that it is fixed, or that a proposed veto mechanism works.
 
-Sources: [report](../outputs/memory-benchmark-v0.5-soc/结果说明.md), [cases](../outputs/memory-benchmark-v0.5-soc/cases.json), [answers and tool logs](../outputs/memory-benchmark-v0.5-soc/逐例原文与工具日志.md).
+Sources: [report](../outputs/memory-benchmark-v0.5-soc/RESULTS.md), [cases](../outputs/memory-benchmark-v0.5-soc/cases.json), [answers and tool logs](../outputs/memory-benchmark-v0.5-soc/PER_CASE_TRANSCRIPTS_AND_TOOL_LOGS.md).
 
 ## Common reporting rules
 

@@ -8,13 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5199,
-      "sha256": "e9e3506612f5cac74a9ae33f29413c9f51b1fdac7e9b01c835174d4c3ac7b97f"
-    },
-    {
-      "path": "README_zh.md",
-      "bytes": 2347,
-      "sha256": "496e1e5ca774b8bffb912d444a0ffa3bf78aa5cd30e9eb0233cd9ab381052871"
+      "bytes": 5331,
+      "sha256": "66fddad735e68d7c4a59aaafab099f1eaad76e4c4669db58227bc0baf65a9b0e"
     },
     {
       "path": "docs/LIMITATIONS.md",
@@ -23,13 +18,13 @@
     },
     {
       "path": "docs/METHODS_AND_RESULTS.md",
-      "bytes": 6482,
-      "sha256": "9097ccb31694cdf935047c434c9e161165c09f19a92618633942bc16f97e2263"
+      "bytes": 6450,
+      "sha256": "0bbea89ff7f1c2fb67ccba8df842e05b3685341d386e950c60f33af5e1b1f6e1"
     },
     {
       "path": "docs/PUBLIC_DATA.md",
-      "bytes": 2045,
-      "sha256": "c990697fa60c534d217af0612fe6cfbd44d3f4edc80208ec2022e2154c8fc8ea"
+      "bytes": 2796,
+      "sha256": "c8cc45e8f790eb422b26659f6491a21193f225a8ff959f0b161a97e650d63068"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
@@ -38,8 +33,8 @@
     },
     {
       "path": "docs/sanitization-record.json",
-      "bytes": 160557,
-      "sha256": "c597aa8cbe4f3c7c323651660d52e49c3cc7eedecbefd9b39884449416a503c3"
+      "bytes": 164377,
+      "sha256": "71b4d6e0671866f06f23f083c235f0a3ef07134bc92aa3c81c724dec91e91684"
     },
     {
       "path": "memory_benchmark_v01/DESIGN.md",
@@ -48,8 +43,8 @@
     },
     {
       "path": "memory_benchmark_v01/README.md",
-      "bytes": 8841,
-      "sha256": "b83ae9a6baaa57286e3d7eda86de1ab5c9937e70e033b3be0a006e172badfa7f"
+      "bytes": 10093,
+      "sha256": "ee022c0d842c09c5c9d62a5199bed5e316c0a809983613792335ef5eeb97c72c"
     },
     {
       "path": "memory_benchmark_v01/adapter_http.py",
@@ -130,286 +125,6 @@
       "path": "memory_benchmark_v01/validation/fixture_score.json",
       "bytes": 11172,
       "sha256": "59aff7a70c09e11da2cd9bc91d2d358928c344764184bfc296cf3d04f7e3743d"
-    },
-    {
-      "path": "outputs/gpt-pilot/C001.events.jsonl",
-      "bytes": 401,
-      "sha256": "6fe4c378419576ce3b9e9ffb975437b29cec48ee9985aa8e6f0e22c7cacd62b4"
-    },
-    {
-      "path": "outputs/gpt-pilot/C001.stderr.txt",
-      "bytes": 307,
-      "sha256": "0cc39d876c0415a8c0e65bb265a975fb686e503efa97103f51dbdf3553d9ccb6"
-    },
-    {
-      "path": "outputs/gpt-pilot/C002.events.jsonl",
-      "bytes": 401,
-      "sha256": "41851f1a0bee00746ee7576ccc3b5109d781806a1754f1a9609ddfba64b2182f"
-    },
-    {
-      "path": "outputs/gpt-pilot/C002.stderr.txt",
-      "bytes": 173,
-      "sha256": "e20367e57b71a43649d743433d7a0a2708713467fe78b4c83d7febb97b2a353a"
-    },
-    {
-      "path": "outputs/gpt-pilot/C003.events.jsonl",
-      "bytes": 398,
-      "sha256": "2de184e11a38635dc1ac1e462ecf1bc28de1dd4a3498b1c657bb8e6d999e3021"
-    },
-    {
-      "path": "outputs/gpt-pilot/C003.stderr.txt",
-      "bytes": 307,
-      "sha256": "4b3be592135586e30bfe5bbf4e4a6d5f23fc5214ffcbf609e119c3419a75aade"
-    },
-    {
-      "path": "outputs/gpt-pilot/C004.events.jsonl",
-      "bytes": 398,
-      "sha256": "a500af5e4f532b959fa11a453b9faa6e7ed60bb1f3a62c07d386c0dd4f2c3c80"
-    },
-    {
-      "path": "outputs/gpt-pilot/C004.stderr.txt",
-      "bytes": 2325,
-      "sha256": "fbbd7e444f4d54cb1a7779d325167d06c5e8d8a514fe8e86ef1476eeb3ad8327"
-    },
-    {
-      "path": "outputs/gpt-pilot/C005.events.jsonl",
-      "bytes": 398,
-      "sha256": "02943784471b6fb8b1c23be13041e31aced5a6a9dcb95bf7d83a44fa2b53c6f6"
-    },
-    {
-      "path": "outputs/gpt-pilot/C005.stderr.txt",
-      "bytes": 436,
-      "sha256": "e5d6195aaf8e49633e2b1ea81d44334f1a5a08aaaaa082597a9c19ce50bf1dfb"
-    },
-    {
-      "path": "outputs/gpt-pilot/C006.events.jsonl",
-      "bytes": 394,
-      "sha256": "963384a6341d9e9c39d57476a378ea4f1df3eda8252e2ae50cb3d5386a9225bd"
-    },
-    {
-      "path": "outputs/gpt-pilot/C006.stderr.txt",
-      "bytes": 173,
-      "sha256": "c0ebe0c44c120fc16e73adde133a0a63799629b8e155f03e86e06137cced15a4"
-    },
-    {
-      "path": "outputs/gpt-pilot/C007.events.jsonl",
-      "bytes": 411,
-      "sha256": "f7960d57a68163ae73e403888c744697d5f315aac611370f0f7a3870d9700516"
-    },
-    {
-      "path": "outputs/gpt-pilot/C007.stderr.txt",
-      "bytes": 173,
-      "sha256": "ce7bcb7cd292f4054f0bf56b4ee56f0a7c2b89e87a48c4e8543a3d5796461bee"
-    },
-    {
-      "path": "outputs/gpt-pilot/C008.events.jsonl",
-      "bytes": 394,
-      "sha256": "ca90b64f787749a93b853399812037b569cf46da6e1272fa350d9b20c99782df"
-    },
-    {
-      "path": "outputs/gpt-pilot/C008.stderr.txt",
-      "bytes": 307,
-      "sha256": "5dbcdf0eb94b3a84974c5e139acd2c0f5ede0fd597898221467da95454b858d8"
-    },
-    {
-      "path": "outputs/gpt-pilot/C009.events.jsonl",
-      "bytes": 401,
-      "sha256": "1b46e5f38cd9c372d91723b1397fb70153ebcb2f4df0128c276d6d9ea445dc35"
-    },
-    {
-      "path": "outputs/gpt-pilot/C009.stderr.txt",
-      "bytes": 307,
-      "sha256": "fc0881c163a704315d4b0530847bc4c19e6a21259ed0aaacd2a0b384a6c15eec"
-    },
-    {
-      "path": "outputs/gpt-pilot/C010.events.jsonl",
-      "bytes": 394,
-      "sha256": "d3b879da4e12e44732e9d41a09e4d1e8a45513bfe66434d19bf672b1d0da5883"
-    },
-    {
-      "path": "outputs/gpt-pilot/C010.stderr.txt",
-      "bytes": 173,
-      "sha256": "86971240135b4dea1be9c6397d8260c8cce497460ceb89bba6c0a9f0ed5718f1"
-    },
-    {
-      "path": "outputs/gpt-pilot/C011.events.jsonl",
-      "bytes": 402,
-      "sha256": "65c6c1eea59dc120d7fa702191769363689e3f38621a7182a1c0bae290165f1a"
-    },
-    {
-      "path": "outputs/gpt-pilot/C011.stderr.txt",
-      "bytes": 307,
-      "sha256": "2d97da390a2fb59b9df43bc007bb199250af2167198aa8e64485d9699fef6a2f"
-    },
-    {
-      "path": "outputs/gpt-pilot/C012.events.jsonl",
-      "bytes": 394,
-      "sha256": "4face76d0a742e8b722b3c37fe9001a60eabdbebaf87182c8e179144e8ad85dc"
-    },
-    {
-      "path": "outputs/gpt-pilot/C012.stderr.txt",
-      "bytes": 173,
-      "sha256": "e8b4bbedb8a2ec33b89ea4902baa8364d89257831db19e01af2cc6f22af9b119"
-    },
-    {
-      "path": "outputs/gpt-pilot/C013.events.jsonl",
-      "bytes": 399,
-      "sha256": "1f78df8ada939de2b6ed8b7209d0746d0bf17b083c480a995b62356e2ec8f57c"
-    },
-    {
-      "path": "outputs/gpt-pilot/C013.stderr.txt",
-      "bytes": 2185,
-      "sha256": "685afeebe5dbd221b81f3a6e3fec1d4ff7c87243f44df6e858993a4b7f412ffb"
-    },
-    {
-      "path": "outputs/gpt-pilot/C014.events.jsonl",
-      "bytes": 413,
-      "sha256": "4ae931fdfb781c280e3e660b54c472b89a65e967560e36409c9a9b2212fdb025"
-    },
-    {
-      "path": "outputs/gpt-pilot/C014.stderr.txt",
-      "bytes": 173,
-      "sha256": "80eca9ba57851206c9ed155e6905e7d45791b76dd5553a37c7330169cc82482d"
-    },
-    {
-      "path": "outputs/gpt-pilot/C015.events.jsonl",
-      "bytes": 395,
-      "sha256": "ab883b75bc78877c753c76fb0df8130e89dd63f74d2ae5f37b35e0706d8b0221"
-    },
-    {
-      "path": "outputs/gpt-pilot/C015.stderr.txt",
-      "bytes": 2185,
-      "sha256": "56b5d6c2b70bf3877fb3a9d0abbebe1be281fa7bf93a0eaf12cb0daa7b3e3399"
-    },
-    {
-      "path": "outputs/gpt-pilot/C016.events.jsonl",
-      "bytes": 406,
-      "sha256": "85eb8b13ab02bf1393c8ac98ddcaeb8a83b39a11e525b16e2c52f032a724b5f0"
-    },
-    {
-      "path": "outputs/gpt-pilot/C016.stderr.txt",
-      "bytes": 307,
-      "sha256": "ca0069fd0b8e6ab9fed10b2c3461f16121ac695817a378189ff558a119a5c6d0"
-    },
-    {
-      "path": "outputs/gpt-pilot/C017.events.jsonl",
-      "bytes": 398,
-      "sha256": "3dc2b655db6a8f8ed17a53e1bad030ba23a876c1668d518ed60b64c5849bf86f"
-    },
-    {
-      "path": "outputs/gpt-pilot/C017.stderr.txt",
-      "bytes": 307,
-      "sha256": "1d26add0a3c29ccc1668406e897618896e9b8ee1e97e1104403e17be280a01c2"
-    },
-    {
-      "path": "outputs/gpt-pilot/C018.events.jsonl",
-      "bytes": 401,
-      "sha256": "3115409e5159603b87f3f8993e9732377692ead240cd93c5474add5fb370555f"
-    },
-    {
-      "path": "outputs/gpt-pilot/C018.stderr.txt",
-      "bytes": 173,
-      "sha256": "d9383fd0704810c4fc165ecd7cbe5e5d455a90d14b2253eab4d8621ca840f440"
-    },
-    {
-      "path": "outputs/gpt-pilot/C019.events.jsonl",
-      "bytes": 401,
-      "sha256": "271265ff3c987a10615658abe174b42e8c9b364a3484180ba7831d4ab40f7378"
-    },
-    {
-      "path": "outputs/gpt-pilot/C019.stderr.txt",
-      "bytes": 307,
-      "sha256": "06512e96c6a8db126d28bdc6c125adcac0c79efff3796a9a7f3b7148b78498b6"
-    },
-    {
-      "path": "outputs/gpt-pilot/C020.events.jsonl",
-      "bytes": 401,
-      "sha256": "9f2072aa3a7cbc3444a06b79932b9a84b28d6e5e6d6a4d98b0d138251de2687d"
-    },
-    {
-      "path": "outputs/gpt-pilot/C020.stderr.txt",
-      "bytes": 173,
-      "sha256": "015f6e379562ce37651116c6567e7fcfdc1537359b0f58c505f4bf6067b7aa9f"
-    },
-    {
-      "path": "outputs/gpt-pilot/C021.events.jsonl",
-      "bytes": 403,
-      "sha256": "abbe887565d2e251f0f7c7b6bab8864dc0dc79f2b4d6b01fe3c8886888ab0c97"
-    },
-    {
-      "path": "outputs/gpt-pilot/C021.stderr.txt",
-      "bytes": 173,
-      "sha256": "e6cdf83467859643dee6245190db3e5df22e749ca42ea389e80c61885f16b21a"
-    },
-    {
-      "path": "outputs/gpt-pilot/C022.events.jsonl",
-      "bytes": 407,
-      "sha256": "9acf5f7b31aa7e484aa55aeaf6029067f27b9091b9dbf1dfabc6f8293aa5f696"
-    },
-    {
-      "path": "outputs/gpt-pilot/C022.stderr.txt",
-      "bytes": 173,
-      "sha256": "42aa1736751a936aef8e769132322777ae7fd607ca052b0ea73b445aa493ab70"
-    },
-    {
-      "path": "outputs/gpt-pilot/C023.events.jsonl",
-      "bytes": 410,
-      "sha256": "f72fe0f456fe2e30e3766701fa32c00ae0faf6c0e3eeca8518a71c4811607433"
-    },
-    {
-      "path": "outputs/gpt-pilot/C023.stderr.txt",
-      "bytes": 173,
-      "sha256": "e098277d6fcc230bca8345f96414e27e5aefedba091f0dd3a01314db767f4a79"
-    },
-    {
-      "path": "outputs/gpt-pilot/C024.events.jsonl",
-      "bytes": 407,
-      "sha256": "deda214256e6087384ff6daa9c6786c9d6453434b561dcbdedf8269a41b1a9e7"
-    },
-    {
-      "path": "outputs/gpt-pilot/C024.stderr.txt",
-      "bytes": 307,
-      "sha256": "9e7e010b98cf1dc940db16753bdf1e50113da86697cb274b9f7e4979df6d3689"
-    },
-    {
-      "path": "outputs/gpt-pilot/predictions.jsonl",
-      "bytes": 2364,
-      "sha256": "d513ae25e0d552c9518308940f9e7538acd771b6afa79c57a349d8078d22e5bf"
-    },
-    {
-      "path": "outputs/gpt-pilot/report.json",
-      "bytes": 11099,
-      "sha256": "e500f41ca63f9bfc38eebb8e82dd24ca99ae9cf3f264e8e397c80a1cf6359652"
-    },
-    {
-      "path": "outputs/gpt-pilot/run_metadata.json",
-      "bytes": 571,
-      "sha256": "a3f99f076721f99d060351854d408dd4567d3c1e8daf61049d7fc12a9cc482f7"
-    },
-    {
-      "path": "outputs/gpt-pilot/结果说明.md",
-      "bytes": 2313,
-      "sha256": "908b601b9fbccdc96eee76f700236051be2c881a1571693627af1ba23a703fe6"
-    },
-    {
-      "path": "outputs/gpt-pilot-v0.2-travel/C029.events.jsonl",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "outputs/gpt-pilot-v0.2-travel/C029.stderr.txt",
-      "bytes": 909,
-      "sha256": "75dfb4514f4855b9613aa81413da6a7a38775deec00a8dd8a5055b6a6d73cbee"
-    },
-    {
-      "path": "outputs/gpt-pilot-v0.2-travel/predictions.jsonl",
-      "bytes": 42,
-      "sha256": "c4ee079c4546792a21b54575f834a4e3d0cb8fd1171a7d873c2981f18a591bc4"
-    },
-    {
-      "path": "outputs/gpt-pilot-v0.2-travel/run_metadata.json",
-      "bytes": 571,
-      "sha256": "ed64768441caf5729c2da762f9fa96bdd87d1c82933fa8520d8b66ed271d3eb7"
     },
     {
       "path": "outputs/gpt-pilot-v0.2-travel-run02/C001.events.jsonl",
@@ -732,6 +447,11 @@
       "sha256": "32b3100d6720fde96a23a994c9d51068bccf91cf44e498ce1142f13af2eceec0"
     },
     {
+      "path": "outputs/gpt-pilot-v0.2-travel-run02/RESULTS.md",
+      "bytes": 5558,
+      "sha256": "8965716b8a1fac3ef4bcc255566a444c0dae65ef064ab9f341c170a9b811b5bf"
+    },
+    {
       "path": "outputs/gpt-pilot-v0.2-travel-run02/all_32_report.json",
       "bytes": 14634,
       "sha256": "f699361deb24f71436ce6922467e2485b3e9708d7e6b7effc25e677e436fc7c4"
@@ -767,14 +487,289 @@
       "sha256": "a60690b65be547b7f911f8ba6621bf7536cc8afc7e667b7d6a9dfee10ea4bda9"
     },
     {
-      "path": "outputs/gpt-pilot-v0.2-travel-run02/结果说明.md",
-      "bytes": 4167,
-      "sha256": "b85e3f859786ee02476634a88f4f992ad84caae3584d4954d10bfac102b19a35"
+      "path": "outputs/gpt-pilot-v0.2-travel/C029.events.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/gpt-pilot-v0.2-travel/C029.stderr.txt",
+      "bytes": 909,
+      "sha256": "75dfb4514f4855b9613aa81413da6a7a38775deec00a8dd8a5055b6a6d73cbee"
+    },
+    {
+      "path": "outputs/gpt-pilot-v0.2-travel/predictions.jsonl",
+      "bytes": 42,
+      "sha256": "c4ee079c4546792a21b54575f834a4e3d0cb8fd1171a7d873c2981f18a591bc4"
+    },
+    {
+      "path": "outputs/gpt-pilot-v0.2-travel/run_metadata.json",
+      "bytes": 571,
+      "sha256": "ed64768441caf5729c2da762f9fa96bdd87d1c82933fa8520d8b66ed271d3eb7"
+    },
+    {
+      "path": "outputs/gpt-pilot/C001.events.jsonl",
+      "bytes": 401,
+      "sha256": "6fe4c378419576ce3b9e9ffb975437b29cec48ee9985aa8e6f0e22c7cacd62b4"
+    },
+    {
+      "path": "outputs/gpt-pilot/C001.stderr.txt",
+      "bytes": 307,
+      "sha256": "0cc39d876c0415a8c0e65bb265a975fb686e503efa97103f51dbdf3553d9ccb6"
+    },
+    {
+      "path": "outputs/gpt-pilot/C002.events.jsonl",
+      "bytes": 401,
+      "sha256": "41851f1a0bee00746ee7576ccc3b5109d781806a1754f1a9609ddfba64b2182f"
+    },
+    {
+      "path": "outputs/gpt-pilot/C002.stderr.txt",
+      "bytes": 173,
+      "sha256": "e20367e57b71a43649d743433d7a0a2708713467fe78b4c83d7febb97b2a353a"
+    },
+    {
+      "path": "outputs/gpt-pilot/C003.events.jsonl",
+      "bytes": 398,
+      "sha256": "2de184e11a38635dc1ac1e462ecf1bc28de1dd4a3498b1c657bb8e6d999e3021"
+    },
+    {
+      "path": "outputs/gpt-pilot/C003.stderr.txt",
+      "bytes": 307,
+      "sha256": "4b3be592135586e30bfe5bbf4e4a6d5f23fc5214ffcbf609e119c3419a75aade"
+    },
+    {
+      "path": "outputs/gpt-pilot/C004.events.jsonl",
+      "bytes": 398,
+      "sha256": "a500af5e4f532b959fa11a453b9faa6e7ed60bb1f3a62c07d386c0dd4f2c3c80"
+    },
+    {
+      "path": "outputs/gpt-pilot/C004.stderr.txt",
+      "bytes": 2325,
+      "sha256": "fbbd7e444f4d54cb1a7779d325167d06c5e8d8a514fe8e86ef1476eeb3ad8327"
+    },
+    {
+      "path": "outputs/gpt-pilot/C005.events.jsonl",
+      "bytes": 398,
+      "sha256": "02943784471b6fb8b1c23be13041e31aced5a6a9dcb95bf7d83a44fa2b53c6f6"
+    },
+    {
+      "path": "outputs/gpt-pilot/C005.stderr.txt",
+      "bytes": 436,
+      "sha256": "e5d6195aaf8e49633e2b1ea81d44334f1a5a08aaaaa082597a9c19ce50bf1dfb"
+    },
+    {
+      "path": "outputs/gpt-pilot/C006.events.jsonl",
+      "bytes": 394,
+      "sha256": "963384a6341d9e9c39d57476a378ea4f1df3eda8252e2ae50cb3d5386a9225bd"
+    },
+    {
+      "path": "outputs/gpt-pilot/C006.stderr.txt",
+      "bytes": 173,
+      "sha256": "c0ebe0c44c120fc16e73adde133a0a63799629b8e155f03e86e06137cced15a4"
+    },
+    {
+      "path": "outputs/gpt-pilot/C007.events.jsonl",
+      "bytes": 411,
+      "sha256": "f7960d57a68163ae73e403888c744697d5f315aac611370f0f7a3870d9700516"
+    },
+    {
+      "path": "outputs/gpt-pilot/C007.stderr.txt",
+      "bytes": 173,
+      "sha256": "ce7bcb7cd292f4054f0bf56b4ee56f0a7c2b89e87a48c4e8543a3d5796461bee"
+    },
+    {
+      "path": "outputs/gpt-pilot/C008.events.jsonl",
+      "bytes": 394,
+      "sha256": "ca90b64f787749a93b853399812037b569cf46da6e1272fa350d9b20c99782df"
+    },
+    {
+      "path": "outputs/gpt-pilot/C008.stderr.txt",
+      "bytes": 307,
+      "sha256": "5dbcdf0eb94b3a84974c5e139acd2c0f5ede0fd597898221467da95454b858d8"
+    },
+    {
+      "path": "outputs/gpt-pilot/C009.events.jsonl",
+      "bytes": 401,
+      "sha256": "1b46e5f38cd9c372d91723b1397fb70153ebcb2f4df0128c276d6d9ea445dc35"
+    },
+    {
+      "path": "outputs/gpt-pilot/C009.stderr.txt",
+      "bytes": 307,
+      "sha256": "fc0881c163a704315d4b0530847bc4c19e6a21259ed0aaacd2a0b384a6c15eec"
+    },
+    {
+      "path": "outputs/gpt-pilot/C010.events.jsonl",
+      "bytes": 394,
+      "sha256": "d3b879da4e12e44732e9d41a09e4d1e8a45513bfe66434d19bf672b1d0da5883"
+    },
+    {
+      "path": "outputs/gpt-pilot/C010.stderr.txt",
+      "bytes": 173,
+      "sha256": "86971240135b4dea1be9c6397d8260c8cce497460ceb89bba6c0a9f0ed5718f1"
+    },
+    {
+      "path": "outputs/gpt-pilot/C011.events.jsonl",
+      "bytes": 402,
+      "sha256": "65c6c1eea59dc120d7fa702191769363689e3f38621a7182a1c0bae290165f1a"
+    },
+    {
+      "path": "outputs/gpt-pilot/C011.stderr.txt",
+      "bytes": 307,
+      "sha256": "2d97da390a2fb59b9df43bc007bb199250af2167198aa8e64485d9699fef6a2f"
+    },
+    {
+      "path": "outputs/gpt-pilot/C012.events.jsonl",
+      "bytes": 394,
+      "sha256": "4face76d0a742e8b722b3c37fe9001a60eabdbebaf87182c8e179144e8ad85dc"
+    },
+    {
+      "path": "outputs/gpt-pilot/C012.stderr.txt",
+      "bytes": 173,
+      "sha256": "e8b4bbedb8a2ec33b89ea4902baa8364d89257831db19e01af2cc6f22af9b119"
+    },
+    {
+      "path": "outputs/gpt-pilot/C013.events.jsonl",
+      "bytes": 399,
+      "sha256": "1f78df8ada939de2b6ed8b7209d0746d0bf17b083c480a995b62356e2ec8f57c"
+    },
+    {
+      "path": "outputs/gpt-pilot/C013.stderr.txt",
+      "bytes": 2185,
+      "sha256": "685afeebe5dbd221b81f3a6e3fec1d4ff7c87243f44df6e858993a4b7f412ffb"
+    },
+    {
+      "path": "outputs/gpt-pilot/C014.events.jsonl",
+      "bytes": 413,
+      "sha256": "4ae931fdfb781c280e3e660b54c472b89a65e967560e36409c9a9b2212fdb025"
+    },
+    {
+      "path": "outputs/gpt-pilot/C014.stderr.txt",
+      "bytes": 173,
+      "sha256": "80eca9ba57851206c9ed155e6905e7d45791b76dd5553a37c7330169cc82482d"
+    },
+    {
+      "path": "outputs/gpt-pilot/C015.events.jsonl",
+      "bytes": 395,
+      "sha256": "ab883b75bc78877c753c76fb0df8130e89dd63f74d2ae5f37b35e0706d8b0221"
+    },
+    {
+      "path": "outputs/gpt-pilot/C015.stderr.txt",
+      "bytes": 2185,
+      "sha256": "56b5d6c2b70bf3877fb3a9d0abbebe1be281fa7bf93a0eaf12cb0daa7b3e3399"
+    },
+    {
+      "path": "outputs/gpt-pilot/C016.events.jsonl",
+      "bytes": 406,
+      "sha256": "85eb8b13ab02bf1393c8ac98ddcaeb8a83b39a11e525b16e2c52f032a724b5f0"
+    },
+    {
+      "path": "outputs/gpt-pilot/C016.stderr.txt",
+      "bytes": 307,
+      "sha256": "ca0069fd0b8e6ab9fed10b2c3461f16121ac695817a378189ff558a119a5c6d0"
+    },
+    {
+      "path": "outputs/gpt-pilot/C017.events.jsonl",
+      "bytes": 398,
+      "sha256": "3dc2b655db6a8f8ed17a53e1bad030ba23a876c1668d518ed60b64c5849bf86f"
+    },
+    {
+      "path": "outputs/gpt-pilot/C017.stderr.txt",
+      "bytes": 307,
+      "sha256": "1d26add0a3c29ccc1668406e897618896e9b8ee1e97e1104403e17be280a01c2"
+    },
+    {
+      "path": "outputs/gpt-pilot/C018.events.jsonl",
+      "bytes": 401,
+      "sha256": "3115409e5159603b87f3f8993e9732377692ead240cd93c5474add5fb370555f"
+    },
+    {
+      "path": "outputs/gpt-pilot/C018.stderr.txt",
+      "bytes": 173,
+      "sha256": "d9383fd0704810c4fc165ecd7cbe5e5d455a90d14b2253eab4d8621ca840f440"
+    },
+    {
+      "path": "outputs/gpt-pilot/C019.events.jsonl",
+      "bytes": 401,
+      "sha256": "271265ff3c987a10615658abe174b42e8c9b364a3484180ba7831d4ab40f7378"
+    },
+    {
+      "path": "outputs/gpt-pilot/C019.stderr.txt",
+      "bytes": 307,
+      "sha256": "06512e96c6a8db126d28bdc6c125adcac0c79efff3796a9a7f3b7148b78498b6"
+    },
+    {
+      "path": "outputs/gpt-pilot/C020.events.jsonl",
+      "bytes": 401,
+      "sha256": "9f2072aa3a7cbc3444a06b79932b9a84b28d6e5e6d6a4d98b0d138251de2687d"
+    },
+    {
+      "path": "outputs/gpt-pilot/C020.stderr.txt",
+      "bytes": 173,
+      "sha256": "015f6e379562ce37651116c6567e7fcfdc1537359b0f58c505f4bf6067b7aa9f"
+    },
+    {
+      "path": "outputs/gpt-pilot/C021.events.jsonl",
+      "bytes": 403,
+      "sha256": "abbe887565d2e251f0f7c7b6bab8864dc0dc79f2b4d6b01fe3c8886888ab0c97"
+    },
+    {
+      "path": "outputs/gpt-pilot/C021.stderr.txt",
+      "bytes": 173,
+      "sha256": "e6cdf83467859643dee6245190db3e5df22e749ca42ea389e80c61885f16b21a"
+    },
+    {
+      "path": "outputs/gpt-pilot/C022.events.jsonl",
+      "bytes": 407,
+      "sha256": "9acf5f7b31aa7e484aa55aeaf6029067f27b9091b9dbf1dfabc6f8293aa5f696"
+    },
+    {
+      "path": "outputs/gpt-pilot/C022.stderr.txt",
+      "bytes": 173,
+      "sha256": "42aa1736751a936aef8e769132322777ae7fd607ca052b0ea73b445aa493ab70"
+    },
+    {
+      "path": "outputs/gpt-pilot/C023.events.jsonl",
+      "bytes": 410,
+      "sha256": "f72fe0f456fe2e30e3766701fa32c00ae0faf6c0e3eeca8518a71c4811607433"
+    },
+    {
+      "path": "outputs/gpt-pilot/C023.stderr.txt",
+      "bytes": 173,
+      "sha256": "e098277d6fcc230bca8345f96414e27e5aefedba091f0dd3a01314db767f4a79"
+    },
+    {
+      "path": "outputs/gpt-pilot/C024.events.jsonl",
+      "bytes": 407,
+      "sha256": "deda214256e6087384ff6daa9c6786c9d6453434b561dcbdedf8269a41b1a9e7"
+    },
+    {
+      "path": "outputs/gpt-pilot/C024.stderr.txt",
+      "bytes": 307,
+      "sha256": "9e7e010b98cf1dc940db16753bdf1e50113da86697cb274b9f7e4979df6d3689"
+    },
+    {
+      "path": "outputs/gpt-pilot/RESULTS.md",
+      "bytes": 2930,
+      "sha256": "a308a78fa5934e0fb5eae16608c8d37f7ce91bea59df262ff57d058de031c792"
+    },
+    {
+      "path": "outputs/gpt-pilot/predictions.jsonl",
+      "bytes": 2364,
+      "sha256": "d513ae25e0d552c9518308940f9e7538acd771b6afa79c57a349d8078d22e5bf"
+    },
+    {
+      "path": "outputs/gpt-pilot/report.json",
+      "bytes": 11099,
+      "sha256": "e500f41ca63f9bfc38eebb8e82dd24ca99ae9cf3f264e8e397c80a1cf6359652"
+    },
+    {
+      "path": "outputs/gpt-pilot/run_metadata.json",
+      "bytes": 571,
+      "sha256": "a3f99f076721f99d060351854d408dd4567d3c1e8daf61049d7fc12a9cc482f7"
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/README.md",
-      "bytes": 3024,
-      "sha256": "dfbcc83ab6032d149d956c3f2e55b22d02ffee5ca5170fa3602741b38262dd7f"
+      "bytes": 4157,
+      "sha256": "2c124223759da06152827370cef5d178e7df8005b0d89d3bdd8a9b8322853350"
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/adapter_http.py",
@@ -840,6 +835,26 @@
       "path": "outputs/memory-benchmark-v0.2-travel/validation.txt",
       "bytes": 1302,
       "sha256": "100444762c536b1e8656ed48f2031ec0e792ee915fc15d07a6090686d01e147b"
+    },
+    {
+      "path": "outputs/memory-benchmark-v0.3-open/DESIGN_AND_PROMPTS.md",
+      "bytes": 8505,
+      "sha256": "92073238cd37b618168adb6c6989295d73cb59d0e4f6cd9be940c4affa4decc2"
+    },
+    {
+      "path": "outputs/memory-benchmark-v0.3-open/EFFORT_COMPARISON.md",
+      "bytes": 8564,
+      "sha256": "daffb5f0402a0059b31cd4968e7135448f28fc62dfe34920560391e283b41e0a"
+    },
+    {
+      "path": "outputs/memory-benchmark-v0.3-open/PER_ITEM_RESULTS_HIGH.md",
+      "bytes": 13165,
+      "sha256": "b8069f1a2b78f7f1b731364e474f04f34f708b1c48632db16116b84610d3db4c"
+    },
+    {
+      "path": "outputs/memory-benchmark-v0.3-open/PER_ITEM_RESULTS_MEDIUM.md",
+      "bytes": 13279,
+      "sha256": "415750f812c0856529d1fbcb86e48807b53524bdb9dc6f683fc0c1097ca38238"
     },
     {
       "path": "outputs/memory-benchmark-v0.3-open/build_dataset.py",
@@ -1257,24 +1272,24 @@
       "sha256": "3fe463d7852cd3e99037873cb11e34bf4f7735b069c988b4685132061132f18d"
     },
     {
-      "path": "outputs/memory-benchmark-v0.3-open/两档对比结果.md",
-      "bytes": 6320,
-      "sha256": "54b1ab4381493671f1a8a90ac4af80b106239a92c48c73895458bc7041b5f227"
+      "path": "outputs/memory-benchmark-v0.4-friction/ALL_TURNS.md",
+      "bytes": 14197,
+      "sha256": "6e959751eb67350d7a7f92721be4e8bf33c6873fe247bef64a9016b6e884e6c1"
     },
     {
-      "path": "outputs/memory-benchmark-v0.3-open/设计与中文题目.md",
-      "bytes": 6168,
-      "sha256": "8b2a2a79579bf7a939410e6ee1e8d1524978f9f61ce10368d41219b9cf232d43"
+      "path": "outputs/memory-benchmark-v0.4-friction/DESIGN_AND_CASES.md",
+      "bytes": 6516,
+      "sha256": "e955ee75573f9b6b8e72fba96b18bcd3098a7824363f256a342f67a875b4bf13"
     },
     {
-      "path": "outputs/memory-benchmark-v0.3-open/逐题结果-high.md",
-      "bytes": 11229,
-      "sha256": "ffd87fc18aa80a0d58b0ba9848c1391e35f4b3531e5e0b22887c82d81cc41f2f"
+      "path": "outputs/memory-benchmark-v0.4-friction/PER_ITEM_TRANSCRIPTS_AND_SCORES.md",
+      "bytes": 10666,
+      "sha256": "baafdf63d9dcefd0b3752e0f50ab3eace43a62aeb4b626a5c543c8fe04f26ad3"
     },
     {
-      "path": "outputs/memory-benchmark-v0.3-open/逐题结果-medium.md",
-      "bytes": 11341,
-      "sha256": "aab1b3a7d9f15f99098d9f2fd71c7ce8af6ca921de07423451147643d6e6dfb3"
+      "path": "outputs/memory-benchmark-v0.4-friction/RESULTS.md",
+      "bytes": 10423,
+      "sha256": "b52a6d9da3d37a621d48656ba26591059fb4f620af4462d0885778af61b58749"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/build_dataset.py",
@@ -1295,6 +1310,11 @@
       "path": "outputs/memory-benchmark-v0.4-friction/nodes.json",
       "bytes": 9635,
       "sha256": "95c2f3ea8af9a126b877d941d35f97e75522c85d5027376653ecca40a65c980b"
+    },
+    {
+      "path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/ALL_TURNS.md",
+      "bytes": 2031,
+      "sha256": "4e2e72146ff1ba0d320bf2a6077989e3cfa77b38741d60be966ad98f1d9ad02b"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/manifest.json",
@@ -1385,11 +1405,6 @@
       "path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/run-medium/responses.jsonl",
       "bytes": 2491,
       "sha256": "71dca74db61ac9819fe0ecc615f635cd8ede8ca8b5556115debef7476ec639db"
-    },
-    {
-      "path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/全部对话回合.md",
-      "bytes": 1560,
-      "sha256": "47546f6f21d221838d43d5d2520de0ab4a5d59dd759525a9a006ac5e707a917a"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/review.json",
@@ -1882,29 +1897,19 @@
       "sha256": "067b97ab9a39ad0ab5fc4ab86ba841d2eb22adea5174685f65a38139615fec31"
     },
     {
-      "path": "outputs/memory-benchmark-v0.4-friction/全部对话回合.md",
-      "bytes": 12765,
-      "sha256": "d34cb932e4df8ba4c78d8497b7b3f032678a0dec2ae0fcf79cb9bfb8eb51d78b"
-    },
-    {
-      "path": "outputs/memory-benchmark-v0.4-friction/结果说明.md",
-      "bytes": 7618,
-      "sha256": "73f92279c5dbb734086982d144427dabca186c5c621e31ba1b1af14198787928"
-    },
-    {
-      "path": "outputs/memory-benchmark-v0.4-friction/设计与中文案例.md",
-      "bytes": 4520,
-      "sha256": "5d0f3f40c5c8492d11bf047a619ef77f98cfcfea13c0ef423ed1b2f93ecf2ff3"
-    },
-    {
       "path": "outputs/memory-benchmark-v0.4-friction/评分汇总.json",
       "bytes": 1242,
       "sha256": "4c6dce2606dfb1c30bfe81aa595805a294cee8f0be61c14a13126ffe656569cf"
     },
     {
-      "path": "outputs/memory-benchmark-v0.4-friction/逐题原文与评分.md",
-      "bytes": 8317,
-      "sha256": "4fd6d97074d788ebe4dbe7237a2504bf86fa4b93d8196a1258f0e910ba6dc62f"
+      "path": "outputs/memory-benchmark-v0.5-soc/PER_CASE_TRANSCRIPTS_AND_TOOL_LOGS.md",
+      "bytes": 9895,
+      "sha256": "384e4cefe19655c0670651a231850e57328d7e36a3486c0f4d55ac2327b08e0d"
+    },
+    {
+      "path": "outputs/memory-benchmark-v0.5-soc/RESULTS.md",
+      "bytes": 5967,
+      "sha256": "719a71767c54eb1d11e3ca691669d428b44e3321945a228b5adee4c45381870e"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/cases.json",
@@ -2127,19 +2132,9 @@
       "sha256": "3f5a9671b6666a469b2ff3fc640ef1023e56732e25f658a852d8aec29e0ce453"
     },
     {
-      "path": "outputs/memory-benchmark-v0.5-soc/结果说明.md",
-      "bytes": 4444,
-      "sha256": "c4b2b104f3e509dd32d24457300f4b7e1a6496da5d8d1d54186f9018ed813721"
-    },
-    {
       "path": "outputs/memory-benchmark-v0.5-soc/评分与调用汇总.json",
       "bytes": 10261,
       "sha256": "47ffc1d2284bd709c8c2a5f8e55e738ddbf4a5a6d2717bd80955bfbd897f909b"
-    },
-    {
-      "path": "outputs/memory-benchmark-v0.5-soc/逐例原文与工具日志.md",
-      "bytes": 8305,
-      "sha256": "0c2b028da5063aa8c8c00691131f75275c12aeb37130bb49087b96d554504d17"
     },
     {
       "path": "scripts/review_saved_results.py",

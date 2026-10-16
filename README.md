@@ -3,9 +3,9 @@ Exploratory benchmarks for AI agent memory, changing constraints, and authorizat
 
 **Five versions of a small, synthetic diagnostic pilot—not evidence that a veto intervention works.** This repository collects the Memory Evidence Benchmark experiments under the CommonSense Veto project name. It asks whether an assistant distinguishes remembered information from currently applicable evidence, and advice from authorization to act.
 
-The materials include authored cases, evaluator-only labels and rubrics, historical code, complete sanitized model outputs, operational failures, and AI-assisted reviews. No model evaluations were rerun to prepare this release. The original Chinese reports are retained alongside this English guide.
+The materials include authored cases, evaluator-only labels and rubrics, historical code, complete sanitized model outputs, operational failures, and AI-assisted reviews. No model evaluations were rerun to prepare this release. All reports and documentation are in English. The v0.3–v0.5 experiments were administered in Chinese, so their transcripts keep the original prompts and model responses verbatim, with English labels, scoring rationales and summaries.
 
-**Start here:** [Methods and results](docs/METHODS_AND_RESULTS.md) · [Limitations](docs/LIMITATIONS.md) · [Reproduce the checks](docs/REPRODUCIBILITY.md) · [中文导读](README_zh.md) · [Public-data processing](docs/PUBLIC_DATA.md)
+**Start here:** [Methods and results](docs/METHODS_AND_RESULTS.md) · [Limitations](docs/LIMITATIONS.md) · [Reproduce the checks](docs/REPRODUCIBILITY.md) · [Public-data processing](docs/PUBLIC_DATA.md)
 
 ## What was observed
 

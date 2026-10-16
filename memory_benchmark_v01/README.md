@@ -2,24 +2,24 @@
 
 **A synthetic diagnostic pilot for deciding which remembered facts still apply.**
 
-这是第一版可运行研究原型，使用描述性名称 Memory Evidence Benchmark。
-核心问题：助手不仅要记得过去说过什么，还要分清信息属于谁、是谁确认的、何时有效，以及后来的信息有没有真正推翻它。
+This is the first runnable research prototype, released under the descriptive name Memory Evidence Benchmark.
+The core question: an assistant must do more than recall what was said. It must track whose information it is, who confirmed it, when it holds, and whether later information actually overrides it.
 
-**当前状态：数据集、提示词导出、模型接入接口、评分器和测试已完成；尚未运行任何真实模型评测。**
-`validation/` 里的分数全部来自人工标签或固定程序输出，只用于检查软件，不能放进模型排行榜。
+**Status when this package was released: the dataset, prompt export, model adapter interface, scorer and tests were complete; no real model evaluation had been run yet.**
+Real pilot results were recorded later in [`outputs/gpt-pilot`](../outputs/gpt-pilot/). Every score in `validation/` comes from hand-written labels or fixed program output; those scores test the software only and must not be reported as model results.
 
-## 先看一个例子
+## A worked example
 
-过去助手说：“你可以选 SOC 210。”后来用户说：“我在考虑这门课。”
-问题：用户现在选上这门课了吗？
+Earlier, the assistant said: "You could take SOC 210." Later, the user said: "I'm considering that course."
+Question: is the user currently enrolled in the course?
 
-答案应当是“现有信息不足”，不能把推荐、考虑或助手自己的推测写成已选课。
-配对案例只把后来那句话改成“我已经正式注册了 SOC 210”，正确答案就必须变成“已选上”。
+The correct answer is "the available information is insufficient". A recommendation, a user's consideration, or the assistant's own inference must not be recorded as an enrollment.
+The paired case changes only the later statement, to "I have officially registered for SOC 210", and the correct answer must then become "enrolled".
 
-也有反方向的控制案例：用户明确说“以后默认简短回复，直到我改口”，半年没有更新，
-模型应该保留这条偏好，不能仅仅因为时间过去就说不知道。
+There are also controls in the opposite direction. The user explicitly says, "From now on, default to short replies until I say otherwise", and six months pass with no update.
+The model should keep that preference rather than answer "unknown" merely because time has passed.
 
-## 这 24 个案例测什么
+## What the 24 cases test
 
 | Family | Cases | What should change the answer? |
 |---|---:|---|
@@ -30,13 +30,13 @@
 | Subject attribution | 4 | The user versus a roommate/coworker, including quoted first-person speech |
 | Authorization scope | 4 | Draft versus send; retained versus revoked permission |
 
-共 12 对；每对只改一个事件的一项字段（文本或说话者）。18 个案例可确定答案，6 个信息不足。
-所有案例是原创合成内容，借鉴已讨论的失误类型，使用虚构地点、课程和产品。
-它们不是从私人对话导出的真实数据，也不是已证明在模型上发生的 24 次失败。
+The cases form 12 contrast pairs; within a pair, exactly one field of one event changes (its text or its speaker). 18 cases have a determinate answer and 6 have insufficient information.
+All cases are original synthetic content. They draw on previously discussed failure types and use fictional places, courses and products.
+They are not real data exported from private conversations, and they are not 24 failures that have been shown to occur in a model.
 
-## 在 Mac 上运行
+## Running on macOS
 
-下载解压后，在 Terminal 里进入 `memory_benchmark_v01` 文件夹。需要 Python 3.9 或更新版本；无第三方依赖。
+After downloading and unzipping, open Terminal and change into the `memory_benchmark_v01` folder. Python 3.9 or newer is required; there are no third-party dependencies.
 
 ```bash
 python3 benchmark.py validate
@@ -44,75 +44,75 @@ python3 -m unittest -v
 python3 benchmark.py demo --out demo_report.json
 ```
 
-前三条命令都不调用模型、不需要 API key。`demo` 只检验评分器。
+None of these commands calls a model or needs an API key. `demo` exercises the scorer only.
 
-### 今晚不想碰代码：也能手动测
+### Testing by hand, without code
 
-打开 `example_prompt.txt`，在一个新的聊天里，把整个文件发给要测的模型。
-它对应案例 C010。输出是一个很短的 JSON，用来区分答案、证据和信息不足。
-这个例子的参考答案在 `gold.jsonl` 中；不要把该文件发给被测模型。
+Open `example_prompt.txt` and send the entire file to the model under test in a new chat.
+It corresponds to case C010. The expected output is a short JSON object that separates the answer, the evidence and an insufficient-information decision.
+The reference answer for this example is in `gold.jsonl`; never send that file to the model under test.
 
-不要在已经看过答案的当前聊天里测试再把结果当作独立评测。界面产品如果开启了额外记忆，
-请记录这一点；它与没有外部记忆的 API 设置不是同一种实验条件。
+Do not run the test in a chat that has already seen the answer and then treat the result as an independent evaluation. If a chat product has additional memory enabled,
+record that fact: it is a different experimental condition from an API setting with no external memory.
 
-## 完整评测
+## Full evaluation
 
-### 方式 A：导出提示词，收集模型回答
+### Option A: export prompts and collect model responses
 
 ```bash
 python3 benchmark.py export --split all --out prompts.jsonl
 ```
 
-每行含 `id` 和 `messages`。对每个案例开启独立上下文，发送对应的两个 messages，
-不要加入 `gold.jsonl`、配对标签或前一个案例的答案。
+Each line contains an `id` and `messages`. Open a fresh context for each case and send its two messages,
+without `gold.jsonl`, pair labels, or the answer to any earlier case.
 
-将输出保存为 JSONL，每行形式如下（仅格式示例，不是某一案例的参考答案）：
+Save the outputs as JSONL, one line per case, in this shape (a format example, not the reference answer for any case):
 
 ```json
 {"id":"C001","prediction":{"decision":"answer","value":"Riverton","evidence_ids":["E1"]}}
 ```
 
-然后评分：
+Then score them:
 
 ```bash
 python3 benchmark.py score --predictions predictions.jsonl --out report.json
 ```
 
-### 方式 B：用你自己的模型适配器
+### Option B: use your own model adapter
 
 ```bash
 python3 benchmark.py run --adapter "python3 your_adapter.py" --out predictions.jsonl
 python3 benchmark.py score --predictions predictions.jsonl --out report.json
 ```
 
-适配器从 stdin 读取一条 `{"id":...,"messages":[...]}`，从 stdout 返回纯 JSON prediction。
-runner 每个案例启动一次独立进程，不传前例输出，不传标签；适配器内部如果另有持久状态，需自行关闭并记录。
-日志只能写 stderr。非零退出、超时、非 JSON 返回均记录为错误，不跳过失败案例、不自动重试。
-已有输出文件会阻止覆盖。用新的文件名开始下一次运行。
+The adapter reads one `{"id":...,"messages":[...]}` record from stdin and writes a bare JSON prediction to stdout.
+The runner starts a separate process for each case and passes neither earlier outputs nor labels. If the adapter keeps persistent state of its own, it must disable and document it.
+Logs go to stderr only. Non-zero exits, timeouts and non-JSON output are recorded as errors; failed cases are neither skipped nor retried automatically.
+The runner refuses to overwrite an existing output file, so start each new run with a new file name.
 
-包内 `adapter_http.py` 是一个可选的 chat-completions 风格 HTTP 接口适配器：
+The bundled `adapter_http.py` is an optional adapter for chat-completions-style HTTP services:
 
-- `BENCHMARK_ENDPOINT`：服务提供方的完整接口 URL。
-- `BENCHMARK_MODEL`：你实际可访问的模型 ID。
-- `BENCHMARK_API_KEY`：如服务需要，放在环境变量中。
-- `BENCHMARK_EXTRA_BODY`：可选 JSON 对象，用于该服务支持的采样或输出长度设置。
+- `BENCHMARK_ENDPOINT`: the provider's full endpoint URL.
+- `BENCHMARK_MODEL`: a model ID you actually have access to.
+- `BENCHMARK_API_KEY`: set in the environment if the service requires one.
+- `BENCHMARK_EXTRA_BODY`: an optional JSON object for sampling or output-length settings the service supports.
 
 ```bash
 python3 benchmark.py run --adapter "python3 adapter_http.py" --limit 1 --out smoke_predictions.jsonl
 ```
 
-设置上述环境变量后才可运行。这会向所配置的服务发送请求，可能产生费用；本交付未执行这种调用。
-该适配器只支持返回 `choices[0].message.content` 的服务，不是各家原生 API 的通用适配器。
-没有自动重试或重定向；严格 JSON 输出失败照常计入错误，不悄悄修复。
-先小规模验证服务兼容性，再去掉 `--limit`。单例 smoke 输出不能当成完整评测。
+This runs only once the variables above are set. It sends requests to the configured service and may incur costs; no such call was made in preparing this package.
+The adapter supports only services that return `choices[0].message.content`; it is not a universal adapter for every provider's native API.
+There are no automatic retries or redirects, and strict-JSON failures are counted as errors rather than silently repaired.
+Validate service compatibility on a small sample before removing `--limit`. A single-case smoke output is not a full evaluation.
 
-## 输出与评分
+## Output format and scoring
 
-模型只能返回 `decision`、`value`、`evidence_ids` 三个字段：
+The model may return only three fields: `decision`, `value` and `evidence_ids`.
 
-- `decision="answer"`：`value` 必须是当前案例 `allowed_values` 里的精确字符串。
-- `decision="clarify"`：`value=null`。表示该问题的信息不足，不意味着真实产品里必须打断用户。
-- `evidence_ids`：支持该判断的事件 ID；未知答案也要指出相关但不足以确定的证据。
+- `decision="answer"`: `value` must be an exact string from the case's `allowed_values`.
+- `decision="clarify"`: `value=null`. This means the information is insufficient for the question; it does not imply that a real product must interrupt the user.
+- `evidence_ids`: the IDs of the events supporting the judgment. An unknown answer must still cite the relevant evidence that is insufficient to decide.
 
 | Metric | Definition |
 |---|---|
@@ -125,15 +125,15 @@ python3 benchmark.py run --adapter "python3 adapter_http.py" --limit 1 --out smo
 | Unsupported answer | Valid answer outputs / all unknown cases |
 | Coverage and schema validity | Returned records and valid predictions / all selected cases |
 
-缺失或格式错误的回答，在准确率分母里照样保留。未知 ID 或重复 ID 直接报错。
-行为错误率只统计格式有效的错误，所以必须和 coverage/schema validity 一起报告；
-例如一个全部崩溃的系统可能显示零行为错误，但准确率也是零，不能解释为安全。
+Missing or malformed responses stay in the accuracy denominators. Unknown or duplicate IDs raise an error.
+Behavioral error rates count only well-formed errors, so they must be reported together with coverage and schema validity.
+For example, a system that crashes on every case shows zero behavioral errors but also zero accuracy; that must not be read as safe.
 
-`State accuracy` 与 `Strict accuracy` 应并列报告：证据集合的人工标注可能不唯一，
-不要把引用集合的格式敏感性误当成语义理解失败。当前 gold 给出最小证据集合；
-如果经人工复核发现另一个充分集合，应在固定版本之前统一补充，不能只为某个模型临时放宽。
+Report `State accuracy` and `Strict accuracy` side by side. Human annotation of evidence sets may not be unique,
+so format sensitivity in cited evidence sets should not be mistaken for a failure of semantic understanding. The current gold labels give minimal evidence sets.
+If human review finds another sufficient set, it should be added uniformly before the version is frozen, never relaxed ad hoc for one model.
 
-## 文件
+## Files
 
 | File | Purpose |
 |---|---|
@@ -148,15 +148,15 @@ python3 benchmark.py run --adapter "python3 adapter_http.py" --limit 1 --out smo
 | `DESIGN.md` | Research scope, limitations, literature and next experiment |
 | `validation/` | Software validation artifacts, explicitly not model results |
 
-## 实验记录
+## Experiment records
 
-开发与 pilot 各 12 题，每个 family 各一对；同一对不跨 split。
-这是公开且相似的小型诊断集，`pilot` 不等于独立、隐藏、无污染的测试集。
-调完提示词后再创建新的未见模板和场景，才能评估泛化。
+The development and pilot splits have 12 cases each, one pair per family, and no pair spans both splits.
+This is a small, public, homogeneous diagnostic set: `pilot` is not an independent, hidden or uncontaminated test set.
+Evaluating generalization requires creating new, unseen templates and scenarios after prompt tuning.
 
-至少记录：精确模型版本、服务/接口、时间、提示词与数据哈希、采样设置、
-最大输出长度、额外记忆状态、模型是否见过样例/标签、运行次数、失败和重试策略。
-run 生成的 metadata 只覆盖其中一部分，不能替代完整实验记录。
+At a minimum, record: the exact model version, service and interface, time, prompt and data hashes, sampling settings,
+maximum output length, any additional memory, whether the model has seen the examples or labels, the number of runs, and the failure and retry policy.
+The metadata written by `run` covers only part of this and does not replace a complete experiment record.
 
-**这版能测短上下文中的记忆证据判断，还不能证明一个真实系统半年后的持久记忆可靠。**
-更完整的研究设计见 `DESIGN.md`。
+**This version can test memory-evidence judgments in short contexts. It cannot yet show that a real system's persistent memory is reliable six months later.**
+See `DESIGN.md` for the fuller research design.

@@ -31,10 +31,11 @@
     {
       "path": "memory_benchmark_v01/README.md",
       "source_sha256": "e50ba6c005e9b9a1beaed76c125b58b3d69770be2b5fdb75e35aff9366c7f03a",
-      "public_sha256": "b83ae9a6baaa57286e3d7eda86de1ab5c9937e70e033b3be0a006e172badfa7f",
+      "public_sha256": "ee022c0d842c09c5c9d62a5199bed5e316c0a809983613792335ef5eeb97c72c",
       "modified": true,
       "actions": [
-        "Removed personalized introductory wording."
+        "Removed personalized introductory wording.",
+        "Translated Chinese prose into English for the public edition."
       ]
     },
     {
@@ -716,11 +717,15 @@
       "actions": []
     },
     {
-      "path": "outputs/gpt-pilot-v0.2-travel-run02/结果说明.md",
+      "path": "outputs/gpt-pilot-v0.2-travel-run02/RESULTS.md",
       "source_sha256": "b85e3f859786ee02476634a88f4f992ad84caae3584d4954d10bfac102b19a35",
-      "public_sha256": "b85e3f859786ee02476634a88f4f992ad84caae3584d4954d10bfac102b19a35",
-      "modified": false,
-      "actions": []
+      "public_sha256": "8965716b8a1fac3ef4bcc255566a444c0dae65ef064ab9f341c170a9b811b5bf",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated Chinese prose into English for the public edition."
+      ],
+      "source_path": "outputs/gpt-pilot-v0.2-travel-run02/结果说明.md"
     },
     {
       "path": "outputs/gpt-pilot-v0.2-travel/C029.events.jsonl",
@@ -1161,20 +1166,25 @@
       "actions": []
     },
     {
-      "path": "outputs/gpt-pilot/结果说明.md",
+      "path": "outputs/gpt-pilot/RESULTS.md",
       "source_sha256": "8beb301274324e017b375fa0514ae8e87e7340f4e8b6b138e7dabdd447a08f2c",
-      "public_sha256": "908b601b9fbccdc96eee76f700236051be2c881a1571693627af1ba23a703fe6",
+      "public_sha256": "a308a78fa5934e0fb5eae16608c8d37f7ce91bea59df262ff57d058de031c792",
       "modified": true,
       "actions": [
-        "Omitted application-specific editorial section; results and limitations retained."
-      ]
+        "Omitted application-specific editorial section; results and limitations retained.",
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated Chinese prose into English for the public edition."
+      ],
+      "source_path": "outputs/gpt-pilot/结果说明.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/README.md",
       "source_sha256": "dfbcc83ab6032d149d956c3f2e55b22d02ffee5ca5170fa3602741b38262dd7f",
-      "public_sha256": "dfbcc83ab6032d149d956c3f2e55b22d02ffee5ca5170fa3602741b38262dd7f",
-      "modified": false,
-      "actions": []
+      "public_sha256": "2c124223759da06152827370cef5d178e7df8005b0d89d3bdd8a9b8322853350",
+      "modified": true,
+      "actions": [
+        "Translated Chinese prose into English for the public edition."
+      ]
     },
     {
       "path": "outputs/memory-benchmark-v0.2-travel/adapter_http.py",
@@ -1926,32 +1936,48 @@
       "actions": []
     },
     {
-      "path": "outputs/memory-benchmark-v0.3-open/两档对比结果.md",
+      "path": "outputs/memory-benchmark-v0.3-open/EFFORT_COMPARISON.md",
       "source_sha256": "54b1ab4381493671f1a8a90ac4af80b106239a92c48c73895458bc7041b5f227",
-      "public_sha256": "54b1ab4381493671f1a8a90ac4af80b106239a92c48c73895458bc7041b5f227",
-      "modified": false,
-      "actions": []
+      "public_sha256": "daffb5f0402a0059b31cd4968e7135448f28fc62dfe34920560391e283b41e0a",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated Chinese prose into English for the public edition."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.3-open/两档对比结果.md"
     },
     {
-      "path": "outputs/memory-benchmark-v0.3-open/设计与中文题目.md",
+      "path": "outputs/memory-benchmark-v0.3-open/DESIGN_AND_PROMPTS.md",
       "source_sha256": "8b2a2a79579bf7a939410e6ee1e8d1524978f9f61ce10368d41219b9cf232d43",
-      "public_sha256": "8b2a2a79579bf7a939410e6ee1e8d1524978f9f61ce10368d41219b9cf232d43",
-      "modified": false,
-      "actions": []
+      "public_sha256": "92073238cd37b618168adb6c6989295d73cb59d0e4f6cd9be940c4affa4decc2",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated Chinese prose into English for the public edition."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.3-open/设计与中文题目.md"
     },
     {
-      "path": "outputs/memory-benchmark-v0.3-open/逐题结果-high.md",
+      "path": "outputs/memory-benchmark-v0.3-open/PER_ITEM_RESULTS_HIGH.md",
       "source_sha256": "ffd87fc18aa80a0d58b0ba9848c1391e35f4b3531e5e0b22887c82d81cc41f2f",
-      "public_sha256": "ffd87fc18aa80a0d58b0ba9848c1391e35f4b3531e5e0b22887c82d81cc41f2f",
-      "modified": false,
-      "actions": []
+      "public_sha256": "b8069f1a2b78f7f1b731364e474f04f34f708b1c48632db16116b84610d3db4c",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.3-open/逐题结果-high.md"
     },
     {
-      "path": "outputs/memory-benchmark-v0.3-open/逐题结果-medium.md",
+      "path": "outputs/memory-benchmark-v0.3-open/PER_ITEM_RESULTS_MEDIUM.md",
       "source_sha256": "aab1b3a7d9f15f99098d9f2fd71c7ce8af6ca921de07423451147643d6e6dfb3",
-      "public_sha256": "aab1b3a7d9f15f99098d9f2fd71c7ce8af6ca921de07423451147643d6e6dfb3",
-      "modified": false,
-      "actions": []
+      "public_sha256": "415750f812c0856529d1fbcb86e48807b53524bdb9dc6f683fc0c1097ca38238",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.3-open/逐题结果-medium.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/build_dataset.py",
@@ -2126,11 +2152,15 @@
       ]
     },
     {
-      "path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/全部对话回合.md",
+      "path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/ALL_TURNS.md",
       "source_sha256": "47546f6f21d221838d43d5d2520de0ab4a5d59dd759525a9a006ac5e707a917a",
-      "public_sha256": "47546f6f21d221838d43d5d2520de0ab4a5d59dd759525a9a006ac5e707a917a",
-      "modified": false,
-      "actions": []
+      "public_sha256": "4e2e72146ff1ba0d320bf2a6077989e3cfa77b38741d60be966ad98f1d9ad02b",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.4-friction/rain-transition-supplement/全部对话回合.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/review.json",
@@ -2918,25 +2948,37 @@
       ]
     },
     {
-      "path": "outputs/memory-benchmark-v0.4-friction/全部对话回合.md",
+      "path": "outputs/memory-benchmark-v0.4-friction/ALL_TURNS.md",
       "source_sha256": "d34cb932e4df8ba4c78d8497b7b3f032678a0dec2ae0fcf79cb9bfb8eb51d78b",
-      "public_sha256": "d34cb932e4df8ba4c78d8497b7b3f032678a0dec2ae0fcf79cb9bfb8eb51d78b",
-      "modified": false,
-      "actions": []
+      "public_sha256": "6e959751eb67350d7a7f92721be4e8bf33c6873fe247bef64a9016b6e884e6c1",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.4-friction/全部对话回合.md"
     },
     {
-      "path": "outputs/memory-benchmark-v0.4-friction/结果说明.md",
+      "path": "outputs/memory-benchmark-v0.4-friction/RESULTS.md",
       "source_sha256": "73f92279c5dbb734086982d144427dabca186c5c621e31ba1b1af14198787928",
-      "public_sha256": "73f92279c5dbb734086982d144427dabca186c5c621e31ba1b1af14198787928",
-      "modified": false,
-      "actions": []
+      "public_sha256": "b52a6d9da3d37a621d48656ba26591059fb4f620af4462d0885778af61b58749",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated Chinese prose into English for the public edition."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.4-friction/结果说明.md"
     },
     {
-      "path": "outputs/memory-benchmark-v0.4-friction/设计与中文案例.md",
+      "path": "outputs/memory-benchmark-v0.4-friction/DESIGN_AND_CASES.md",
       "source_sha256": "5d0f3f40c5c8492d11bf047a619ef77f98cfcfea13c0ef423ed1b2f93ecf2ff3",
-      "public_sha256": "5d0f3f40c5c8492d11bf047a619ef77f98cfcfea13c0ef423ed1b2f93ecf2ff3",
-      "modified": false,
-      "actions": []
+      "public_sha256": "e955ee75573f9b6b8e72fba96b18bcd3098a7824363f256a342f67a875b4bf13",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated Chinese prose into English for the public edition."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.4-friction/设计与中文案例.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.4-friction/评分汇总.json",
@@ -2946,11 +2988,15 @@
       "actions": []
     },
     {
-      "path": "outputs/memory-benchmark-v0.4-friction/逐题原文与评分.md",
+      "path": "outputs/memory-benchmark-v0.4-friction/PER_ITEM_TRANSCRIPTS_AND_SCORES.md",
       "source_sha256": "4fd6d97074d788ebe4dbe7237a2504bf86fa4b93d8196a1258f0e910ba6dc62f",
-      "public_sha256": "4fd6d97074d788ebe4dbe7237a2504bf86fa4b93d8196a1258f0e910ba6dc62f",
-      "modified": false,
-      "actions": []
+      "public_sha256": "baafdf63d9dcefd0b3752e0f50ab3eace43a62aeb4b626a5c543c8fe04f26ad3",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.4-friction/逐题原文与评分.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/cases.json",
@@ -3284,11 +3330,15 @@
       ]
     },
     {
-      "path": "outputs/memory-benchmark-v0.5-soc/结果说明.md",
+      "path": "outputs/memory-benchmark-v0.5-soc/RESULTS.md",
       "source_sha256": "c4b2b104f3e509dd32d24457300f4b7e1a6496da5d8d1d54186f9018ed813721",
-      "public_sha256": "c4b2b104f3e509dd32d24457300f4b7e1a6496da5d8d1d54186f9018ed813721",
-      "modified": false,
-      "actions": []
+      "public_sha256": "719a71767c54eb1d11e3ca691669d428b44e3321945a228b5adee4c45381870e",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated Chinese prose into English for the public edition."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.5-soc/结果说明.md"
     },
     {
       "path": "outputs/memory-benchmark-v0.5-soc/评分与调用汇总.json",
@@ -3298,11 +3348,15 @@
       "actions": []
     },
     {
-      "path": "outputs/memory-benchmark-v0.5-soc/逐例原文与工具日志.md",
+      "path": "outputs/memory-benchmark-v0.5-soc/PER_CASE_TRANSCRIPTS_AND_TOOL_LOGS.md",
       "source_sha256": "0c2b028da5063aa8c8c00691131f75275c12aeb37130bb49087b96d554504d17",
-      "public_sha256": "0c2b028da5063aa8c8c00691131f75275c12aeb37130bb49087b96d554504d17",
-      "modified": false,
-      "actions": []
+      "public_sha256": "384e4cefe19655c0670651a231850e57328d7e36a3486c0f4d55ac2327b08e0d",
+      "modified": true,
+      "actions": [
+        "Renamed from a Chinese file name to an English one; source_path gives the archive name.",
+        "Translated headings, labels and reviewer notes into English; prompts, model responses and tool logs kept verbatim."
+      ],
+      "source_path": "outputs/memory-benchmark-v0.5-soc/逐例原文与工具日志.md"
     },
     {
       "path": "supplemental_scripts/build_soc_pilot.py",

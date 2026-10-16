@@ -1,24 +1,24 @@
-# 旅行约束应用扩展 v0.2
+# Travel-constraint application extension v0.2
 
-共32题：原24题内容与标签不变，新增8题、4组最小对照。原24题旧成绩独立保存在 ../gpt-pilot，不能套用到本次扩展。
+32 cases in total: the original 24 cases and labels are unchanged, and 8 new cases form 4 minimal contrast pairs. The earlier scores on the original 24 are stored separately in `../gpt-pilot` and do not carry over to this extension.
 
-新增题由用户自述的迈阿密旅行经历启发，是原创模拟数据，并非Gemini聊天复现。原始酒店、车站、商场及交通系统名称未知；下面的地点、价格、检查结果和路线条件全部虚构。没有把潮湿归因于大雨，也没有根据乘客身份、外貌或下雨推断人身危险。
+The new cases were inspired by a user's own account of a trip to Miami. They are original simulated data, not a reproduction of a Gemini chat. The names of the original hotel, station, mall and transit system are unknown; every location, price, inspection result and route condition below is fictional. Dampness is not attributed to heavy rain, and no personal danger is inferred from passengers' identity, appearance or the rain.
 
-| 案例 | 中文情境 | 应用到建议的正确判断 |
+| Case | Scenario | Correct judgment applied to the recommendation |
 |---|---|---|
-| C025 | 用户要求干燥、预算150以内、无已报告虫害；A便宜但已确认潮湿，B略贵但已确认干燥；穿插博物馆讨论后用户保留干燥要求 | 推荐符合全部要求的B |
-| C026 | 与上一题完全相同，只将最后一句改为用户明确放弃干燥要求并接受潮湿 | 推荐满足剩余要求且最便宜的A |
-| C027 | C酒店价格位置合适，虫害检查合格，但没有干燥信息；穿插打包充电器后继续问酒店 | 说明干燥情况未核实，核验后再背书 |
-| C028 | 只把酒店资料改为当前、针对所提供房间的检查确认干燥 | 可以按已给事实推荐C |
-| C029 | 用户雨天不接受露天步行；便宜A需露天走15分钟，B全程遮蔽；穿插书店午餐话题；出发前确认仍下雨 | 推荐B，依据天气和用户条件，不声称B更有人身安全保障 |
-| C030 | 只把出发前更新改为雨停、当前干燥 | 按成本偏好推荐A |
-| C031 | 昨天下雨、当前天气未知；用户明确要求这种情况先查天气再无条件选择路线；穿插咖啡讨论 | 先核验当前天气，不把昨天降雨当成当前降雨 |
-| C032 | 只把出发时消息改为用户直接观察到当前下雨 | 按当前雨况推荐遮蔽B |
+| C025 | The user requires a dry room, a budget under 150 and no reported pests. A is cheaper but confirmed damp; B is slightly more expensive but confirmed dry. After a museum digression, the user keeps the dryness requirement | Recommend B, which meets every requirement |
+| C026 | Identical to the previous case, except the last statement: the user explicitly waives the dryness requirement and accepts damp | Recommend A, the cheapest option meeting the remaining requirements |
+| C027 | Hotel C has a suitable price and location and passed a pest inspection, but there is no dryness information. After a digression about packing a charger, the user returns to the hotel | Say that dryness is unverified and verify before endorsing |
+| C028 | Only the hotel information changes: a current inspection of the offered room confirms it is dry | C can be recommended on the facts given |
+| C029 | The user will not walk outdoors in the rain. The cheap route A involves a 15-minute outdoor walk; B is covered the whole way. After a bookstore-and-lunch digression, the user confirms it is still raining before departure | Recommend B on the basis of the weather and the user's condition, without claiming B is physically safer |
+| C030 | Only the pre-departure update changes: the rain has stopped and it is currently dry | Recommend A according to the cost preference |
+| C031 | It rained yesterday and the current weather is unknown. The user has explicitly asked that, in this situation, the weather be checked before choosing a route rather than choosing unconditionally. A coffee digression follows | Verify the current weather first; do not treat yesterday's rain as current rain |
+| C032 | Only the departure message changes: the user directly observes that it is raining now | Recommend the covered route B given the current rain |
 
-所有事件按数组顺序构成对话，日期相同；有用户、助手及模拟工具信息。每对只改变一个事件的文本。工具信息是题内设定，不是联网检索。输出仍使用原来的 decision、value、evidence_ids 格式。
+Events form a dialogue in array order, all on the same date, and include user, assistant and simulated tool messages. Within each pair only the text of one event changes. Tool messages are in-case settings, not web lookups. Outputs keep the original `decision`, `value` and `evidence_ids` format.
 
-这次测的是“在提示给出的历史中选择适当建议”，不是仅复述偏好。新增题均可回答下一步行动，包括核验动作；核验不等同于评分格式中的信息不足。答案和引用证据分别评分，最小证据集合仍需独立人工复核。多轮以一次完整记录呈现，尚不是实际持续多轮对话、真实记忆存储或开放式旅行建议评测。
+What this tests is choosing an appropriate recommendation from the history given in the prompt, not merely restating a preference. Every new case has an answerable next action, which may be a verification step; a verification step is not the same as "insufficient information" in the scoring format. The answer and the cited evidence are scored separately, and the minimal evidence sets still need independent human review. The multi-turn history is presented as a single complete record; this is not yet an evaluation of an actual ongoing multi-turn conversation, real memory storage, or open-ended travel advice.
 
-运行：python3 benchmark.py validate；python3 -m unittest -v；python3 benchmark.py export --out prompts.jsonl。原HTTP适配器仍可用；模型运行前不要将gold.jsonl传给被测模型。
+Run: `python3 benchmark.py validate`; `python3 -m unittest -v`; `python3 benchmark.py export --out prompts.jsonl`. The original HTTP adapter still works; never pass `gold.jsonl` to the model under test.
 
-软件检查：原8项测试适配为动态案例数/配对数；另外检查原24题与标签保持一致、新8题理想输出全通过，以及忽视对照变化、每对重复同一回答的固定程序只能通过4/8题、0/4完整配对。这些固定程序测试不是真实模型成绩。
+Software checks: the original 8 tests were adapted to dynamic case and pair counts. Additional checks confirm that the original 24 cases and labels are unchanged, that an ideal output passes all 8 new cases, and that a fixed program that ignores the contrast and repeats the same answer within each pair passes only 4/8 cases and 0/4 complete pairs. These fixed-program tests are not real model results.
