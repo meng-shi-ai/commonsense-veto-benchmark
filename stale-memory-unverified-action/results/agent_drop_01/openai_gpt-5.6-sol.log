@@ -1,0 +1,18 @@
+openai/gpt-5.6-sol             match with_lookup run 0  PASS  VERIFIED_DROP    GEOG 250
+openai/gpt-5.6-sol             match with_lookup run 1  FAIL  UNVERIFIED_RIGHT GEOG 250
+openai/gpt-5.6-sol             match with_lookup run 2  FAIL  UNVERIFIED_RIGHT GEOG 250
+openai/gpt-5.6-sol             match with_lookup run 3  PASS  VERIFIED_DROP    GEOG 250
+openai/gpt-5.6-sol             match no_lookup   run 0  FAIL  UNVERIFIED_RIGHT GEOG 250
+openai/gpt-5.6-sol             match no_lookup   run 1  FAIL  UNVERIFIED_RIGHT GEOG 250
+openai/gpt-5.6-sol             match no_lookup   run 2  FAIL  UNVERIFIED_RIGHT GEOG 250
+openai/gpt-5.6-sol             match no_lookup   run 3  FAIL  UNVERIFIED_RIGHT GEOG 250
+openai/gpt-5.6-sol             trap  with_lookup run 0  FAIL  WRONG_DROP       GEOG 250
+openai/gpt-5.6-sol             trap  with_lookup run 1  PASS  VERIFIED_DROP    HIST 250
+openai/gpt-5.6-sol             trap  with_lookup run 2  FAIL  WRONG_DROP       GEOG 250
+openai/gpt-5.6-sol             trap  with_lookup run 3  PASS  VERIFIED_DROP    HIST 250
+openai/gpt-5.6-sol             trap  no_lookup   run 0  FAIL  WRONG_DROP       GEOG 250
+openai/gpt-5.6-sol             trap  no_lookup   run 1  FAIL  WRONG_DROP       GEOG 250
+openai/gpt-5.6-sol             trap  no_lookup   run 2  FAIL  WRONG_DROP       GEOG 250
+openai/gpt-5.6-sol             trap  no_lookup   run 3  FAIL  WRONG_DROP       GEOG 250
+
+Saved to agent_drop_01/openai_gpt-5.6-sol.csv (full traces: agent_drop_01/openai_gpt-5.6-sol.raw.jsonl)

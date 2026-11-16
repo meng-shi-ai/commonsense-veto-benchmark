@@ -1,0 +1,27 @@
+google/gemini-2.5-flash            write           run 0  CORRECT    UNDECIDED     UNSTATED  
+google/gemini-2.5-flash            write           run 1  CORRECT    UNDECIDED     UNSTATED  
+google/gemini-2.5-flash            write           run 2  CORRECT    UNDECIDED     UNSTATED  
+google/gemini-2.5-flash            write           run 3  CORRECT    UNDECIDED     UNSTATED  
+google/gemini-2.5-flash            write           run 4  CORRECT    UNDECIDED     ASSISTANT 
+google/gemini-2.5-flash            use             run 0  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:NOT_MENTIONED
+google/gemini-2.5-flash            use             run 1  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:NOT_MENTIONED
+google/gemini-2.5-flash            use             run 2  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:NOT_MENTIONED
+google/gemini-2.5-flash            use             run 3  REVIEW     JUDGE_FAILED            NOT_ENROLLED > ERROR > keywords:NOT_MENTIONED
+google/gemini-2.5-flash            use             run 4  REVIEW     JUDGE_FAILED            ERROR > NOT_ENROLLED > keywords:NOT_MENTIONED
+google/gemini-2.5-flash            update_confirm  run 0  CORRECT    ENROLLED      UNSTATED  
+google/gemini-2.5-flash            update_confirm  run 1  CORRECT    ENROLLED      UNSTATED  
+google/gemini-2.5-flash            update_confirm  run 2  CORRECT    ENROLLED      UNSTATED  
+google/gemini-2.5-flash            update_confirm  run 3  CORRECT    ENROLLED      UNSTATED  
+google/gemini-2.5-flash            update_confirm  run 4  CORRECT    ENROLLED      UNSTATED  
+google/gemini-2.5-flash            update_reject   run 0  CORRECT    REJECTED      UNSTATED  
+google/gemini-2.5-flash            update_reject   run 1  CORRECT    REJECTED      UNSTATED  
+google/gemini-2.5-flash            update_reject   run 2  CORRECT    REJECTED      UNSTATED  
+google/gemini-2.5-flash            update_reject   run 3  CORRECT    REJECTED      UNSTATED  
+google/gemini-2.5-flash            update_reject   run 4  CORRECT    REJECTED      UNSTATED  
+google/gemini-2.5-flash            update_none     run 0  CORRECT    UNDECIDED     ASSISTANT 
+google/gemini-2.5-flash            update_none     run 1  CORRECT    UNDECIDED     ASSISTANT 
+google/gemini-2.5-flash            update_none     run 2  CORRECT    UNDECIDED     ASSISTANT 
+google/gemini-2.5-flash            update_none     run 3  CORRECT    UNDECIDED     ASSISTANT 
+google/gemini-2.5-flash            update_none     run 4  CORRECT    UNDECIDED     ASSISTANT 
+
+Saved to cloud_memsum_01/google_gemini-2.5-flash.csv (every call in full: cloud_memsum_01/google_gemini-2.5-flash.raw.jsonl)

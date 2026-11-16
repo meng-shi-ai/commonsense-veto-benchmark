@@ -1,0 +1,17 @@
+model,memory,display,run,outcome,departments_before_25000,text
+google/gemini-2.5-flash,ambiguous,image,0,NO_DEPT,,"Yes, 20 credits is a heavy load. Since CS is your main focus, consider dropping PHIL 201 or LANG 101."
+google/gemini-2.5-flash,ambiguous,image,1,GEOG,GEOG,"Yes, 20 credits is a heavy load. Since CS is your main focus, and you're taking two CS courses, plus a hybrid language course, a philosophy course, and a research position, it's likely to be very demanding. |  | Consider dropping the online GEOG 250 (Area C) course. This would bring you down to 17 credits, which is still a full schedule but more manageable. You can take an Area C course later."
+google/gemini-2.5-flash,ambiguous,image,2,GEOG,GEOG,"Yes, 20 credits is a heavy load. Since CS is your main focus, and you have two CS courses, you may want to drop one of the other courses if you feel overwhelmed. |  | Consider dropping GEOG 250 (Dist Online) if you need to lighten the load, as it was the last recommendation for your Area C requirement."
+google/gemini-2.5-flash,ambiguous,image,3,NO_DEPT,,"Yes, taking 20 credits, including two CS courses, a hybrid language class, and a research position, is a heavy workload. You might find it very challenging."
+google/gemini-2.5-flash,ambiguous,text,0,NO_DEPT,,是的，20个学分会非常紧张。 |  | 特别是CS 110和CS 120是主要课程。加上POL 305的研究工作，你可能时间不够。
+google/gemini-2.5-flash,ambiguous,text,1,NO_DEPT,,"Yes, 20 credits is a heavy load, especially with multiple demanding courses like CS 110, CS 120, and POL 305 research."
+google/gemini-2.5-flash,ambiguous,text,2,NO_DEPT,,是的，这学期学业繁重。 |  | 有20个学分，包括两门CS课和一门研究学分，你可能会觉得很累。
+google/gemini-2.5-flash,ambiguous,text,3,NO_DEPT,,是的，这学期学业繁重。 |  | 原因如下： | *   **学分过多**：总计20学分，这已经超出了大多数学生推荐的每学期15-17学分。 | *   **CS课程密集**：同时上CS 110和CS 120，这两门课通常都需要投入大量时间。 | *   **高强度课程**：除了CS课程，PHIL 201和POL 305（研究学分）也可能需要大量时间和精力。 | *   **混合式和在线课程**：LANG 101（混合式）和250（在线）虽然时间安排灵活，但需要较强的自律性来跟上进度。 |  | 你可能会感到非常累，并且时间管理会很有挑战。
+google/gemini-2.5-flash,ambiguous_reversed,image,0,HIST,HIST,"Yes, 20 credits is a heavy load. Since CS is your main focus, you might consider dropping PHIL 201 or LANG 101. |  | If you need to fulfill the Area C requirement, remember that HIST 250 (Distance Learning) or GEOG 280 (Hybrid) were recommended previously."
+google/gemini-2.5-flash,ambiguous_reversed,image,1,NO_DEPT,,"Yes, 20 credits is a heavy load. Especially with CS 110 and 120, which are often demanding."
+google/gemini-2.5-flash,ambiguous_reversed,image,2,NO_DEPT,,"Yes, 20 credits is a heavy load. Especially with two CS courses, a hybrid language course, and a research position. You might find it challenging."
+google/gemini-2.5-flash,ambiguous_reversed,image,3,NO_DEPT,,"Yes, 20 credits is a heavy load. It's especially challenging with CS 110 and CS 120 together, as they both require significant time."
+google/gemini-2.5-flash,ambiguous_reversed,text,0,NO_DEPT,,"Yes, this is a very heavy course load."
+google/gemini-2.5-flash,ambiguous_reversed,text,1,NO_DEPT,,是的，这学期学业繁重。20个学分，还有研究职位，会很忙。
+google/gemini-2.5-flash,ambiguous_reversed,text,2,NO_DEPT,,是的，这学期学业可能会很繁重。 |  | 你的课程包括： |  | *   **17个学分的课堂授课**，其中包括两门CS课程和一门语言课程，这些通常需要大量的时间投入。 | *   **一门在线课程和一门研究课程**，这些也需要额外的自主学习时间。 |  | 总学分达到20分，这通常被认为是满负荷甚至超负荷的学习量。你可能需要投入大量时间来完成所有课程的要求。
+google/gemini-2.5-flash,ambiguous_reversed,text,3,NO_DEPT,,是的，这学期学业繁重，尤其是考虑到你有20个学分。CS 110和CS 120会占用你大量时间。LANG 101（混合式）和PHIL 201也会增加你的工作量。

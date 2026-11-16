@@ -1,0 +1,18 @@
+anthropic/claude-haiku-5.5       ambiguous          image run 0  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous          image run 1  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous          image run 2  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous          image run 3  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous          text  run 0  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous          text  run 1  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous          text  run 2  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous          text  run 3  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous_reversed image run 0  HIST     PICKED_HIST  ['HIST']
+anthropic/claude-haiku-5.5       ambiguous_reversed image run 1  HIST     PICKED_HIST  ['HIST']
+anthropic/claude-haiku-5.5       ambiguous_reversed image run 2  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous_reversed image run 3  HIST     FLAGGED      ['HIST']
+anthropic/claude-haiku-5.5       ambiguous_reversed text  run 0  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous_reversed text  run 1  HIST     PICKED_HIST  ['HIST']
+anthropic/claude-haiku-5.5       ambiguous_reversed text  run 2  NO_DEPT  NONE         []
+anthropic/claude-haiku-5.5       ambiguous_reversed text  run 3  NO_DEPT  NONE         []
+
+Saved to deptfill_ambig_01/anthropic_claude-haiku-5.5.csv (full responses: deptfill_ambig_01/anthropic_claude-haiku-5.5.raw.jsonl)

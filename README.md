@@ -7,6 +7,8 @@ The materials include authored cases, evaluator-only labels and rubrics, histori
 
 **Start here:** [Methods and results](docs/METHODS_AND_RESULTS.md) · [Limitations](docs/LIMITATIONS.md) · [Reproduce the checks](docs/REPRODUCIBILITY.md) · [Public-data processing](docs/PUBLIC_DATA.md)
 
+**Follow-up study:** [Stale Memory, Unverified Action](stale-memory-unverified-action/) tests the same question across 3–15 models from several providers, with three preregistered experiments, human-labelled samples and a veto-layer comparison. It contains the materials behind an extended abstract submitted to Agent Evaluation Science (AES) 2026.
+
 ## What was observed
 
 | Version | Evaluation unit and setting | Observed result |
@@ -33,6 +35,7 @@ The central finding is modest: in these small, often explicit synthetic settings
 | v0.4 conversation graph, all turns, reviews and supplement | [multi-turn experiment](outputs/memory-benchmark-v0.4-friction/) |
 | v0.5 prompts, rubric, simulator, calls and state transitions | [SOC experiment](outputs/memory-benchmark-v0.5-soc/) |
 | Additional historical authoring and analysis scripts | [supplemental_scripts](supplemental_scripts/) |
+| Follow-up multi-model study: code, raw outputs, preregistrations, human labels | [stale-memory-unverified-action](stale-memory-unverified-action/) |
 
 The v0.1 README's “not yet evaluated” statement describes the original dataset-package release; real pilot results were subsequently stored separately in `outputs/gpt-pilot`. Read the version-specific reports in that historical context.
 
@@ -60,6 +63,8 @@ The main limitation of v0.1–v0.5 is that a single model configuration (gpt-6-a
 5. **Keep a held-out test split private.** Public cases can enter future training data. A private split guards against contamination and tests generalization to unseen scenarios.
 6. **Add an intervention comparison.** Compare behavior with and without a verification or veto mechanism, to test whether constructive friction actually reduces errors. The current versions cannot show this.
 
+The [follow-up study](stale-memory-unverified-action/) takes first steps on items 1, 2 and 6: responses from several model families, human labels on a blinded sample, conditions on which some models fail, and a comparison of no protection, a prompt rule and a programmatic veto layer. It remains pilot-scale, with 3–5 runs per cell in one scenario family.
+
 ## Review status and rights
 
-Labels and semantic reviews were AI-assisted and have not received independent human or blinded validation. Cases are public and synthetic; no hidden generalization test is claimed. No license has been selected for this release. Public availability should not be interpreted as an additional license grant.
+Labels and semantic reviews were AI-assisted and have not received independent human or blinded validation. Cases are public and synthetic; no hidden generalization test is claimed. No license has been selected for the v0.1–v0.5 materials; public availability should not be interpreted as an additional license grant. The [stale-memory-unverified-action](stale-memory-unverified-action/) folder is licensed separately: code under MIT, data and documentation under CC BY 4.0.

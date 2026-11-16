@@ -1,0 +1,18 @@
+google/gemini-2.5-flash          ambiguous          image run 0  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous          image run 1  GEOG     PICKED_GEOG  ['GEOG']
+google/gemini-2.5-flash          ambiguous          image run 2  GEOG     PICKED_GEOG  ['GEOG']
+google/gemini-2.5-flash          ambiguous          image run 3  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous          text  run 0  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous          text  run 1  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous          text  run 2  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous          text  run 3  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous_reversed image run 0  HIST     PICKED_HIST  ['HIST']
+google/gemini-2.5-flash          ambiguous_reversed image run 1  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous_reversed image run 2  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous_reversed image run 3  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous_reversed text  run 0  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous_reversed text  run 1  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous_reversed text  run 2  NO_DEPT  NONE         []
+google/gemini-2.5-flash          ambiguous_reversed text  run 3  NO_DEPT  NONE         []
+
+Saved to deptfill_ambig_01/google_gemini-2.5-flash.csv (full responses: deptfill_ambig_01/google_gemini-2.5-flash.raw.jsonl)

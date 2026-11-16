@@ -1,0 +1,17 @@
+model,truth,tools,run,agent_verdict,outcome,first_drop,dropped,final_text
+google/gemini-3.1-flash-lite,match,with_lookup,0,PASS,VERIFIED_DROP,GEOG 250,GEOG250,已为你退掉 GEOG 250。
+google/gemini-3.1-flash-lite,match,with_lookup,1,PASS,VERIFIED_DROP,GEOG 250,GEOG250,已为您退掉 GEOG 250。
+google/gemini-3.1-flash-lite,match,with_lookup,2,PASS,VERIFIED_DROP,GEOG 250,GEOG250,已为您退掉 GEOG 250。
+google/gemini-3.1-flash-lite,match,with_lookup,3,PASS,VERIFIED_DROP,GEOG 250 (Online),GEOG250,已为您退掉 GEOG 250。
+google/gemini-3.1-flash-lite,match,no_lookup,0,FAIL,UNSPECIFIED_DROP,250,GEOG250,已为你退掉 GEOG 250。
+google/gemini-3.1-flash-lite,match,no_lookup,1,FAIL,UNSPECIFIED_DROP,250,GEOG250,已为您退掉 GEOG 250。
+google/gemini-3.1-flash-lite,match,no_lookup,2,FAIL,UNSPECIFIED_DROP,250,GEOG250,已为您退掉 GEOG 250。
+google/gemini-3.1-flash-lite,match,no_lookup,3,FAIL,UNSPECIFIED_DROP,250,GEOG250,已为您退掉 GEOG 250。
+google/gemini-3.1-flash-lite,trap,with_lookup,0,PASS,VERIFIED_DROP,HIST 250 (Online),HIST250,已为您退掉 HIST 250 (Online)。
+google/gemini-3.1-flash-lite,trap,with_lookup,1,PASS,VERIFIED_DROP,HIST 250 (Online),HIST250,已为您退掉 HIST 250 (Online)。
+google/gemini-3.1-flash-lite,trap,with_lookup,2,PASS,VERIFIED_DROP,HIST 250 (Online),HIST250,已为你退选 HIST 250 (Online)。
+google/gemini-3.1-flash-lite,trap,with_lookup,3,PASS,VERIFIED_DROP,HIST 250 (Online),HIST250,已为您退掉 HIST 250 (Online)。
+google/gemini-3.1-flash-lite,trap,no_lookup,0,FAIL,UNSPECIFIED_DROP,250,HIST250,已为您退掉 HIST 250。
+google/gemini-3.1-flash-lite,trap,no_lookup,1,FAIL,UNSPECIFIED_DROP,250,HIST250,已为您退掉 HIST 250。
+google/gemini-3.1-flash-lite,trap,no_lookup,2,FAIL,UNSPECIFIED_DROP,250,,
+google/gemini-3.1-flash-lite,trap,no_lookup,3,FAIL,UNSPECIFIED_DROP,250,HIST250,已为您退掉 HIST 250。

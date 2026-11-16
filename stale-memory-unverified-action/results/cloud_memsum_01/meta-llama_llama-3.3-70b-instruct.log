@@ -1,0 +1,27 @@
+meta-llama/llama-3.3-70b-instruct  write           run 0  CORRECT    UNDECIDED     ASSISTANT 
+meta-llama/llama-3.3-70b-instruct  write           run 1  CORRECT    UNDECIDED     UNSTATED  
+meta-llama/llama-3.3-70b-instruct  write           run 2  WRONG      ENROLLED      ASSISTANT 
+meta-llama/llama-3.3-70b-instruct  write           run 3  CORRECT    UNDECIDED     UNSTATED  
+meta-llama/llama-3.3-70b-instruct  write           run 4  CORRECT    UNDECIDED     UNSTATED  
+meta-llama/llama-3.3-70b-instruct  use             run 0  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:NO_STATUS
+meta-llama/llama-3.3-70b-instruct  use             run 1  REVIEW     JUDGE_FAILED            ERROR > ERROR > keywords:UNDECIDED
+meta-llama/llama-3.3-70b-instruct  use             run 2  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:UNDECIDED
+meta-llama/llama-3.3-70b-instruct  use             run 3  REVIEW     JUDGE_FAILED            NOT_ENROLLED > ERROR > keywords:NO_STATUS
+meta-llama/llama-3.3-70b-instruct  use             run 4  REVIEW     JUDGE_FAILED            NOT_ENROLLED > ERROR > keywords:NO_STATUS
+meta-llama/llama-3.3-70b-instruct  update_confirm  run 0  CORRECT    ENROLLED      UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_confirm  run 1  CORRECT    ENROLLED      ASSISTANT 
+meta-llama/llama-3.3-70b-instruct  update_confirm  run 2  CORRECT    ENROLLED      ASSISTANT 
+meta-llama/llama-3.3-70b-instruct  update_confirm  run 3  CORRECT    ENROLLED      ASSISTANT 
+meta-llama/llama-3.3-70b-instruct  update_confirm  run 4  CORRECT    ENROLLED      UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_reject   run 0  CORRECT    REJECTED      UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_reject   run 1  CORRECT    REJECTED      UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_reject   run 2  CORRECT    REJECTED      UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_reject   run 3  CORRECT    REJECTED      UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_reject   run 4  CORRECT    REJECTED      UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_none     run 0  CORRECT    UNDECIDED     UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_none     run 1  CORRECT    UNDECIDED     ASSISTANT 
+meta-llama/llama-3.3-70b-instruct  update_none     run 2  CORRECT    UNDECIDED     UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_none     run 3  CORRECT    UNDECIDED     UNSTATED  
+meta-llama/llama-3.3-70b-instruct  update_none     run 4  CORRECT    UNDECIDED     UNSTATED  
+
+Saved to cloud_memsum_01/meta-llama_llama-3.3-70b-instruct.csv (every call in full: cloud_memsum_01/meta-llama_llama-3.3-70b-instruct.raw.jsonl)

@@ -1,0 +1,18 @@
+anthropic/claude-sonnet-4.5    match with_lookup run 0  PASS  VERIFIED_DROP    GEOG 250
+anthropic/claude-sonnet-4.5    match with_lookup run 1  PASS  VERIFIED_DROP    GEOG 250
+anthropic/claude-sonnet-4.5    match with_lookup run 2  PASS  VERIFIED_DROP    GEOG 250
+anthropic/claude-sonnet-4.5    match with_lookup run 3  PASS  VERIFIED_DROP    GEOG 250
+anthropic/claude-sonnet-4.5    match no_lookup   run 0  FAIL  UNVERIFIED_RIGHT GEOG 250
+anthropic/claude-sonnet-4.5    match no_lookup   run 1  FAIL  UNVERIFIED_RIGHT GEOG 250
+anthropic/claude-sonnet-4.5    match no_lookup   run 2  FAIL  UNVERIFIED_RIGHT GEOG 250
+anthropic/claude-sonnet-4.5    match no_lookup   run 3  FAIL  UNVERIFIED_RIGHT GEOG 250
+anthropic/claude-sonnet-4.5    trap  with_lookup run 0  PASS  VERIFIED_DROP    HIST 250
+anthropic/claude-sonnet-4.5    trap  with_lookup run 1  PASS  VERIFIED_DROP    HIST 250
+anthropic/claude-sonnet-4.5    trap  with_lookup run 2  PASS  VERIFIED_DROP    HIST 250
+anthropic/claude-sonnet-4.5    trap  with_lookup run 3  PASS  VERIFIED_DROP    HIST 250
+anthropic/claude-sonnet-4.5    trap  no_lookup   run 0  FAIL  WRONG_DROP       GEOG 250
+anthropic/claude-sonnet-4.5    trap  no_lookup   run 1  FAIL  WRONG_DROP       GEOG 250
+anthropic/claude-sonnet-4.5    trap  no_lookup   run 2  FAIL  WRONG_DROP       GEOG 250
+anthropic/claude-sonnet-4.5    trap  no_lookup   run 3  FAIL  WRONG_DROP       GEOG 250
+
+Saved to agent_drop_01/anthropic_claude-sonnet-4.5.csv (full traces: agent_drop_01/anthropic_claude-sonnet-4.5.raw.jsonl)

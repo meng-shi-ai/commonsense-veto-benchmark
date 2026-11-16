@@ -1,0 +1,18 @@
+openai/gpt-5.6-sol               ambiguous          image run 0  GEOG     PICKED_GEOG  ['GEOG']
+openai/gpt-5.6-sol               ambiguous          image run 1  GEOG     PICKED_GEOG  ['GEOG']
+openai/gpt-5.6-sol               ambiguous          image run 2  GEOG     PICKED_GEOG  ['GEOG']
+openai/gpt-5.6-sol               ambiguous          image run 3  GEOG     PICKED_GEOG  ['GEOG']
+openai/gpt-5.6-sol               ambiguous          text  run 0  GEOG     PICKED_GEOG  ['GEOG']
+openai/gpt-5.6-sol               ambiguous          text  run 1  GEOG     PICKED_GEOG  ['GEOG']
+openai/gpt-5.6-sol               ambiguous          text  run 2  GEOG     PICKED_GEOG  ['GEOG']
+openai/gpt-5.6-sol               ambiguous          text  run 3  GEOG     PICKED_GEOG  ['GEOG']
+openai/gpt-5.6-sol               ambiguous_reversed image run 0  HIST     PICKED_HIST  ['HIST']
+openai/gpt-5.6-sol               ambiguous_reversed image run 1  HIST     PICKED_HIST  ['HIST']
+openai/gpt-5.6-sol               ambiguous_reversed image run 2  HIST     PICKED_HIST  ['HIST']
+openai/gpt-5.6-sol               ambiguous_reversed image run 3  HIST     PICKED_HIST  ['HIST']
+openai/gpt-5.6-sol               ambiguous_reversed text  run 0  NO_DEPT  NONE         []
+openai/gpt-5.6-sol               ambiguous_reversed text  run 1  NO_DEPT  NONE         []
+openai/gpt-5.6-sol               ambiguous_reversed text  run 2  HIST     PICKED_HIST  ['HIST']
+openai/gpt-5.6-sol               ambiguous_reversed text  run 3  NO_DEPT  NONE         []
+
+Saved to deptfill_ambig_01/openai_gpt-5.6-sol.csv (full responses: deptfill_ambig_01/openai_gpt-5.6-sol.raw.jsonl)

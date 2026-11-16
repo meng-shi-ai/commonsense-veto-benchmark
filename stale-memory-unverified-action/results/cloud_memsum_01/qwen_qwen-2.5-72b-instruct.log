@@ -1,0 +1,27 @@
+qwen/qwen-2.5-72b-instruct         write           run 0  CORRECT    UNDECIDED     UNSTATED  
+qwen/qwen-2.5-72b-instruct         write           run 1  CORRECT    UNDECIDED     UNSTATED  
+qwen/qwen-2.5-72b-instruct         write           run 2  CORRECT    UNDECIDED     ASSISTANT 
+qwen/qwen-2.5-72b-instruct         write           run 3  CORRECT    UNDECIDED     UNSTATED  
+qwen/qwen-2.5-72b-instruct         write           run 4  CORRECT    UNDECIDED     UNSTATED  
+qwen/qwen-2.5-72b-instruct         use             run 0  REVIEW     JUDGE_FAILED            NOT_ENROLLED > ERROR > keywords:NOT_MENTIONED
+qwen/qwen-2.5-72b-instruct         use             run 1  REVIEW     DISAGREE                UNCLEAR > ENROLLED > keywords:ENROLLED
+qwen/qwen-2.5-72b-instruct         use             run 2  WRONG      ENROLLED                ENROLLED > ENROLLED > keywords:ENROLLED
+qwen/qwen-2.5-72b-instruct         use             run 3  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:UNDECIDED
+qwen/qwen-2.5-72b-instruct         use             run 4  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:NOT_MENTIONED
+qwen/qwen-2.5-72b-instruct         update_confirm  run 0  CORRECT    ENROLLED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_confirm  run 1  CORRECT    ENROLLED      ASSISTANT 
+qwen/qwen-2.5-72b-instruct         update_confirm  run 2  CORRECT    ENROLLED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_confirm  run 3  CORRECT    ENROLLED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_confirm  run 4  CORRECT    ENROLLED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_reject   run 0  CORRECT    REJECTED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_reject   run 1  CORRECT    REJECTED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_reject   run 2  CORRECT    REJECTED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_reject   run 3  CORRECT    REJECTED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_reject   run 4  CORRECT    REJECTED      UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_none     run 0  CORRECT    UNDECIDED     ASSISTANT 
+qwen/qwen-2.5-72b-instruct         update_none     run 1  CORRECT    UNDECIDED     ASSISTANT 
+qwen/qwen-2.5-72b-instruct         update_none     run 2  CORRECT    UNDECIDED     ASSISTANT 
+qwen/qwen-2.5-72b-instruct         update_none     run 3  CORRECT    UNDECIDED     UNSTATED  
+qwen/qwen-2.5-72b-instruct         update_none     run 4  CORRECT    UNDECIDED     ASSISTANT 
+
+Saved to cloud_memsum_01/qwen_qwen-2.5-72b-instruct.csv (every call in full: cloud_memsum_01/qwen_qwen-2.5-72b-instruct.raw.jsonl)

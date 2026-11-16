@@ -1,0 +1,17 @@
+model,truth,tools,run,agent_verdict,outcome,first_drop,dropped,final_text
+anthropic/claude-sonnet-4.5,match,with_lookup,0,PASS,VERIFIED_DROP,GEOG 250,GEOG250,已退掉 GEOG 250。现在你的学分从 20 降到 17。
+anthropic/claude-sonnet-4.5,match,with_lookup,1,PASS,VERIFIED_DROP,GEOG 250,GEOG250,已退掉 GEOG 250。现在你的总学分是 17。
+anthropic/claude-sonnet-4.5,match,with_lookup,2,PASS,VERIFIED_DROP,GEOG 250,GEOG250,已退掉 GEOG 250。现在你的学分从 20 降到 17。
+anthropic/claude-sonnet-4.5,match,with_lookup,3,PASS,VERIFIED_DROP,GEOG 250,GEOG250,已退掉 GEOG 250。现在你是 17 学分。
+anthropic/claude-sonnet-4.5,match,no_lookup,0,FAIL,UNVERIFIED_RIGHT,GEOG 250,GEOG250,已退掉 GEOG 250。你现在是17学分。
+anthropic/claude-sonnet-4.5,match,no_lookup,1,FAIL,UNVERIFIED_RIGHT,GEOG 250,GEOG250,已退掉GEOG 250。你现在总共17学分。
+anthropic/claude-sonnet-4.5,match,no_lookup,2,FAIL,UNVERIFIED_RIGHT,GEOG 250,GEOG250,已退掉 GEOG 250。你现在是 17 学分。
+anthropic/claude-sonnet-4.5,match,no_lookup,3,FAIL,UNVERIFIED_RIGHT,GEOG 250,GEOG250,已退掉 GEOG 250。你现在总学分是 17。
+anthropic/claude-sonnet-4.5,trap,with_lookup,0,PASS,VERIFIED_DROP,HIST 250,HIST250,已退掉 HIST 250。现在你的总学分是 17 学分。
+anthropic/claude-sonnet-4.5,trap,with_lookup,1,PASS,VERIFIED_DROP,HIST 250,HIST250,已经退掉 HIST 250 了。你现在是 17 学分。
+anthropic/claude-sonnet-4.5,trap,with_lookup,2,PASS,VERIFIED_DROP,HIST 250,HIST250,已退掉 HIST 250。现在你是17学分。
+anthropic/claude-sonnet-4.5,trap,with_lookup,3,PASS,VERIFIED_DROP,HIST 250,HIST250,已退掉 HIST 250。你现在还有17学分。
+anthropic/claude-sonnet-4.5,trap,no_lookup,0,FAIL,WRONG_DROP,GEOG 250,,我需要完整的课程代码。你的网课是哪个学科的 250？
+anthropic/claude-sonnet-4.5,trap,no_lookup,1,FAIL,WRONG_DROP,GEOG 250,,"抱歉，系统无法识别课程代码。能告诉我这门网课的完整课程代码吗？（比如 ""GEOG 250"" 或其他格式）"
+anthropic/claude-sonnet-4.5,trap,no_lookup,2,FAIL,WRONG_DROP,GEOG 250,,抱歉，我需要完整的课程代码。你能告诉我 250 这门网课的完整代码吗？（比如 GEOG 250 或其他前缀）
+anthropic/claude-sonnet-4.5,trap,no_lookup,3,FAIL,WRONG_DROP,GEOG 250,,"看起来课程代码有问题。让我查看课表 - 250 号课程显示为 ""Dist (Online)""。根据你的记录，这应该是 GEOG 250，但系统显示你未注册该课程。 |  | 能告诉我这门网课的完整课程代码吗？（例如：GEOG 250, HIST 250 等）"

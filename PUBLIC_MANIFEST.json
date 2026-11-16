@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7305,
-      "sha256": "8a382ec0c92360b68899b04dfc074ea7b9ec621c5f152baeab823dd264c82641"
+      "bytes": 8337,
+      "sha256": "69d5ca476e0dcf7333c38a79e9177593c30d2afded9466fe5d729d619f9f6bd0"
     },
     {
       "path": "docs/LIMITATIONS.md",
@@ -2145,6 +2145,861 @@
       "path": "scripts/verify_release.py",
       "bytes": 1775,
       "sha256": "42f36e2b5f0face6ee80d70fd7ffa1161fb5ae9e61fea5b6e7fdf0a1417df965"
+    },
+    {
+      "path": "stale-memory-unverified-action/LICENSE",
+      "bytes": 1065,
+      "sha256": "41d02103167607fee16794064a9bdc0da5cace89e460551dcc42ea9fc6c6569c"
+    },
+    {
+      "path": "stale-memory-unverified-action/LICENSE-DATA",
+      "bytes": 666,
+      "sha256": "ef8e5ca13b08f611434ca0ecef0ce1d05f7f30041c28b9a216f9bcafb9c6f93a"
+    },
+    {
+      "path": "stale-memory-unverified-action/PREREGISTRATION_agent_drop_01.md",
+      "bytes": 1918,
+      "sha256": "2d268dbb7b39f24f3334a0534bee8f1c77a8a60a718102b180b134d571bd1b65"
+    },
+    {
+      "path": "stale-memory-unverified-action/PREREGISTRATION_ambiguity_01.md",
+      "bytes": 1220,
+      "sha256": "4727f5eaa93a4ae7003b189a7edb0e409304af1478fb635e8c63de572685450a"
+    },
+    {
+      "path": "stale-memory-unverified-action/PREREGISTRATION_veto_01.md",
+      "bytes": 1758,
+      "sha256": "dceec61f779b1cf9b7d095463f6e025a3ff1cd6916a85889e2ba004656db731c"
+    },
+    {
+      "path": "stale-memory-unverified-action/README.md",
+      "bytes": 4072,
+      "sha256": "6fc140dbb2b6dea7dffdf77bf4183f1361f9f10809e60d5e3527300fad254209"
+    },
+    {
+      "path": "stale-memory-unverified-action/agent_drop_test.py",
+      "bytes": 14706,
+      "sha256": "42bc6e830d3ca5ca4063bf950d1a69ff8163f2d579e644ea67b14b4c52eb19b9"
+    },
+    {
+      "path": "stale-memory-unverified-action/department_fill_test.py",
+      "bytes": 11053,
+      "sha256": "5fef6dd307b8aba7cae3fe2f06c46237aa5abf014c7b412c744767307e72f496"
+    },
+    {
+      "path": "stale-memory-unverified-action/memory_summary_test.py",
+      "bytes": 18117,
+      "sha256": "49e792979513d69246df3c61b9cf70982e0a8e6400a24eebcc9e7ae3eecf8c1a"
+    },
+    {
+      "path": "stale-memory-unverified-action/rejudge.py",
+      "bytes": 2649,
+      "sha256": "91303e505ac3c5f2d2a72c8a944890f231cfa365e146a9794cdf29b3f7590f12"
+    },
+    {
+      "path": "stale-memory-unverified-action/reproduce_paper_numbers.py",
+      "bytes": 2985,
+      "sha256": "9ce50bff3f8248481e3e6f9e09820ac3298e8ef51006c2c3c21526cf515e07e2"
+    },
+    {
+      "path": "stale-memory-unverified-action/rescore_deptfill.py",
+      "bytes": 5256,
+      "sha256": "92bbddbaf5914a9c673aaaf208c44821c886d2daaa6bd665256aa01ab328cb9d"
+    },
+    {
+      "path": "stale-memory-unverified-action/rescore_memsum.py",
+      "bytes": 2895,
+      "sha256": "a7c690ba813e8f93d1035fa883e54d2a9d58e7bb444087ecc6eceb00c6861398"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/anthropic_claude-opus-5.5.csv",
+      "bytes": 6291,
+      "sha256": "1cad09fbebcf473ef30b91ee2b2b7f5f6ddfe7c83132d4a536a0140875bc5f2f"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/anthropic_claude-opus-5.5.log",
+      "bytes": 1463,
+      "sha256": "2e336590498cff2dc272090628cb844d7d800fe3700653cbd8dda188c97cd2fe"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/anthropic_claude-opus-5.5.raw.jsonl",
+      "bytes": 11836,
+      "sha256": "229ae5ef5711e77afe364e116606c31bd932fcbddc8430899a58cd5db29d2111"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/anthropic_claude-sonnet-4.5.csv",
+      "bytes": 2613,
+      "sha256": "f6912d217364940ad5fb4438e61152298c9017ce73642688c577ca6c03c1e0a3"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/anthropic_claude-sonnet-4.5.log",
+      "bytes": 1531,
+      "sha256": "17e8c8d127676fb540fc536a6e0aba3c076878c9bd8e46d79b5100601d9bc9c0"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/anthropic_claude-sonnet-4.5.raw.jsonl",
+      "bytes": 11779,
+      "sha256": "e0d29600763464d51f4cf5e4eea208c4b04526a64866046f2a04236ee47d435a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/google_gemini-3.1-flash-lite.csv",
+      "bytes": 1906,
+      "sha256": "8421da26efa84a028b2cf12ceba6f31b24713609d47864d5bd2ef2c3643a9412"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/google_gemini-3.1-flash-lite.log",
+      "bytes": 1538,
+      "sha256": "81f56850c9ceff3f8d2f9df2155009f92a15d62e4ec6e3aa580a137606a9ed3e"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/google_gemini-3.1-flash-lite.raw.jsonl",
+      "bytes": 10999,
+      "sha256": "4ad3f2803f6ba77ed02c190ea69fb646f021c2bcac85fa69faba1af3c40eb0dd"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/google_gemini-4-argon.csv",
+      "bytes": 2947,
+      "sha256": "05bea2b4ebe7666cd782cbd4d6f7af44a61e91794f54211e249b8480308d1da2"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/google_gemini-4-argon.log",
+      "bytes": 1455,
+      "sha256": "38773197a56bd333cc7b17330a6718360e97373d912fdb98f488ca18e7e1dd00"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/google_gemini-4-argon.raw.jsonl",
+      "bytes": 8524,
+      "sha256": "f038a6b489f0075361906c786af171c73fd1cd0acfb24886ee58f2fd85fc977c"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/openai_gpt-5.6-sol.csv",
+      "bytes": 2451,
+      "sha256": "46897ca7e49d55fff3a5717de29da483e7b2ebe8b9fbf965a7dfd4bc537d4324"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/openai_gpt-5.6-sol.log",
+      "bytes": 1513,
+      "sha256": "6eb96975363922994d7f622a03c091ba9dd1c141cb125f588c7629f625b56a5b"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/openai_gpt-5.6-sol.raw.jsonl",
+      "bytes": 9626,
+      "sha256": "264c5331c6c8f35d8dbb441294a5902637ee7850d7c0f15776a49d332b48324c"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/openai_gpt-6.1-sol.csv",
+      "bytes": 2806,
+      "sha256": "4880b0092e0746d11921041ea669bbf7e0e3ef6fd1fe8a366846d347e6e4da5b"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/openai_gpt-6.1-sol.log",
+      "bytes": 1449,
+      "sha256": "c3cf85e95b1b180e1d3ff9cf80454b932e4ec9ecd539b8c38f0a5356a2dfa634"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/agent_drop_01/openai_gpt-6.1-sol.raw.jsonl",
+      "bytes": 8377,
+      "sha256": "c232266131791261600c8548d90bded888be65638daac3364fff3c2347f8fce4"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-haiku-5.5.csv",
+      "bytes": 9052,
+      "sha256": "f64ce8c96f9d0e83a614ca4faa40c7f0cc3dd2bd6a4bf2beaedc1c92bd77886a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-haiku-5.5.log",
+      "bytes": 2706,
+      "sha256": "2d026ad9587d9a152dee7230ae318edd718731bbe08c060cb680214b33024af7"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-haiku-5.5.raw.jsonl",
+      "bytes": 56076,
+      "sha256": "68acf161ef052cc1ebe7967e42d31214ca9b49f31cc215b134c1661049da13a0"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-opus-5.5.csv",
+      "bytes": 8587,
+      "sha256": "86816f86cd0b97ad63bc68a1744a1283912933254f2bd71a61f99bd703f3b477"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-opus-5.5.log",
+      "bytes": 2692,
+      "sha256": "af5d5b87acbe47dba906665bcb9430ee51b376ac9c93dd14869e588c68475156"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-opus-5.5.raw.jsonl",
+      "bytes": 61382,
+      "sha256": "15d89f3f4deacf7522775226bf545452a87e475d1b6cc6ae1a06ec7eb63ddbe6"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-sonnet-5.5.csv",
+      "bytes": 8894,
+      "sha256": "45f8ba039df21e781029dcadfc07b47930dd25dafad7142880b595f8ab2f3804"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-sonnet-5.5.log",
+      "bytes": 2702,
+      "sha256": "8468ce00a598a38366a11324e2242509834213c03ca4909716b2d665115e805a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/anthropic_claude-sonnet-5.5.raw.jsonl",
+      "bytes": 60253,
+      "sha256": "6add4aa56e41e9d4836974721f6b406f9a11727f1467771a2ee0f265bad2d525"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-flash-lite.csv",
+      "bytes": 7773,
+      "sha256": "486819aa9c4f5cf5338ae30b387dd3bc2b8bb6bca20fda9b5705608282232e4f"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-flash-lite.log",
+      "bytes": 2710,
+      "sha256": "984d724d6259c19f4f6fe091b807d903293a3a9c127cb551ee09a257bacd986e"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-flash-lite.raw.jsonl",
+      "bytes": 67276,
+      "sha256": "7d88f58e58ca413bcd1e5c2ed309e1e9f785340bd5c39905ca567d0b4b561c8a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-flash.csv",
+      "bytes": 7764,
+      "sha256": "67226be404f77116a758466a451ba30abba033b7aded3006272870a2ffc4cfea"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-flash.log",
+      "bytes": 2722,
+      "sha256": "aa7016c4e41bfca5982d54dc6d56081a6b83e8f2f0ee9c0d9a7c8d54941989e9"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-flash.raw.jsonl",
+      "bytes": 46376,
+      "sha256": "0df0095e5228e17fbf8dc8c69a29b1dd704ba95a649252e40896ffe6963f800d"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-pro.csv",
+      "bytes": 6717,
+      "sha256": "fcb13f719bbb6b05ef87e369daf15c99191ad219ad1dcedd6aced9c5a8b4325b"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-pro.log",
+      "bytes": 2621,
+      "sha256": "4fb38eca2909995a630271a9c91de67c760de608d8247141902c683c926b47e5"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/google_gemini-2.5-pro.raw.jsonl",
+      "bytes": 56309,
+      "sha256": "207cd82f19472f7be598f9f36d5e6799602eefeb1e45ed695a4f342862e9256e"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/meta-llama_llama-3.1-8b-instruct.csv",
+      "bytes": 8267,
+      "sha256": "5f70bacce21e7d6b3266b5d7b0afc074363f159902c2a8dbb265a06f5fd57fa4"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/meta-llama_llama-3.1-8b-instruct.log",
+      "bytes": 2731,
+      "sha256": "4f6a8c876aae31dc7c2bbd86dbe6ee35b285dfb8f4edf1ff575b78a624939dd4"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/meta-llama_llama-3.1-8b-instruct.raw.jsonl",
+      "bytes": 46150,
+      "sha256": "124b1d618aa150114655581ceee63f1a226ab19e685ac22f998c8ac5aec12ea8"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/meta-llama_llama-3.3-70b-instruct.csv",
+      "bytes": 9300,
+      "sha256": "ac7d6f9cfac0e6c9374c95b15a812d4e7d09a0938774f7b842f2f4f19b8bd99a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/meta-llama_llama-3.3-70b-instruct.log",
+      "bytes": 2708,
+      "sha256": "3a9643582a18673d0f6adffba73d5468817bef77b5ca9a615253f2f37c7766c5"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/meta-llama_llama-3.3-70b-instruct.raw.jsonl",
+      "bytes": 48719,
+      "sha256": "3c05ee195d099a6b4037ac59c4db58df876fd1b9ad9359b0f92614bb63ea6a96"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-astra.csv",
+      "bytes": 7615,
+      "sha256": "cadc1ae2e80a34e8349c1a975bd830c828d8bfee3386a14372337a354375508c"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-astra.log",
+      "bytes": 2677,
+      "sha256": "397c41754d89df3ba30e9e4b986a219d74ec800dc3e3c73416891125f9e8e37d"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-astra.raw.jsonl",
+      "bytes": 49323,
+      "sha256": "1f77d15d56f3b36cc7da3daaaa5d764befe278527cd48830608ed3fa28f01399"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-luna.csv",
+      "bytes": 7204,
+      "sha256": "e9cafc590c62c0b97b546e7da2193a473a92f31d3d28b4145d496c1070a5f739"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-luna.log",
+      "bytes": 2681,
+      "sha256": "269eb3e01e372d25c33937a7fcb7fef4bae74d3b88b494ec40a144f40bb15052"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-luna.raw.jsonl",
+      "bytes": 44786,
+      "sha256": "22bdf171f20cfdd633fdc1d856ab5474592422880d87cdae620493a7c4f2cf99"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-sol.csv",
+      "bytes": 6187,
+      "sha256": "17ea594ca1855f6595437699c63dbbdc7642e163becfaeafb61e3ad4f6dde1fc"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-sol.log",
+      "bytes": 2639,
+      "sha256": "ec1cc21b6d05e3799777fa055b75e49a7dd985e1b7ea0e43a416ca8a2a0bbc14"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/openai_gpt-6-sol.raw.jsonl",
+      "bytes": 41619,
+      "sha256": "f6a4861c2c12d64ac8aadf070bc0075fd1ada2c3dd84be83e737cc6dee9a3f76"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/qwen_qwen-2.5-72b-instruct.csv",
+      "bytes": 9251,
+      "sha256": "f81c793b9ba07627755318b6144f24c1dba79c8d6d0a6f52aeb08c5fe23c71b4"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/qwen_qwen-2.5-72b-instruct.log",
+      "bytes": 2704,
+      "sha256": "ca25e4d3c973ed6accfa50d55d22f0c79d6d63706baeb3abd73eeb4bc251a0e9"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/qwen_qwen-2.5-72b-instruct.raw.jsonl",
+      "bytes": 61248,
+      "sha256": "a66f36f87658b7025d7466054496a2c384a49c56d204cac52c09af0dce76d5fe"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/qwen_qwen-2.5-7b-instruct.csv",
+      "bytes": 8949,
+      "sha256": "d0b01eff052b4c99da79297e790bc553735028a57f043ac110039e0d8dcc2619"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/qwen_qwen-2.5-7b-instruct.log",
+      "bytes": 2673,
+      "sha256": "c040f762a36824add4d5c16ae79a42f9bbcf3504c58e73c29c0ae226177acdec"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01/qwen_qwen-2.5-7b-instruct.raw.jsonl",
+      "bytes": 53534,
+      "sha256": "2bcc1dbd4f4637835c6c4a8329bcb8a25438ee0597e79bcf7eea54955aa763f1"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/cloud_memsum_01_rejudge.jsonl",
+      "bytes": 276579,
+      "sha256": "51496400a644518deba2339f727b98a1e93872b903f6d4f7ab672aff2da399e6"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-haiku-5.5.csv",
+      "bytes": 25260,
+      "sha256": "1ab0350bf03eb3d6654fbaad3349997b67757a9a28436f4eb871d2d9b0a9f639"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-haiku-5.5.log",
+      "bytes": 2706,
+      "sha256": "5c89ca2113280b04f0d778f2307d89667d605f4ec277e21bf09bf061eb579619"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-haiku-5.5.raw.jsonl",
+      "bytes": 52317,
+      "sha256": "c1ced0383395fa4661b6ecfc0ad5439bbf5bab9267cc41867f743b6b54e58381"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-opus-5.5.csv",
+      "bytes": 22310,
+      "sha256": "7a14e3f10a0aba33432670d4effb8f4181db5d93424e7df5c962e25640a6e3f6"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-opus-5.5.log",
+      "bytes": 2680,
+      "sha256": "9e7ed7ecbc082585f25749b6b8bac16431f65fa3ab6960fbbaa86fdf02152c6c"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-opus-5.5.raw.jsonl",
+      "bytes": 49356,
+      "sha256": "620434dc83d3191713b461174a715863e001c74ad527c57552bf895a4a6fb0d4"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-sonnet-5.5.csv",
+      "bytes": 21557,
+      "sha256": "18628cc240853b1b067128d3dda610ad6159e51fb2eecd6f6660392fcd23ba76"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-sonnet-5.5.log",
+      "bytes": 2696,
+      "sha256": "d9e5b8bf7d737cac15c8fb165b3793c4c93b79c37b6d23b850fa787e2fc8cb06"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/anthropic_claude-sonnet-5.5.raw.jsonl",
+      "bytes": 48646,
+      "sha256": "9095a52597d6c7a343b450d5abce995cb0f3c6dedc4363e67007fbf68c4f9a1a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-2.5-flash.csv",
+      "bytes": 22350,
+      "sha256": "bf6c62e9071870b52fa8c90f00292ecded149c4bc93253cf21464d45a6f8ce56"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-2.5-flash.log",
+      "bytes": 2634,
+      "sha256": "7ed0b9bb5ee14da80e8d25c94e1920a5fe8f9fe6f9a6b6b26065ab95d772b909"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-2.5-flash.raw.jsonl",
+      "bytes": 75819,
+      "sha256": "265dc0e73fca593eb100da0d0f6dde04be930f63bc700b804bbc1f1fc1fec0c2"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-2.5-pro.log",
+      "bytes": 2226,
+      "sha256": "336086d966fdc27e456322774de40c98431979a3ab58a38f99d0b7ba90fe1b85"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-2.5-pro.raw.jsonl",
+      "bytes": 36782,
+      "sha256": "7e5d1767af819bba39fb3d3ab2e51a06f323bb12a7b692c21b9e53a79e2a3133"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-3.8-flash.csv",
+      "bytes": 20102,
+      "sha256": "7a3f9e0f4f8bfd56a1cb68903bf4ff1fe10eed2b0788135ffaba255b4d73da9e"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-3.8-flash.log",
+      "bytes": 2682,
+      "sha256": "4408ff07baf4618ad3c11ff7d2d09894be973dadad68caf2f287ce6c073e0ea1"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-3.8-flash.raw.jsonl",
+      "bytes": 47223,
+      "sha256": "ea605481b336cd9315c0d6c6353e3e2ffbc8ec02796eb37661b99a595b7c1f1a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-4-argon.csv",
+      "bytes": 23580,
+      "sha256": "90bfb91bc442dd11b3d60e92e4c356525ba0207ca7c00faf3acc8cb00c194333"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-4-argon.log",
+      "bytes": 2696,
+      "sha256": "f6f3b997cd1871213825914fadf1f6f99e863172d8d9b0051ca485beca26719e"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/google_gemini-4-argon.raw.jsonl",
+      "bytes": 50691,
+      "sha256": "716129aee33954f18cf7e07fa3b4708e8ff7e69a0d25f4cc532bcb30f33cbfac"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/meta-llama_llama-4-maverick.csv",
+      "bytes": 17828,
+      "sha256": "2a118200bcd0f9d9d19663680dccede4c46d16888ac0a3d5b327ecc2509f156a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/meta-llama_llama-4-maverick.log",
+      "bytes": 2684,
+      "sha256": "cdea477b8373f190478aea15fe7fbcf96fb3a52a303b8b7c23d10c3308a6b929"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/meta-llama_llama-4-maverick.raw.jsonl",
+      "bytes": 45003,
+      "sha256": "a414e1376d880cecfc467a38256056782feca7328c55dddded26204d1142ce1f"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-5.6-sol.csv",
+      "bytes": 24028,
+      "sha256": "6681f2f44a127ddd051356253c9e285658d7ac5c35fddeb1aae746d01a2fade7"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-5.6-sol.log",
+      "bytes": 2684,
+      "sha256": "96d8a07d9c9cf8adba65d34ad56ecd0e6c683769ddd780b1ab50a13cdba510e7"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-5.6-sol.raw.jsonl",
+      "bytes": 51088,
+      "sha256": "a196c20dc0fdc4ced175e071473ba1d409c719b0f1d630c1b6396dbfe2a228c7"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-astra.csv",
+      "bytes": 26443,
+      "sha256": "4d010d3e6a57cae294f4822cb8cbff7790b4b2dc29be4354624dfa2b55d66201"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-astra.log",
+      "bytes": 2684,
+      "sha256": "5c389a37b8e382d1acdb58b4ffb2479ae6b0bae1f074f78e0a7acb707af18651"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-astra.raw.jsonl",
+      "bytes": 53599,
+      "sha256": "aed9ebb99f787532cc73e47e9ce5e5fdfb1ba7cdccae81bcc070830add840616"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-luna.csv",
+      "bytes": 22608,
+      "sha256": "9d834d137b276c2abfab031b11b5812a26210e280415614624ad57611aad4c65"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-luna.log",
+      "bytes": 2694,
+      "sha256": "a09de7a4382d3badf909f504d7ca4a79cf5a134b5833d43a7b892a2c221e9b4e"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-luna.raw.jsonl",
+      "bytes": 49804,
+      "sha256": "3b8dd63741ff61dc7a43a74e545f1c387f84fbee7040c5e3b4dd3ef91da3ed73"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-sol.csv",
+      "bytes": 20992,
+      "sha256": "787b08934c9a5ff10d7a0706087c0fecbf7ee386c68bd7361084d437b7394164"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-sol.log",
+      "bytes": 2728,
+      "sha256": "1d1260ca4ef91ae394387447011cee70493f8fe5795a5bc179df3a9e37a9606b"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/openai_gpt-6-sol.raw.jsonl",
+      "bytes": 48204,
+      "sha256": "3cd7abb8ea519c1165278730a147dac1f1c24ca64e25532858f5a6d46054043a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/qwen_qwen3-vl-235b-a22b-instruct.csv",
+      "bytes": 20280,
+      "sha256": "d9dd18a088edded31c05f22c23236e78a1b0537efca263bf656a30f09ee290e8"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/qwen_qwen3-vl-235b-a22b-instruct.log",
+      "bytes": 2676,
+      "sha256": "6f57263c02166ce5cbf9152ea4ebfc1174932e5c19e87d01b3d11275ac848659"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_01/qwen_qwen3-vl-235b-a22b-instruct.raw.jsonl",
+      "bytes": 48369,
+      "sha256": "489759ec263eee17766adf3d0cc55dba4815fb2f7d65f1a64afe01460fe7ec1d"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-haiku-5.5.csv",
+      "bytes": 13863,
+      "sha256": "d09aedb487a040c89acd28a81dea5fe716a8d22e5e8fc9d0c8a97a3b6b271930"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-haiku-5.5.log",
+      "bytes": 1596,
+      "sha256": "5dfb864dc3546a02d605baa7b2d9259f3354079d1f8dc7d0a66f18c7598e58a6"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-haiku-5.5.raw.jsonl",
+      "bytes": 25186,
+      "sha256": "ea28e60eb7e1c8f7b2358ecaf68832b2805c874ccecc78de5aca27619b424d45"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-opus-5.5.csv",
+      "bytes": 15798,
+      "sha256": "c8e4a6c04f3f20455719fda0effb90da6b313ec2fb47562a6cc738346a9569cf"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-opus-5.5.log",
+      "bytes": 1680,
+      "sha256": "502bae3ad316a29be29089d8893a6d2d9e7efb44f0f539a2c80035680499edea"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-opus-5.5.raw.jsonl",
+      "bytes": 27330,
+      "sha256": "d19b0c2b2cea44e13e5aeb2dc3ccc1075a016f398576bcd292ace11c7ef7bc43"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-sonnet-5.5.csv",
+      "bytes": 13471,
+      "sha256": "f13b7e016bc0fa5a8152564e0ff7ca0fce72303416b257f6e79efeed1ef60372"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-sonnet-5.5.log",
+      "bytes": 1598,
+      "sha256": "67fdb662a4be48220f732ee278e99c8fd093080a5e22082b08ac743ba3486ec0"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/anthropic_claude-sonnet-5.5.raw.jsonl",
+      "bytes": 24775,
+      "sha256": "14d24be422882a6063fa7362af24651b4bfcee5f2ce0fb0595b4846c6834b022"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-2.5-flash.csv",
+      "bytes": 4327,
+      "sha256": "85028dbc41c315cabfc5ce342bedffc41658bef0e1faac6a955520a7c915ab88"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-2.5-flash.log",
+      "bytes": 1584,
+      "sha256": "8bda5c91e0f50cc7caac62475d1b0ca1b5e1b0a1cd8205dc143472b1ca0d09c1"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-2.5-flash.raw.jsonl",
+      "bytes": 15747,
+      "sha256": "95a636b55547ed70210b802601d71d116c4b3620fe49a56cb96f6752b96dfd8a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-2.5-pro.csv",
+      "bytes": 8638,
+      "sha256": "f48bf9bccbda63a7825a7e2ac4648a14649aaa0335346e000f13c88eced622d0"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-2.5-pro.log",
+      "bytes": 1604,
+      "sha256": "a1133539c47327beba8044a1250a83dd31c9ef03f7d5104b8e3985eb09022ec7"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-2.5-pro.raw.jsonl",
+      "bytes": 20014,
+      "sha256": "4733964d9d3e24bb0bf388a2f738c4cdf24b29623ca98cdc602b1ad30270f005"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-3.8-flash.csv",
+      "bytes": 13130,
+      "sha256": "146fe52966cb3f08e974edced052ac05789168ad0c64ab5c150ec35a392f35e8"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-3.8-flash.log",
+      "bytes": 1620,
+      "sha256": "536ac1046050ba0825136c00c936e46fa580de57c2e57c507eb0f13c546a50e7"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-3.8-flash.raw.jsonl",
+      "bytes": 24499,
+      "sha256": "b1675fa6d05be6198db9ff7ca637bcb06c4799492ad785177f2287c04d440e5c"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-4-argon.csv",
+      "bytes": 12985,
+      "sha256": "7fd5e630224a3d2c1e81fbb6c1d718d48f663af6df2fe724641989d4b7b682df"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-4-argon.log",
+      "bytes": 1574,
+      "sha256": "94f98f7f0c268c591af16c6111491d6dfd3ebac7fcec52bcd7c129fa66cabbba"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/google_gemini-4-argon.raw.jsonl",
+      "bytes": 24319,
+      "sha256": "5d04e52c3c5f8765c817ed67b2943bc3bbde9324acf52dc0596ad147c9aba779"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/meta-llama_llama-4-maverick.csv",
+      "bytes": 11335,
+      "sha256": "907a79ac69b2d8f4766b829036c5fa86ce04d823e8b6c97eb40b7833f8fcd588"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/meta-llama_llama-4-maverick.log",
+      "bytes": 1652,
+      "sha256": "861624a9c0836429b8f0a24798359c3d0802f56c18355a26d75b3db9d55b003e"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/meta-llama_llama-4-maverick.raw.jsonl",
+      "bytes": 22788,
+      "sha256": "6d64deae378445e1705aebf1f65b6ecac31cd5be13c97b28b044037a0f4aab69"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-5.6-sol.csv",
+      "bytes": 16685,
+      "sha256": "43837b0e7fa744851414e1c13bb81f8b13c5bac29cfce886ade47175ba86b3c5"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-5.6-sol.log",
+      "bytes": 1634,
+      "sha256": "a628ca6f3e32c61fbd68ce5aafe46695b8ca390e8c2643f9eda5fff7846917ad"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-5.6-sol.raw.jsonl",
+      "bytes": 28114,
+      "sha256": "c73900ba2cfead4f97138156ccaa6e19f0f234aa5c0811cbf687159bf485b80f"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-astra.csv",
+      "bytes": 18232,
+      "sha256": "ee9907e3ffcc542e49c314b927f279baee1f63b0a072a5155194f73cd34d33ab"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-astra.log",
+      "bytes": 1568,
+      "sha256": "304bba037e0c3646fbcaef94c933ec42dad1ba0064bf67add31d397dcf839880"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-astra.raw.jsonl",
+      "bytes": 29525,
+      "sha256": "de907f6260ca4be1fb8d98df2649aef7945c0129e7fc730f696fef0d910705ed"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-luna.csv",
+      "bytes": 11956,
+      "sha256": "02be895f525c44883e9fbcff014405333834a5521dd441ed3ed5f66f9a60a316"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-luna.log",
+      "bytes": 1590,
+      "sha256": "fe20844aecf6b6b9913ab208873361ce16983c42e31e33bfc3f1d5bc59366d7d"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-luna.raw.jsonl",
+      "bytes": 23379,
+      "sha256": "6100e6559fa5c17d7d8c03249a96232a43ca772a92e4b05b60e65974e7982d7c"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-sol.csv",
+      "bytes": 9230,
+      "sha256": "5ddd9f27b96bd3611d3900b6a43664330d92ac304666a4dfa41798631aff4d73"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-sol.log",
+      "bytes": 1582,
+      "sha256": "64bfaa913f421ff15ccb1844b6e72d6eef11cc331a55d2eedf3703e0b96b0cfc"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/openai_gpt-6-sol.raw.jsonl",
+      "bytes": 20655,
+      "sha256": "e2fb0d45ad6a08cfdd5639c0d4cc71c65d2f4e8d0a455457adef23ad09aef9fb"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/qwen_qwen3-vl-235b-a22b-instruct.csv",
+      "bytes": 12140,
+      "sha256": "3a368b2c8c8f3981cdc8381e489e0ab25d4ec6edef7829eac9d705bbc01ce13a"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/qwen_qwen3-vl-235b-a22b-instruct.log",
+      "bytes": 1672,
+      "sha256": "47066ca0374a37b6f5dfe6cb9249fa392e397e121c9bf4a29ce793b603508246"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/deptfill_ambig_01/qwen_qwen3-vl-235b-a22b-instruct.raw.jsonl",
+      "bytes": 23494,
+      "sha256": "217cc91fb2e5bbb7e3494eada40c15c5b39d1346f104710c2b63e461fea38917"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/memsum_review_01.jsonl",
+      "bytes": 2599,
+      "sha256": "819b4b1f007a35b3b76cbf7be18fb0bfb0f9af80177c3cc374e91607e2cecc01"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/anthropic_claude-sonnet-4.5_explicit.csv",
+      "bytes": 3394,
+      "sha256": "15c070e766ae495b1c9eecdef926b9f20b91d433b728d5f53d1f8449867c5921"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/anthropic_claude-sonnet-4.5_explicit.log",
+      "bytes": 2271,
+      "sha256": "9d396d1be79bdb9e10bf8779f42313e8d249a1e9e4552f0c0f967d1e67d3d01b"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/anthropic_claude-sonnet-4.5_explicit.raw.jsonl",
+      "bytes": 10768,
+      "sha256": "7571c2741685b6cc9a0df2a86490cdca78e4fdeca9f4d43be4c061995047ff6c"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/anthropic_claude-sonnet-4.5_vague.csv",
+      "bytes": 4337,
+      "sha256": "ea5d0fb2969fc6eec6b26b8d190a812031fdf5aa4084c6d7d692662f528696e3"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/anthropic_claude-sonnet-4.5_vague.log",
+      "bytes": 2979,
+      "sha256": "c9a96d366da54b7bf3ca6cb76c858bc5c9485e7d0799966bf0d0eaa30953484f"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/anthropic_claude-sonnet-4.5_vague.raw.jsonl",
+      "bytes": 17430,
+      "sha256": "6b79e3206f74cbf7ae99909c32ed61e6df9c252702321fb0bd40c708f2d6a6a5"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/google_gemini-3.1-flash-lite_explicit.csv",
+      "bytes": 2627,
+      "sha256": "11dfb94c35116bfd469d2006c12c2b3a1b148aaac68f17b025bff286d37811e9"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/google_gemini-3.1-flash-lite_explicit.log",
+      "bytes": 2273,
+      "sha256": "acbeba9537eca9850402ff0cbaf8cb60ccd07caa6550e23df3413e9dd5458ef3"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/google_gemini-3.1-flash-lite_explicit.raw.jsonl",
+      "bytes": 11227,
+      "sha256": "744da883ad0f644320d258c5a3fc73308aa3c761b3e78aaa39b00e441181dcbe"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/google_gemini-3.1-flash-lite_vague.csv",
+      "bytes": 3699,
+      "sha256": "71772fc6cfe375bbb879b1a7e13407b7b61824f6d70c611093eadc77c6f733ea"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/google_gemini-3.1-flash-lite_vague.log",
+      "bytes": 2981,
+      "sha256": "69e422dc71d39b9d93b6ffe27769964b5c5dcccd27de6790ee5b3c8836d1e9ee"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/google_gemini-3.1-flash-lite_vague.raw.jsonl",
+      "bytes": 16787,
+      "sha256": "e25206a14175179cf726591096fba4e9593109dbdcbaf83b152803b3dadff350"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/openai_gpt-5.6-sol_explicit.csv",
+      "bytes": 2867,
+      "sha256": "79711cbed67ec3b934ee0988ff9f4eefec2fc14a0bc03d3f58fdfcbddad3c3a0"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/openai_gpt-5.6-sol_explicit.log",
+      "bytes": 2253,
+      "sha256": "71e51987c7f4328948327b2be9575323e67cb3fa73cb777498a36d9e595cd4f8"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/openai_gpt-5.6-sol_explicit.raw.jsonl",
+      "bytes": 10300,
+      "sha256": "2c0b4a031e5690e10918d64f72482f4a22b437ae048d0a90c65eb554770664e0"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/openai_gpt-5.6-sol_vague.csv",
+      "bytes": 4314,
+      "sha256": "df9c8180d68c39621e2b07b28e696ebb2fc1f8cc1bb45e949bb3164dd02b5f8e"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/openai_gpt-5.6-sol_vague.log",
+      "bytes": 2961,
+      "sha256": "005acd1626b95556d22f61eeccc7e83064e0025fd5e1e72f0e756a3d7e733673"
+    },
+    {
+      "path": "stale-memory-unverified-action/results/veto_01/openai_gpt-5.6-sol_vague.raw.jsonl",
+      "bytes": 16021,
+      "sha256": "01517797623a7e0a3c83c5c5a7a7aef621d3fd3b58d99efe970be63f4d1ea594"
+    },
+    {
+      "path": "stale-memory-unverified-action/review/ambig_review_sample.csv",
+      "bytes": 7551,
+      "sha256": "d645d4bf41aae9552e73bf6e3e27f928fafa0f71b5556dc5af23e5a188c36117"
+    },
+    {
+      "path": "stale-memory-unverified-action/review/deptfill_review_key.json",
+      "bytes": 3203,
+      "sha256": "e4f55014b7787937cd57e40ceb06b0f4d4c88d22e1665ec1460a97d92e9cab16"
+    },
+    {
+      "path": "stale-memory-unverified-action/review/deptfill_review_sample.csv",
+      "bytes": 6735,
+      "sha256": "30dc47f56a9ca5941d9c54cb5fadaccfd65f102e25b73cd156c4157b3a7e3ed0"
+    },
+    {
+      "path": "stale-memory-unverified-action/test_memory_summary.py",
+      "bytes": 5306,
+      "sha256": "aea132d15226fd649a7d73b466cf32ad1a4856fafcc26b1478f05a79e6db531e"
     },
     {
       "path": "supplemental_scripts/build_soc_pilot.py",

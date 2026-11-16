@@ -1,0 +1,182 @@
+{
+ "1": {
+  "model": "openai/gpt-6-sol",
+  "memory": "neutral",
+  "display": "text",
+  "run": 2
+ },
+ "2": {
+  "model": "anthropic/claude-opus-5.5",
+  "memory": "neutral",
+  "display": "text",
+  "run": 2
+ },
+ "3": {
+  "model": "google/gemini-2.5-flash",
+  "memory": "none",
+  "display": "image",
+  "run": 2
+ },
+ "4": {
+  "model": "google/gemini-4-argon",
+  "memory": "neutral",
+  "display": "image",
+  "run": 0
+ },
+ "5": {
+  "model": "openai/gpt-6-sol",
+  "memory": "none",
+  "display": "image",
+  "run": 2
+ },
+ "6": {
+  "model": "openai/gpt-5.6-sol",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 1
+ },
+ "7": {
+  "model": "google/gemini-2.5-flash",
+  "memory": "suggestive",
+  "display": "text",
+  "run": 2
+ },
+ "8": {
+  "model": "qwen/qwen3-vl-235b-a22b-instruct",
+  "memory": "neutral",
+  "display": "image",
+  "run": 0
+ },
+ "9": {
+  "model": "anthropic/claude-sonnet-5.5",
+  "memory": "suggestive",
+  "display": "text",
+  "run": 0
+ },
+ "10": {
+  "model": "openai/gpt-5.6-sol",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 3
+ },
+ "11": {
+  "model": "meta-llama/llama-4-maverick",
+  "memory": "neutral",
+  "display": "image",
+  "run": 3
+ },
+ "12": {
+  "model": "openai/gpt-6-luna",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 0
+ },
+ "13": {
+  "model": "google/gemini-2.5-flash",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 1
+ },
+ "14": {
+  "model": "google/gemini-3.8-flash",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 0
+ },
+ "15": {
+  "model": "anthropic/claude-sonnet-5.5",
+  "memory": "neutral",
+  "display": "text",
+  "run": 0
+ },
+ "16": {
+  "model": "qwen/qwen3-vl-235b-a22b-instruct",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 1
+ },
+ "17": {
+  "model": "qwen/qwen3-vl-235b-a22b-instruct",
+  "memory": "suggestive",
+  "display": "text",
+  "run": 0
+ },
+ "18": {
+  "model": "google/gemini-2.5-flash",
+  "memory": "neutral",
+  "display": "image",
+  "run": 3
+ },
+ "19": {
+  "model": "openai/gpt-5.6-sol",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 2
+ },
+ "20": {
+  "model": "openai/gpt-6-sol",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 0
+ },
+ "21": {
+  "model": "anthropic/claude-haiku-5.5",
+  "memory": "neutral",
+  "display": "image",
+  "run": 0
+ },
+ "22": {
+  "model": "google/gemini-2.5-flash",
+  "memory": "none",
+  "display": "image",
+  "run": 1
+ },
+ "23": {
+  "model": "anthropic/claude-haiku-5.5",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 3
+ },
+ "24": {
+  "model": "openai/gpt-5.6-sol",
+  "memory": "neutral",
+  "display": "text",
+  "run": 2
+ },
+ "25": {
+  "model": "google/gemini-2.5-pro",
+  "memory": "neutral",
+  "display": "image",
+  "run": 3
+ },
+ "26": {
+  "model": "google/gemini-2.5-flash",
+  "memory": "none",
+  "display": "image",
+  "run": 3
+ },
+ "27": {
+  "model": "openai/gpt-6-astra",
+  "memory": "neutral",
+  "display": "image",
+  "run": 1
+ },
+ "28": {
+  "model": "google/gemini-2.5-pro",
+  "memory": "neutral",
+  "display": "text",
+  "run": 0
+ },
+ "29": {
+  "model": "openai/gpt-5.6-sol",
+  "memory": "suggestive",
+  "display": "image",
+  "run": 0
+ },
+ "30": {
+  "model": "google/gemini-4-argon",
+  "memory": "neutral",
+  "display": "text",
+  "run": 0
+ }
+}

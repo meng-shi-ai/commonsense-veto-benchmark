@@ -1,0 +1,27 @@
+openai/gpt-6-sol                   write           run 0  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-sol                   write           run 1  ACCEPTABLE NOT_MENTIONED           
+openai/gpt-6-sol                   write           run 2  ACCEPTABLE NOT_MENTIONED           
+openai/gpt-6-sol                   write           run 3  ACCEPTABLE NOT_MENTIONED           
+openai/gpt-6-sol                   write           run 4  ACCEPTABLE NOT_MENTIONED           
+openai/gpt-6-sol                   use             run 0  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:ENROLLED
+openai/gpt-6-sol                   use             run 1  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:UNDECIDED
+openai/gpt-6-sol                   use             run 2  REVIEW     JUDGE_FAILED            ERROR > ERROR > keywords:NO_STATUS
+openai/gpt-6-sol                   use             run 3  ERROR      ERROR                   
+openai/gpt-6-sol                   use             run 4  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:UNDECIDED
+openai/gpt-6-sol                   update_confirm  run 0  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-sol                   update_confirm  run 1  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-sol                   update_confirm  run 2  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-sol                   update_confirm  run 3  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-sol                   update_confirm  run 4  ERROR      ERROR                   
+openai/gpt-6-sol                   update_reject   run 0  ERROR      ERROR                   
+openai/gpt-6-sol                   update_reject   run 1  ERROR      ERROR                   
+openai/gpt-6-sol                   update_reject   run 2  CORRECT    REJECTED      UNSTATED  
+openai/gpt-6-sol                   update_reject   run 3  CORRECT    REJECTED      UNSTATED  
+openai/gpt-6-sol                   update_reject   run 4  CORRECT    REJECTED      UNSTATED  
+openai/gpt-6-sol                   update_none     run 0  CORRECT    UNDECIDED     UNSTATED  
+openai/gpt-6-sol                   update_none     run 1  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-sol                   update_none     run 2  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-sol                   update_none     run 3  CORRECT    UNDECIDED     UNSTATED  
+openai/gpt-6-sol                   update_none     run 4  CORRECT    UNDECIDED     ASSISTANT 
+
+Saved to cloud_memsum_01/openai_gpt-6-sol.csv (every call in full: cloud_memsum_01/openai_gpt-6-sol.raw.jsonl)

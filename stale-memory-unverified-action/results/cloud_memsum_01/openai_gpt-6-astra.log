@@ -1,0 +1,27 @@
+openai/gpt-6-astra                 write           run 0  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 write           run 1  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 write           run 2  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 write           run 3  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 write           run 4  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 use             run 0  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:UNDECIDED
+openai/gpt-6-astra                 use             run 1  REVIEW     JUDGE_FAILED            ERROR > ERROR > keywords:UNDECIDED
+openai/gpt-6-astra                 use             run 2  CORRECT    NOT_ENROLLED            NOT_ENROLLED > NOT_ENROLLED > keywords:UNDECIDED
+openai/gpt-6-astra                 use             run 3  REVIEW     JUDGE_FAILED            NOT_ENROLLED > ERROR > keywords:UNDECIDED
+openai/gpt-6-astra                 use             run 4  REVIEW     JUDGE_FAILED            NOT_ENROLLED > ERROR > keywords:ENROLLED
+openai/gpt-6-astra                 update_confirm  run 0  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-astra                 update_confirm  run 1  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-astra                 update_confirm  run 2  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-astra                 update_confirm  run 3  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-astra                 update_confirm  run 4  CORRECT    ENROLLED      UNSTATED  
+openai/gpt-6-astra                 update_reject   run 0  CORRECT    REJECTED      UNSTATED  
+openai/gpt-6-astra                 update_reject   run 1  CORRECT    REJECTED      UNSTATED  
+openai/gpt-6-astra                 update_reject   run 2  CORRECT    REJECTED      UNSTATED  
+openai/gpt-6-astra                 update_reject   run 3  CORRECT    REJECTED      UNSTATED  
+openai/gpt-6-astra                 update_reject   run 4  CORRECT    REJECTED      UNSTATED  
+openai/gpt-6-astra                 update_none     run 0  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 update_none     run 1  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 update_none     run 2  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 update_none     run 3  CORRECT    UNDECIDED     ASSISTANT 
+openai/gpt-6-astra                 update_none     run 4  CORRECT    UNDECIDED     ASSISTANT 
+
+Saved to cloud_memsum_01/openai_gpt-6-astra.csv (every call in full: cloud_memsum_01/openai_gpt-6-astra.raw.jsonl)
