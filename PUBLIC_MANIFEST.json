@@ -2173,8 +2173,8 @@
     },
     {
       "path": "stale-memory-unverified-action/README.md",
-      "bytes": 4072,
-      "sha256": "6fc140dbb2b6dea7dffdf77bf4183f1361f9f10809e60d5e3527300fad254209"
+      "bytes": 4031,
+      "sha256": "3da3163abcd4102637ea5da2a1d9f537e16317f5a700222b485a5d8d442c5a42"
     },
     {
       "path": "stale-memory-unverified-action/agent_drop_test.py",

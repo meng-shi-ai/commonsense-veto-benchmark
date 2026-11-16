@@ -52,8 +52,8 @@ Model IDs are OpenRouter IDs as of October 16–17, 2026; providers can change m
 
 ## Notes
 
-- All course codes are fictional. Two codes were renamed one-to-one in this release
-  (SOC310 → SOC210, ANTH300 → ECON300); nothing else in the saved outputs was changed.
+- All course codes are fictional. Two codes were renamed one-to-one in this release;
+  nothing else in the saved outputs was changed.
 - Two further experiments from the same project (stale state and expired authorization in a DevOps
   agent) are not part of the paper and are not included here.
 - Pilot scale: 3–5 runs per cell, one scenario family, single author. Read the results as signals,
