@@ -1,15 +1,25 @@
 # commonsense-veto-benchmark
-Exploratory benchmarks for AI agent memory, changing constraints, and authorization boundaries.
+Do AI agents act on what they only remember? This repository asks whether an assistant distinguishes remembered information from currently applicable evidence, and advice from authorization to act.
 
-**Five versions of a small, synthetic diagnostic pilot—not evidence that a veto intervention works.** This repository collects the Memory Evidence Benchmark experiments under the CommonSense Veto project name. It asks whether an assistant distinguishes remembered information from currently applicable evidence, and advice from authorization to act.
+## Latest: Stale Memory, Unverified Action
+
+Assistants with long-term memory store their own recommendations alongside what users said. In [this multi-model follow-up study](stale-memory-unverified-action/) (3–15 models per experiment from several providers, three preregistered experiments, human-labelled samples):
+
+- **Recommended is read as enrolled.** With the department column cut off a schedule, 14 of 15 human-labelled replies in the memory conditions stated a merely recommended course as the user's own.
+- **Older agents act; newer agents verify.** Asked to "drop that online course" without a lookup tool, three of six models dropped a course without asking; the newest models asked or looked it up first.
+- **A prompt rule over-corrects; a veto layer does not.** A system-prompt rule blocked 8 of 9 explicit user requests without a lookup tool, while a programmatic veto layer passed 54 of 54 tests.
+
+Pilot scale: 3–5 runs per cell in one scenario family. Code, raw outputs, preregistrations and a script that recomputes every reported number are in [stale-memory-unverified-action](stale-memory-unverified-action/). These materials accompany an extended abstract submitted to Agent Evaluation Science (AES) 2026.
+
+## Earlier single-model pilots (v0.1–v0.5)
+
+**Five versions of a small, synthetic diagnostic pilot—not evidence that a veto intervention works.** These collect the Memory Evidence Benchmark experiments under the CommonSense Veto project name.
 
 The materials include authored cases, evaluator-only labels and rubrics, historical code, complete sanitized model outputs, operational failures, and AI-assisted reviews. No model evaluations were rerun to prepare this release. All reports and documentation are in English. The v0.3–v0.5 experiments were administered in Chinese, so their transcripts keep the original prompts and model responses verbatim, with English labels, scoring rationales and summaries.
 
 **Start here:** [Methods and results](docs/METHODS_AND_RESULTS.md) · [Limitations](docs/LIMITATIONS.md) · [Reproduce the checks](docs/REPRODUCIBILITY.md) · [Public-data processing](docs/PUBLIC_DATA.md)
 
-**Follow-up study:** [Stale Memory, Unverified Action](stale-memory-unverified-action/) tests the same question across 3–15 models from several providers, with three preregistered experiments, human-labelled samples and a veto-layer comparison. It contains the materials behind an extended abstract submitted to Agent Evaluation Science (AES) 2026.
-
-## What was observed
+### What was observed
 
 | Version | Evaluation unit and setting | Observed result |
 | --- | --- | --- |
